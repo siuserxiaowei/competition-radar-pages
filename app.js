@@ -53,7 +53,7 @@ async function boot() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     state.items = payload.items.map(enrichItem);
-    elements.syncStatus.textContent = `${payload.updatedAt} / ${payload.count} signals`;
+    elements.syncStatus.textContent = `${payload.asOfDate || payload.updatedAt} / ${payload.count} 条机会`;
     populateCategories();
     populatePlatforms(payload.researchCoverage || []);
     renderMetrics(payload);
@@ -69,7 +69,7 @@ async function boot() {
     elements.syncStatus.textContent = 'data link interrupted';
     elements.list.innerHTML = `
       <div class="empty-state">
-        <span>DATA ERROR</span>
+        <span>数据错误</span>
         <h3>赛事快照加载失败</h3>
         <p>${escapeHtml(error.message)}</p>
         <p>请先运行 <code>npm run build</code>，再通过 <code>npm run dev</code> 打开页面。</p>
@@ -83,6 +83,8 @@ function enrichItem(item) {
   const searchText = [
     item.name,
     item.fullName,
+    item.originalName,
+    item.originalFullName,
     item.organization,
     item.category,
     item.location,
@@ -133,7 +135,7 @@ function populatePlatforms(coverage) {
   for (const platform of coverage) {
     const option = document.createElement('option');
     option.value = platform.id;
-    option.textContent = platform.name;
+    option.textContent = platformDisplayName(platform.name);
     elements.platform.append(option);
   }
   elements.platform.value = state.platform;
@@ -164,7 +166,7 @@ function renderPlatformCoverage(coverage) {
     button.setAttribute('aria-label', `筛选 ${platform.name}`);
     button.innerHTML = `
       <span>${String(index + 1).padStart(2, '0')}</span>
-      <strong>${escapeHtml(platform.name)}</strong>
+      <strong>${escapeHtml(platformDisplayName(platform.name))}</strong>
       <small>${Number(platform.actionableFound || 0)} 条 · ${Number(platform.canonicalRecordCount ?? platform.actionableFound ?? 0)} 张去重卡片</small>`;
     button.addEventListener('click', () => {
       state.platform = platform.id;
@@ -190,7 +192,7 @@ function renderNewSignals() {
     button.type = 'button';
     button.dataset.id = item.id;
     button.innerHTML = `
-      <span class="signal-no">NEW / ${String(index + 1).padStart(2, '0')}</span>
+      <span class="signal-no">新发现 / ${String(index + 1).padStart(2, '0')}</span>
       <span>
         <h3>${escapeHtml(item.name)}</h3>
         <p>${escapeHtml(item.organization)}</p>
@@ -262,9 +264,9 @@ function renderList() {
     const favorite = fragment.querySelector('.favorite-button');
     fragment.querySelector('.card-index').textContent = String(index + 1).padStart(2, '0');
     fragment.querySelector('.card-title').textContent = item.name;
-    fragment.querySelector('.card-org').textContent = `${item.organization || '主办方待确认'} · ${item.location || '地点待确认'}`;
+    fragment.querySelector('.card-org').textContent = `${item.organization || '主办方待确认'} · ${localizedLocation(item.location)}`;
     fragment.querySelector('.card-deadline').textContent = item._status.label;
-    fragment.querySelector('.card-score').textContent = `${item.tier || '—'} / FIT ${Number(item.match || 0).toFixed(1)}`;
+    fragment.querySelector('.card-score').textContent = `${item.tier || '—'} / 适配 ${Number(item.match || 0).toFixed(1)}`;
     fragment.querySelector('.card-flags').append(...buildFlags(item));
 
     card.dataset.id = item.id;
@@ -279,11 +281,11 @@ function renderList() {
 
 function buildFlags(item) {
   const values = [];
-  if (item.discoveredAt) values.push(['NEW', 'is-new']);
-  if (item.correctedAt) values.push(['UPDATED', 'is-new']);
+  if (item.discoveredAt) values.push(['新发现', 'is-new']);
+  if (item.correctedAt) values.push(['已更新', 'is-new']);
   values.push([item.category || '未分类', '']);
-  if (item._status.kind === 'urgent') values.push(['URGENT', 'is-urgent']);
-  if (item._status.kind === 'expired') values.push(['CLOSED', 'is-expired']);
+  if (item._status.kind === 'urgent') values.push(['即将截止', 'is-urgent']);
+  if (item._status.kind === 'expired') values.push(['已截止', 'is-expired']);
   values.push(...verificationFlags(item));
 
   return values.map(([label, className]) => {
@@ -313,7 +315,7 @@ function renderDetail(item) {
   );
   const sources = (item.sources || [])
     .filter((source) => safeUrl(source.url))
-    .map((source) => `<li><a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title || source.url)}</a>${source.date ? ` · ${escapeHtml(source.date)}` : ''}</li>`)
+    .map((source) => `<li><a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(sourceLabel(source))}</a>${source.date ? ` · ${escapeHtml(source.date)}` : ''}</li>`)
     .join('') || '<li>暂无公开来源</li>';
   const actionUrl = safeUrl(item.actionUrl) ? item.actionUrl : item.sources?.find((source) => safeUrl(source.url))?.url;
   const primaryLabel = item.primaryDeadline?.label || '关键截止';
@@ -323,10 +325,10 @@ function renderDetail(item) {
     .map(([label, className]) => `<span class="flag ${className}">${escapeHtml(label)}</span>`)
     .join('');
   const flags = [
-    item.discoveredAt ? '<span class="flag is-new">NEW</span>' : '',
-    item.correctedAt ? '<span class="flag is-new">UPDATED</span>' : '',
+    item.discoveredAt ? '<span class="flag is-new">新发现</span>' : '',
+    item.correctedAt ? '<span class="flag is-new">已更新</span>' : '',
     `<span class="flag">${escapeHtml(item.category || '未分类')}</span>`,
-    item._status.kind === 'urgent' ? '<span class="flag is-urgent">URGENT</span>' : '',
+    item._status.kind === 'urgent' ? '<span class="flag is-urgent">即将截止</span>' : '',
     extraFlags,
   ].join('');
 
@@ -335,7 +337,7 @@ function renderDetail(item) {
       <header class="detail-head">
         <div class="detail-kicker">${flags}</div>
         <h3>${escapeHtml(item.name)}</h3>
-        <p class="detail-org">${escapeHtml(item.organization || '主办方待确认')} · ${escapeHtml(item.location || '地点待确认')}</p>
+        <p class="detail-org">${escapeHtml(item.organization || '主办方待确认')} · ${escapeHtml(localizedLocation(item.location))}</p>
       </header>
       <div class="detail-deadline">
         <div>
@@ -353,19 +355,19 @@ function renderDetail(item) {
           <div><span>核验状态</span><strong>${escapeHtml(verificationStatus)} · ${escapeHtml(item.verification?.checkedAt || '未标注')}</strong></div>
         </div>
         <section class="detail-section verification-block">
-          <h4>VERIFICATION / 核验说明</h4>
+          <h4>核验说明</h4>
           <p>${escapeHtml(verificationNotes)}</p>
         </section>
         <section class="detail-section">
-          <h4>REWARDS / 奖励</h4>
+          <h4>奖励</h4>
           <ul>${rewards}</ul>
         </section>
         <section class="detail-section">
-          <h4>TIMELINE / 关键节点</h4>
+          <h4>关键节点</h4>
           <ul>${timeline}</ul>
         </section>
         <section class="detail-section source-list">
-          <h4>SOURCES / 一手来源</h4>
+          <h4>一手来源</h4>
           <ul>${sources}</ul>
         </section>
         <div class="detail-actions">
@@ -385,10 +387,10 @@ function verificationFlags(item) {
   const status = String(item.verification?.status || '').toLocaleLowerCase('en');
   const context = `${item.audience || ''} ${item.verification?.notes || ''}`.toLocaleLowerCase('en');
   const flags = [];
-  if (/conflict/.test(status)) flags.push(['CONFLICT', 'is-warning']);
-  else if (status && status !== 'verified') flags.push(['PARTIAL', 'is-warning']);
+  if (/conflict/.test(status)) flags.push(['信息冲突', 'is-warning']);
+  else if (status && status !== 'verified') flags.push(['部分核验', 'is-warning']);
   if (/仅限|入围|已报名|existing participant|already[- ]registered|finalist|not open to new|restricted/.test(context)) {
-    flags.push(['RESTRICTED', 'is-restricted']);
+    flags.push(['资格受限', 'is-restricted']);
   }
   return flags;
 }
@@ -401,6 +403,43 @@ function verificationStatusLabel(status) {
   if (/partial/.test(value)) return '部分核验';
   if (/unknown/.test(value)) return '已核验 · 含未知字段';
   return value.replaceAll('_', ' ');
+}
+
+function sourceLabel(source) {
+  const kind = String(source?.sourceKind || '').toLocaleLowerCase('en');
+  if (/api/.test(kind)) return '官方数据接口';
+  if (/rules?/.test(kind)) return '官方规则';
+  if (/listing|directory|catalog|search|feed/.test(kind)) return '官方赛事列表';
+  if (/detail|official/.test(kind)) return '官方赛事页面';
+  const title = String(source?.title || '').trim();
+  if (/\p{Script=Han}/u.test(title)) return title;
+  return '官方来源';
+}
+
+function platformDisplayName(name) {
+  const exact = {
+    'Kaggle Competitions': 'Kaggle 赛事',
+    'DrivenData Competitions': 'DrivenData 赛事',
+    'Zindi Competitions': 'Zindi 赛事',
+    'AIcrowd Challenges': 'AIcrowd 挑战赛',
+    'DoraHacks Hackathons': 'DoraHacks 黑客松',
+    'lablab.ai Hackathons': 'lablab.ai 黑客松',
+    'Hackster.io Contests': 'Hackster.io 赛事',
+    'HackerEarth Challenges': 'HackerEarth 挑战赛',
+    'Devfolio Hackathons': 'Devfolio 黑客松',
+    'Unstop Competitions': 'Unstop 赛事',
+    'HeroX Challenges': 'HeroX 挑战赛',
+  };
+  return exact[name] || name;
+}
+
+function localizedLocation(value) {
+  const text = String(value || '').trim();
+  if (!text) return '地点待确认';
+  if (/^Online$/i.test(text)) return '线上';
+  if (/^Virtual$/i.test(text)) return '线上';
+  if (/^Hybrid$/i.test(text)) return '线上与线下混合';
+  return text;
 }
 
 function formatTimelineEntry(entry, item) {

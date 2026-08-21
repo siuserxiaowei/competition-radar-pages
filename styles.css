@@ -416,7 +416,7 @@ footer {
 }
 
 .platform-chip[data-complete="false"] > span::after {
-  content: " / LIMITED";
+  content: " / 有限覆盖";
   color: var(--hot);
 }
 
