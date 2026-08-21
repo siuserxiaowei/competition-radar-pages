@@ -522,7 +522,7 @@ footer {
 
 .control-grid {
   display: grid;
-  grid-template-columns: 2fr repeat(4, 1fr);
+  grid-template-columns: minmax(220px, 2fr) repeat(6, minmax(112px, 1fr));
   gap: 1px;
   overflow: hidden;
   border: 1px solid var(--ink);
@@ -711,6 +711,8 @@ footer {
 .flag.is-new { background: var(--signal); }
 .flag.is-urgent { background: var(--alert); color: var(--ink); }
 .flag.is-expired { border-color: var(--line); color: var(--ink-soft); }
+.flag.is-location { border-color: var(--ink); background: var(--white); }
+.flag.is-mode { border-color: var(--signal-deep); color: var(--signal-deep); }
 .flag.is-warning { background: var(--hot); color: var(--ink); }
 .flag.is-restricted { background: transparent; border-style: dashed; color: var(--alert); }
 

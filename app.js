@@ -12,6 +12,8 @@ const state = {
   status: 'all',
   category: 'all',
   platform: 'all',
+  region: 'all',
+  mode: 'all',
   sort: 'deadline',
   favoritesOnly: false,
   favorites: new Set(readFavorites()),
@@ -31,6 +33,8 @@ const elements = {
   status: document.querySelector('#status-filter'),
   category: document.querySelector('#category-filter'),
   platform: document.querySelector('#platform-filter'),
+  region: document.querySelector('#region-filter'),
+  mode: document.querySelector('#mode-filter'),
   sort: document.querySelector('#sort-filter'),
   favoritesOnly: document.querySelector('#favorites-only'),
   reset: document.querySelector('#reset-filters'),
@@ -218,6 +222,8 @@ function applyFilters() {
     if (query && !item._searchText.includes(query)) return false;
     if (state.category !== 'all' && item.category !== state.category) return false;
     if (state.platform !== 'all' && !getPlatformIds(item).includes(state.platform)) return false;
+    if (state.region !== 'all' && item.participation?.region !== state.region) return false;
+    if (state.mode !== 'all' && item.participation?.mode !== state.mode) return false;
     if (state.favoritesOnly && !state.favorites.has(item.id)) return false;
     if (state.status === 'active' && !['active', 'urgent'].includes(item._status.kind)) return false;
     if (state.status !== 'all' && state.status !== 'active' && item._status.kind !== state.status) return false;
@@ -270,6 +276,8 @@ function renderList() {
     fragment.querySelector('.card-flags').append(...buildFlags(item));
 
     card.dataset.id = item.id;
+    card.dataset.region = item.participation?.region || 'unknown';
+    card.dataset.mode = item.participation?.mode || 'unknown';
     card.classList.toggle('is-selected', state.selectedId === item.id);
     main.setAttribute('aria-label', `查看 ${item.name} 详情`);
     main.addEventListener('click', () => selectCompetition(item.id, { scroll: false }));
@@ -284,6 +292,8 @@ function buildFlags(item) {
   if (item.discoveredAt) values.push(['新发现', 'is-new']);
   if (item.correctedAt) values.push(['已更新', 'is-new']);
   values.push([item.category || '未分类', '']);
+  values.push([item.participation?.regionLabel || '地区待确认', 'is-location']);
+  values.push([item.participation?.modeLabel || '形式待确认', 'is-mode']);
   if (item._status.kind === 'urgent') values.push(['即将截止', 'is-urgent']);
   if (item._status.kind === 'expired') values.push(['已截止', 'is-expired']);
   values.push(...verificationFlags(item));
@@ -328,6 +338,8 @@ function renderDetail(item) {
     item.discoveredAt ? '<span class="flag is-new">新发现</span>' : '',
     item.correctedAt ? '<span class="flag is-new">已更新</span>' : '',
     `<span class="flag">${escapeHtml(item.category || '未分类')}</span>`,
+    `<span class="flag is-location">${escapeHtml(item.participation?.regionLabel || '地区待确认')}</span>`,
+    `<span class="flag is-mode">${escapeHtml(item.participation?.modeLabel || '形式待确认')}</span>`,
     item._status.kind === 'urgent' ? '<span class="flag is-urgent">即将截止</span>' : '',
     extraFlags,
   ].join('');
@@ -509,6 +521,16 @@ function bindEvents() {
     state.visible = PAGE_SIZE;
     applyFilters();
   });
+  elements.region.addEventListener('change', () => {
+    state.region = elements.region.value;
+    state.visible = PAGE_SIZE;
+    applyFilters();
+  });
+  elements.mode.addEventListener('change', () => {
+    state.mode = elements.mode.value;
+    state.visible = PAGE_SIZE;
+    applyFilters();
+  });
   elements.sort.addEventListener('change', () => {
     state.sort = elements.sort.value;
     state.visible = PAGE_SIZE;
@@ -542,6 +564,8 @@ function resetFilters({ render = true } = {}) {
   state.status = 'all';
   state.category = 'all';
   state.platform = 'all';
+  state.region = 'all';
+  state.mode = 'all';
   state.sort = 'deadline';
   state.favoritesOnly = false;
   state.visible = PAGE_SIZE;
@@ -549,6 +573,8 @@ function resetFilters({ render = true } = {}) {
   elements.status.value = 'all';
   elements.category.value = 'all';
   elements.platform.value = 'all';
+  elements.region.value = 'all';
+  elements.mode.value = 'all';
   elements.sort.value = 'deadline';
   elements.favoritesOnly.checked = false;
   if (render) applyFilters();
@@ -560,12 +586,16 @@ function hydrateFiltersFromUrl() {
   state.status = params.get('status') || 'all';
   state.category = params.get('category') || 'all';
   state.platform = params.get('platform') || 'all';
+  state.region = params.get('region') || 'all';
+  state.mode = params.get('mode') || 'all';
   state.sort = params.get('sort') || 'deadline';
   state.favoritesOnly = params.get('favorites') === '1';
   elements.search.value = state.query;
   elements.status.value = state.status;
   elements.sort.value = state.sort;
   elements.platform.value = state.platform;
+  elements.region.value = state.region;
+  elements.mode.value = state.mode;
   elements.favoritesOnly.checked = state.favoritesOnly;
 }
 
@@ -575,6 +605,8 @@ function syncUrl() {
   if (state.status !== 'all') params.set('status', state.status);
   if (state.category !== 'all') params.set('category', state.category);
   if (state.platform !== 'all') params.set('platform', state.platform);
+  if (state.region !== 'all') params.set('region', state.region);
+  if (state.mode !== 'all') params.set('mode', state.mode);
   if (state.sort !== 'deadline') params.set('sort', state.sort);
   if (state.favoritesOnly) params.set('favorites', '1');
   const query = params.toString();
