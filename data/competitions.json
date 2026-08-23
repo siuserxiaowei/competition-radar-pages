@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-23T09:37:40.163Z",
+  "updatedAt": "2026-08-23T11:25:31.763Z",
   "upstreamUpdatedAt": "2026-08-09",
   "generatedFrom": "https://siuserxiaowei.com/competitions.json",
-  "count": 656,
-  "additions": 638,
+  "count": 659,
+  "additions": 641,
   "curatedAdditions": 5,
-  "researchAdditions": 633,
+  "researchAdditions": 636,
   "researchPlatforms": 20,
-  "researchDuplicates": 50,
+  "researchDuplicates": 51,
   "researchCoverage": [
     {
       "id": "devpost",
@@ -15,11 +15,11 @@
       "url": "https://devpost.com/hackathons",
       "region": "global",
       "focus": "hackathons",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official open-status JSON API traversed through a read-only renderer until accumulated rows matched meta.total_count.",
       "pagesChecked": 7,
-      "itemsSeen": 61,
-      "actionableFound": 61,
+      "itemsSeen": 62,
+      "actionableFound": 62,
       "completeListingClaim": true,
       "limitations": [
         "Scope follows Devpost open_state=open. Private/unlisted hackathons and items not exposed by the public API cannot be observed.",
@@ -27,8 +27,8 @@
         "AWS Trainium Frontier Competition was removed after the final live open-status API pass no longer returned it and its official detail page showed the event had ended on August 21, 2026.",
         "Direct unauthenticated requests were blocked or returned HTTP 202/403, so the public official JSON was read through r.jina.ai without login or CAPTCHA bypass."
       ],
-      "canonicalRecordCount": 61,
-      "uniqueAdditions": 51,
+      "canonicalRecordCount": 62,
+      "uniqueAdditions": 52,
       "duplicateRecords": 10,
       "activeCanonicalRecordCount": 58
     },
@@ -38,7 +38,7 @@
       "url": "https://www.kaggle.com/competitions",
       "region": "global",
       "focus": "data-science",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official ListCompetitions POST with LIST_OPTION_ACTIVE, public visibility, pageSize=1000, and no next token.",
       "pagesChecked": 2,
       "itemsSeen": 21,
@@ -62,7 +62,7 @@
       "url": "https://www.drivendata.org/competitions/",
       "region": "global",
       "focus": "social-impact-data",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official single-page catalogue rendered in full; all links before the explicit Completed competitions section were extracted.",
       "pagesChecked": 1,
       "itemsSeen": 10,
@@ -84,7 +84,7 @@
       "url": "https://zindi.africa/competitions",
       "region": "global",
       "focus": "data-science",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official public API status=open with per_page=100; API total matched returned rows.",
       "pagesChecked": 1,
       "itemsSeen": 5,
@@ -106,7 +106,7 @@
       "url": "https://www.aicrowd.com/challenges",
       "region": "global",
       "focus": "ai-research",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official server-rendered listing was exhausted (data-request-completed=true), then every card detail was checked for a structured UPCOMING/RUNNING round.",
       "pagesChecked": 1,
       "itemsSeen": 18,
@@ -127,7 +127,7 @@
       "url": "https://dorahacks.io/hackathon",
       "region": "global",
       "focus": "web3-ai",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official ongoing and upcoming filtered catalogues rendered in full; localized WEEX duplicates consolidated and Winner Announced excluded.",
       "pagesChecked": 2,
       "itemsSeen": 18,
@@ -141,8 +141,8 @@
         "Direct unauthenticated requests triggered AWS WAF, so public official URLs were read through r.jina.ai without solving or bypassing a CAPTCHA."
       ],
       "canonicalRecordCount": 15,
-      "uniqueAdditions": 12,
-      "duplicateRecords": 3,
+      "uniqueAdditions": 11,
+      "duplicateRecords": 4,
       "activeCanonicalRecordCount": 13
     },
     {
@@ -151,7 +151,7 @@
       "url": "https://lablab.ai/event",
       "region": "global",
       "focus": "ai-hackathons",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official event listing rendered as a finite page; every card marked Register or TBA was retained and Finished cards excluded.",
       "pagesChecked": 1,
       "itemsSeen": 12,
@@ -175,7 +175,7 @@
       "url": "https://www.hackster.io/contests",
       "region": "global",
       "focus": "hardware-iot",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official active-contests RSS feed traversed as a finite document.",
       "pagesChecked": 1,
       "itemsSeen": 2,
@@ -197,7 +197,7 @@
       "url": "https://www.hackerearth.com/challenges/",
       "region": "global",
       "focus": "coding-hackathons",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official public challenge API returned its finite current feed; every previously known official detail URL was also fetched live because current official details exist outside that API feed.",
       "pagesChecked": 1,
       "itemsSeen": 46,
@@ -223,7 +223,7 @@
       "url": "https://devfolio.co/hackathons",
       "region": "global",
       "focus": "hackathons",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official search API POST queried separately for application_open and upcoming at size=100.",
       "pagesChecked": 2,
       "itemsSeen": 28,
@@ -247,11 +247,11 @@
       "url": "https://unstop.com/competitions",
       "region": "global",
       "focus": "student-business-tech",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "All official open-catalogue pages read until two consecutive full snapshots had identical ID sets and stable totals, plus the official detail API for every accepted ID; rows without registration/future stages excluded.",
       "pagesChecked": 8,
-      "itemsSeen": 344,
-      "actionableFound": 343,
+      "itemsSeen": 347,
+      "actionableFound": 346,
       "completeListingClaim": true,
       "limitations": [
         "The completeListingClaim is limited to Unstop’s public open catalogue at the check time. The UI/API exposes open and closed lifecycle filters; an upcoming parameter was not recognized as a distinct public catalogue and returned the unfiltered 10,000-record cap.",
@@ -264,10 +264,10 @@
         "The catalogue intentionally includes records typed by Unstop as competitions, hackathons, and quizzes because all are returned by the official Competitions listing endpoint.",
         "Some organizers omit structured prizes, concise eligibility, or venue details. Those fields are explicitly marked unknown rather than inferred from search snippets."
       ],
-      "canonicalRecordCount": 343,
-      "uniqueAdditions": 341,
+      "canonicalRecordCount": 346,
+      "uniqueAdditions": 344,
       "duplicateRecords": 2,
-      "activeCanonicalRecordCount": 161
+      "activeCanonicalRecordCount": 165
     },
     {
       "id": "challenge-gov",
@@ -275,7 +275,7 @@
       "url": "https://www.challenge.gov/",
       "region": "usa-global-eligibility-varies",
       "focus": "government-innovation",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Challenge.gov sunset was followed to its official USA.gov successor; every item on the finite page labelled select active challenges was extracted.",
       "pagesChecked": 1,
       "itemsSeen": 10,
@@ -301,7 +301,7 @@
       "url": "https://www.herox.com/crowdsourcing-projects",
       "region": "global",
       "focus": "innovation-prizes",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official public search API for enter and coming-soon, followed by a fresh official timeline request for every undated row; only explicit future timeline events were retained.",
       "pagesChecked": 2,
       "itemsSeen": 61,
@@ -326,7 +326,7 @@
       "url": "https://tianchi.aliyun.com/competition/gameList/activeList",
       "region": "china-global-varies",
       "focus": "data-ai",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official isActive=1 list API traversed until accumulated top-level rows matched reported total; nested tracks normalized by raceId.",
       "pagesChecked": 4,
       "itemsSeen": 35,
@@ -350,7 +350,7 @@
       "url": "https://www.datafountain.cn/competitions",
       "region": "china",
       "focus": "data-ai",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official catalogue API traversed until rows matched reported total; IN_SERVICE + open signup + future end retained.",
       "pagesChecked": 13,
       "itemsSeen": 370,
@@ -375,7 +375,7 @@
       "url": "https://challenge.xfyun.cn/",
       "region": "china-global-varies",
       "focus": "ai",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "All six official type/status API result sets at pageSize=1000 plus the separately surfaced official 星火杯 page.",
       "pagesChecked": 7,
       "itemsSeen": 630,
@@ -400,7 +400,7 @@
       "url": "https://developer.huaweicloud.com/competition/",
       "region": "china-global-varies",
       "focus": "cloud-ai",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official competition-list POST traversed at 100 rows/page until total plus the separately surfaced C4-AI official page.",
       "pagesChecked": 6,
       "itemsSeen": 425,
@@ -425,7 +425,7 @@
       "url": "https://tch.cloud.tencent.com/contest",
       "region": "china",
       "focus": "cloud-ai",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official tch.cloud.tencent.com contest POST traversed to total plus the separate legacy cloud.tencent.com/developer/competition finite HTML catalogue.",
       "pagesChecked": 4,
       "itemsSeen": 33,
@@ -450,7 +450,7 @@
       "url": "https://modelscope.cn/competitions",
       "region": "china-global-varies",
       "focus": "ai-models",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official competition catalogue API traversed until rows matched reported total; current competition rows require a future structured timestamp.",
       "pagesChecked": 2,
       "itemsSeen": 128,
@@ -475,7 +475,7 @@
       "url": "https://aistudio.baidu.com/competition",
       "region": "china",
       "focus": "ai-data",
-      "checkedAt": "2026-08-23T15:34:10+08:00",
+      "checkedAt": "2026-08-23T19:22:11+08:00",
       "method": "Official current/upcoming listing endpoints traversed, followed by the official match/detail POST for every candidate; only processCode=1 with a future structured date was retained.",
       "pagesChecked": 2,
       "itemsSeen": 44,
@@ -11156,77 +11156,6 @@
       },
       "originalName": "WEEX AI Wars II",
       "originalFullName": "WEEX AI Wars II: Rise of Intelligence（DoraHacks）"
-    },
-    {
-      "id": "munichtech-innovation-2026",
-      "name": "慕尼黑科技创新黑客马拉松",
-      "fullName": "2026年慕尼黑科技创新黑客马拉松（DoraHacks）",
-      "organization": "MunichTech EXPO",
-      "category": "AI 软件",
-      "tier": "B",
-      "match": 7.3,
-      "location": "慕尼黑现场 + 线上混合",
-      "dateLabel": "活动日 2026-09-21 · 预注册进行中",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-09-21",
-      "primaryDeadline": {
-        "type": "entry",
-        "date": "2026-09-21",
-        "certainty": "confirmed",
-        "timezone": "Europe/Berlin",
-        "label": "活动日（预注册截止约 9 月中旬，待确认）"
-      },
-      "deadlines": [
-        {
-          "type": "entry",
-          "date": "2026-09-21",
-          "certainty": "confirmed",
-          "timezone": "Europe/Berlin",
-          "label": "活动日（预注册截止约 9 月中旬，待确认）",
-          "primary": true
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-02",
-        "sourceKind": "official",
-        "linkHealth": "reachable",
-        "notes": "当前报名窗口、资格硬门槛、费用与奖励边界已按所列官方或权威来源复核；未披露字段保持 not-stated。"
-      },
-      "description": "MunichTech EXPO 配套创新黑客松，赛道一即 Enterprise AI & Automation（Agent/copilot/工作流自动化）；线上+现场混合可选，奖励含企业试点洽谈与投资对接。",
-      "audience": "个人或团队，学生亦可；线上+现场混合",
-      "rewards": [
-        "现金（金额 TBD）",
-        "企业试点洽谈",
-        "投资对接",
-        "展会曝光"
-      ],
-      "timeline": [
-        {
-          "event": "活动日（预注册截止约 9 月中旬，待确认）",
-          "date": "2026-09-21",
-          "critical": true
-        }
-      ],
-      "detailUrl": "https://siuserxiaowei.com/competitions/munichtech-innovation-2026/",
-      "actionUrl": "https://dorahacks.io/hackathon/2019",
-      "sources": [
-        {
-          "title": "核验来源｜MunichTech Innovation Hackathon",
-          "date": "2026-08-02",
-          "url": "https://dorahacks.io/hackathon/2019"
-        }
-      ],
-      "participation": {
-        "region": "unknown",
-        "regionLabel": "地区待确认",
-        "mode": "hybrid",
-        "modeLabel": "线上+线下"
-      },
-      "originalName": "MunichTech Innovation Hackathon",
-      "originalFullName": "MunichTech Innovation Hackathon 2026（DoraHacks）"
     },
     {
       "id": "gpu-ai-buildathon-2026",
@@ -26535,22 +26464,22 @@
       "tier": "B",
       "match": 7.2,
       "location": "Online",
-      "dateLabel": "截止日期：2026 年 8 月 23 日@ 5:00am EDT",
+      "dateLabel": "截止日期：美国东部时间2026年8月23日下午5:00",
       "recordType": "competition",
       "seriesId": null,
       "parentId": null,
-      "deadlineDate": "2026-08-23",
+      "deadlineDate": "2026-08-24",
       "primaryDeadline": {
         "type": "milestone",
-        "date": "2026-08-23",
+        "date": "2026-08-24",
         "certainty": "confirmed",
         "timezone": "EDT",
-        "label": "截止日期：2026 年 8 月 23 日@ 5:00am EDT"
+        "label": "截止日期：美国东部时间2026年8月23日下午5:00"
       },
       "deadlines": [
         {
           "type": "submission",
-          "date": "2026-08-23",
+          "date": "2026-08-24",
           "certainty": "confirmed",
           "timezone": "Asia/Shanghai",
           "label": "提交截止日期",
@@ -26572,7 +26501,7 @@
       "timeline": [
         {
           "event": "提交截止日期",
-          "date": "2026-08-23",
+          "date": "2026-08-24",
           "timezone": "Asia/Shanghai",
           "critical": true
         }
@@ -36384,17 +36313,17 @@
       "tier": "B",
       "match": 7.2,
       "location": "Online",
-      "dateLabel": "Registration closes 2026-08-23T23:59:59+05:30 (Asia/Kolkata).",
+      "dateLabel": "报名截止时间为2026-08-24T 12:00:59 + 05:30 （亚洲/加尔各答）。",
       "recordType": "competition",
       "seriesId": null,
       "parentId": null,
-      "deadlineDate": "2026-08-23",
+      "deadlineDate": "2026-08-24",
       "primaryDeadline": {
         "type": "registration",
-        "date": "2026-08-23",
+        "date": "2026-08-24",
         "certainty": "confirmed",
         "timezone": "Asia/Kolkata",
-        "label": "Registration closes 2026-08-23T23:59:59+05:30 (Asia/Kolkata)."
+        "label": "报名截止时间为2026-08-24T 12:00:59 + 05:30 （亚洲/加尔各答）。"
       },
       "deadlines": [
         {
@@ -36407,7 +36336,7 @@
         },
         {
           "type": "registration",
-          "date": "2026-08-23T23:59:59+05:30",
+          "date": "2026-08-24T12:00:59+05:30",
           "certainty": "confirmed",
           "timezone": "Asia/Kolkata",
           "label": "注册结束",
@@ -36531,7 +36460,7 @@
         },
         {
           "event": "注册结束",
-          "date": "2026-08-23T23:59:59+05:30",
+          "date": "2026-08-24T12:00:59+05:30",
           "timezone": "Asia/Kolkata",
           "critical": true
         },
@@ -59147,17 +59076,17 @@
       "tier": "B",
       "match": 7.2,
       "location": "Online",
-      "dateLabel": "注册截止时间为 2026 年 9 月 05 日00:00:00+05:30（亚洲/加尔各答）。",
+      "dateLabel": "报名截止时间为2026-08-31T 18:30:00 + 05:30 （亚洲/加尔各答）。",
       "recordType": "competition",
       "seriesId": null,
       "parentId": null,
-      "deadlineDate": "2026-09-05",
+      "deadlineDate": "2026-08-31",
       "primaryDeadline": {
         "type": "registration",
-        "date": "2026-09-05",
+        "date": "2026-08-31",
         "certainty": "confirmed",
         "timezone": "Asia/Kolkata",
-        "label": "注册截止时间为 2026 年 9 月 05 日00:00:00+05:30（亚洲/加尔各答）。"
+        "label": "报名截止时间为2026-08-31T 18:30:00 + 05:30 （亚洲/加尔各答）。"
       },
       "deadlines": [
         {
@@ -59170,7 +59099,7 @@
         },
         {
           "type": "registration",
-          "date": "2026-09-05T00:00:00+05:30",
+          "date": "2026-08-31T18:30:00+05:30",
           "certainty": "confirmed",
           "timezone": "Asia/Kolkata",
           "label": "注册结束",
@@ -59206,7 +59135,7 @@
         },
         {
           "event": "注册结束",
-          "date": "2026-09-05T00:00:00+05:30",
+          "date": "2026-08-31T18:30:00+05:30",
           "timezone": "Asia/Kolkata",
           "critical": true
         },
@@ -60633,6 +60562,499 @@
       },
       "originalName": "The Stress & Resiliency Challenge",
       "originalFullName": "The Stress & Resiliency Challenge"
+    },
+    {
+      "id": "research-unstop-codearena-2026-2d0d9567",
+      "name": "CodeArena 2026（数据算法赛事）",
+      "fullName": "CodeArena 2026",
+      "organization": "QuizCred",
+      "category": "数据算法",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "2026-09-02T 18:30:00 + 05:30 （亚洲/加尔各答）报名截止。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-09-02",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-09-02",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "2026-09-02T 18:30:00 + 05:30 （亚洲/加尔各答）报名截止。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-22T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-09-02T18:30:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-09-15T17:49:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+      },
+      "description": "机会描述思考。代码。竞争。征服。QuizCred推出CodeArena 2026 ，这是一项在线编码竞赛，旨在挑战学生的编程、解决问题、逻辑思维和DSA技能。无论您是初学者，迈出竞争性编程的第一步，还是经验丰富的程序员， CodeArena都能让您有机会测试自己的技能，与印度各地的学生竞争，并展示您的编程 能力。资格向攻读B.Tech/B.E.、BCA、B.Sc.的学生开放。、MCA、文凭和其他技术/CS相关课程。一年级、二年级、三年级和四年级的学生可以参加。向印度各地学院/大学的学生开放。参与者可以单独参加比赛。根据编码平台支持的语言，对所使用的编程语言没有限制。比赛形式第1轮–在线预选赛 时长： 60分钟学员将解答一系列编程和逻辑思维问题。问题将涵盖以下主题：编程基础数组和字符串搜索和排序基本数据结构算法逻辑问题解决参与者将根据分数和提交时间进行排名。表现最佳的参与者将有资格参加最后一轮比赛。第2轮–最终编码挑战持续时间： 90分钟参与者 将解决不同难度的多个编码问题。问题将包括简单、中等和困难级别的挑战。最终排名将根据通过的测试案例、分数和花费的时间来确定。规则每位参与者必须使用自己的身份证登记……",
+      "audience": "个人参与；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "未知——官方详细API未发布奖励信息。"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-22T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-09-02T18:30:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-09-15T17:49:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-codearena-2026-2d0d9567",
+      "actionUrl": "https://unstop.com/hackathons/codearena-2026-quizcred-1742930",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "CodeArena 2026 — Unstop public detail API",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/competition/1742930",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "CodeArena 2026 — Unstop",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/hackathons/codearena-2026-quizcred-1742930",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-23",
+      "researchBatch": "2026-08-23",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/hackathons/codearena-2026-quizcred-1742930",
+      "sourceCategories": [
+        "Hackathon",
+        "Software Development"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "CodeArena 2026"
+    },
+    {
+      "id": "research-unstop-promptcraft-ai-creativity-challenge-august-2026-df905975",
+      "name": "PromptCraft ：人工智能创意挑战赛– 2026年8月",
+      "fullName": "PromptCraft ：人工智能创意挑战赛– 2026年8月",
+      "organization": "IES University, Bhopal",
+      "category": "创业路演",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "2026-08-31T 00:01:00 + 05:30 （亚洲/加尔各答）报名截止。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-31",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-08-31",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "2026-08-31T 00:01:00 + 05:30 （亚洲/加尔各答）报名截止。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-23T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-08-31T00:01:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-08-31T15:54:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+      },
+      "description": "PromptCraft ： AI创意挑战赛– 2026年8月社区链接：点击这里关于竞赛PromptCraft ： AI创意挑战赛是一项在线个人竞赛，旨在测试参与者的创造力、提示工程技能、概念开发和演示能力。参与者将获得一个挑战主题，并且将有限的时间使用有效的提示制定一个创造性的概念，并展示他们的工作流程 评委。资格向学生、毕业生、专业人士和人工智能/创意爱好者开放。无需事先具备专业经验。参与是个人的，参与者应该对人工智能工具和创意提示有基本的了解。竞赛形式模式：在线参赛：个人时长：约45–50分钟演讲时间：每位参赛者60秒平台： Google Meet主题：挑战主题将 由组织者宣布。过程通过Unstop注册比赛。加入官方沟通渠道，了解活动动态。在预定时间加入Google Meet会话。挑战主题和说明将公布。在给定的时间内使用创意提示发展您的概念。为您的概念和工作流程准备一份简短的演示文稿。在分配的60秒间距内展示您的作品。评委将 根据公布的标准对提交内容进行评估。排名最高的参与者将被宣布为获胜者。评估标准将对参与者进行评估：概念创新–创意的原创性和创造性。提示工程– E…",
+      "audience": "个人参与；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "未知——官方详细API未发布奖励信息。"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-23T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-08-31T00:01:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-08-31T15:54:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-promptcraft-ai-creativity-challenge-august-2026-df905975",
+      "actionUrl": "https://unstop.com/competitions/promptcraft-ai-creativity-challenge-august-2026-ies-university-bhopal-1743109",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "PromptCraft ： AI创意挑战赛– 2026年8月— Unstop public detail API",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/competition/1743109",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "PromptCraft ：人工智能创意挑战赛– 2026年8月— Unstop",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/competitions/promptcraft-ai-creativity-challenge-august-2026-ies-university-bhopal-1743109",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-23",
+      "researchBatch": "2026-08-23",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/competitions/promptcraft-ai-creativity-challenge-august-2026-ies-university-bhopal-1743109",
+      "sourceCategories": [
+        "Competition",
+        "Artificial Intelligence"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "PromptCraft: AI Creativity Challenge – August 2026",
+      "originalFullName": "PromptCraft: AI Creativity Challenge – August 2026"
+    },
+    {
+      "id": "research-unstop-st-jude-s-code-arena-359d1b8c",
+      "name": "「圣犹大守则」竞技场",
+      "fullName": "「圣犹大守则」竞技场",
+      "organization": "St. Jude's Public School(SJPS), Nilgiris",
+      "category": "创意 AI",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "报名截止时间为2026-09-15T 12:00:00 + 05:30 （亚洲/加尔各答）。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-09-15",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-09-15",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "报名截止时间为2026-09-15T 12:00:00 + 05:30 （亚洲/加尔各答）。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-23T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-09-15T12:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-09-20T12:45:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+      },
+      "description": "欢迎来到尼尔吉里斯圣裘德公立学校（ SJPS ）的圣裘德守则竞技场！面向有抱负的编码人员的在线编码挑战。关于机会：走进圣裘德守则竞技场（ St. Jude's Code Arena ） ，这是由尼尔吉里斯圣裘德公立学校（ SJPS ）主办的激动人心的在线编码挑战赛。此活动专为渴望在动态的虚拟环境中测试和展示其编程技能的个人而设计。准备好参与具有挑战性的活动 问题，将您的编码技能提升到一个新的水平。这是您磨练Python技能并提高逻辑推理能力的机会。无论您是想获得经验，与同行竞争，还是只是享受解决问题的快感， St. Jude's Code Arena都提供了一个独特的平台，供您在技术领域学习和成长。资格和注册： St. Jude's Code Arena仅适用于 9–12年级的学生。支持的语言： C C + + Java Python 3 +竞赛结构：本次在线编程挑战的结构如下：由于这是一项在线编程挑战，参与者将直接通过其数字环境参与解决问题。奖励和奖品：奖励和奖品详情（如提供） ：第一名-现金奖第二名-礼物第三名-证书加入圣犹大守则竞技场 在这个引人入胜的在线挑战中展示您的编码天赋！",
+      "audience": "个人参与；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "第1名—现金奖励",
+        "2nd — Gifts",
+        "3rd"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-23T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-09-15T12:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-09-20T12:45:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-st-jude-s-code-arena-359d1b8c",
+      "actionUrl": "https://unstop.com/hackathons/stjudes-code-arena-st-judes-public-schoolsjps-nilgiris-1743110",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "St. Jude's Code Arena — Unstop public detail API",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/competition/1743110",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "圣犹大守则竞技场—永不停歇",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/hackathons/stjudes-code-arena-st-judes-public-schoolsjps-nilgiris-1743110",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-23",
+      "researchBatch": "2026-08-23",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/hackathons/stjudes-code-arena-st-judes-public-schoolsjps-nilgiris-1743110",
+      "sourceCategories": [
+        "Hackathon",
+        "Software Development"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "St.Jude's Code Arena",
+      "originalFullName": "St.Jude's Code Arena"
+    },
+    {
+      "id": "research-unstop-init-26-hackathon-9540ff89",
+      "name": "INIT '26 -黑客马拉松",
+      "fullName": "INIT '26 -黑客马拉松",
+      "organization": "Mukesh Patel college of engineering and management, (MPSTME )",
+      "category": "创业路演",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "报名截止时间为2026-09-04T 11:00:00 + 05:30 （亚洲/加尔各答）。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-09-04",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-09-04",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "报名截止时间为2026-09-04T 11:00:00 + 05:30 （亚洲/加尔各答）。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-23T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-09-04T11:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-09-06T12:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+      },
+      "description": "概述：活动名称： INIT '26 –黑客马拉松形式： 24小时在线黑客马拉松模式：在线资格：来自公认高校的工程专业学生团队规模：正好3名成员地点：在线参与者将有24小时的时间根据黑客马拉松开始时发布的问题陈述构思、构建和开发解决方案。资格和团队规则：仅向任何认可的工程专业学生开放 学院/大学。每个团队必须由3名成员组成。允许大学间团队参赛。来自不同工程专业和学年的成员可以组成一个团队。每个参与者只能加入一个团队。曲目：参与者可以在注册过程中从两首曲目中选择一首。轨道1 ：金融科技轨道2 ：公共安全注意：注册完成后，所选轨道无法更改。黑客马拉松时间表： 5 2026年9月12:00 PM —黑客马拉松开始：问题陈述将发布， 24小时构建期将正式开始。2026年9月6日12:00 PM —提交截止日期：所有团队必须在截止日期前提交最终项目和演示材料。必填提交要求：每个团队都需要提交以下两项：项目/存储库链接： GitHub存储库链接或原型/部署项目链接 创意演示（ PPT ） ：团队必须提交一份PPT ，解释其解决方案。正式的PPT格式/模板将由组织团队提供。两者都必须提交。未能提交任何一个组成部分可能会导致提交材料被考虑在……",
+      "audience": "团队规模： 3人；必须在官方页面上查看其他资格限制。",
+      "rewards": [
+        "未知——官方详细API未发布奖励信息。"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-23T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-09-04T11:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-09-06T12:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-init-26-hackathon-9540ff89",
+      "actionUrl": "https://unstop.com/hackathons/init26-hackathon-mukesh-patel-college-of-engineering-and-management-mpstme-1743123",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "INIT '26 - Hackathon — Unstop public detail API",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/competition/1743123",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "INIT '26 -黑客马拉松— Unstop",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/hackathons/init26-hackathon-mukesh-patel-college-of-engineering-and-management-mpstme-1743123",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-23",
+      "researchBatch": "2026-08-23",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/hackathons/init26-hackathon-mukesh-patel-college-of-engineering-and-management-mpstme-1743123",
+      "sourceCategories": [
+        "Hackathon",
+        "Business & Finance"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "INIT'26 - Hackathon",
+      "originalFullName": "INIT'26 - Hackathon"
     },
     {
       "id": "research-challenge-gov-acl-caregiver-ai-prize-challenge-b2c93d3c",
@@ -75863,14 +76285,14 @@
     }
   ],
   "asOfDate": "2026-08-23",
-  "activeAdditions": 394,
-  "activeResearchAdditions": 391,
+  "activeAdditions": 398,
+  "activeResearchAdditions": 395,
   "expiredRemoved": 164,
   "preferenceExcluded": 257,
   "internationalOnsiteExcluded": 257,
-  "preferenceCleanupRunId": "2026-08-23T09:37:28.679Z",
-  "expiredArchiveCount": 462,
-  "localizedAt": "2026-08-23T09:37:40.041Z",
+  "preferenceCleanupRunId": "2026-08-23T11:24:11.892Z",
+  "expiredArchiveCount": 463,
+  "localizedAt": "2026-08-23T11:25:31.643Z",
   "locale": "zh-CN",
   "localizationEngine": "Google Translate public endpoint with MyMemory public fallback via curl"
 }
