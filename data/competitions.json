@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-23T13:01:36.950Z",
+  "updatedAt": "2026-08-23T15:07:14.376Z",
   "upstreamUpdatedAt": "2026-08-09",
   "generatedFrom": "https://siuserxiaowei.com/competitions.json",
-  "count": 670,
-  "additions": 650,
+  "count": 672,
+  "additions": 653,
   "curatedAdditions": 15,
-  "researchAdditions": 635,
+  "researchAdditions": 638,
   "researchPlatforms": 20,
   "researchDuplicates": 50,
   "researchCoverage": [
@@ -15,11 +15,11 @@
       "url": "https://devpost.com/hackathons",
       "region": "global",
       "focus": "hackathons",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official open-status JSON API traversed through a read-only renderer until accumulated rows matched meta.total_count.",
       "pagesChecked": 7,
-      "itemsSeen": 60,
-      "actionableFound": 60,
+      "itemsSeen": 61,
+      "actionableFound": 61,
       "completeListingClaim": true,
       "limitations": [
         "Scope follows Devpost open_state=open. Private/unlisted hackathons and items not exposed by the public API cannot be observed.",
@@ -27,10 +27,10 @@
         "AWS Trainium Frontier Competition was removed after the final live open-status API pass no longer returned it and its official detail page showed the event had ended on August 21, 2026.",
         "Direct unauthenticated requests were blocked or returned HTTP 202/403, so the public official JSON was read through r.jina.ai without login or CAPTCHA bypass."
       ],
-      "canonicalRecordCount": 60,
-      "uniqueAdditions": 50,
+      "canonicalRecordCount": 61,
+      "uniqueAdditions": 51,
       "duplicateRecords": 10,
-      "activeCanonicalRecordCount": 57
+      "activeCanonicalRecordCount": 58
     },
     {
       "id": "kaggle",
@@ -38,7 +38,7 @@
       "url": "https://www.kaggle.com/competitions",
       "region": "global",
       "focus": "data-science",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official ListCompetitions POST with LIST_OPTION_ACTIVE, public visibility, pageSize=1000, and no next token.",
       "pagesChecked": 2,
       "itemsSeen": 21,
@@ -62,7 +62,7 @@
       "url": "https://www.drivendata.org/competitions/",
       "region": "global",
       "focus": "social-impact-data",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official single-page catalogue rendered in full; all links before the explicit Completed competitions section were extracted.",
       "pagesChecked": 1,
       "itemsSeen": 10,
@@ -84,7 +84,7 @@
       "url": "https://zindi.africa/competitions",
       "region": "global",
       "focus": "data-science",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official public API status=open with per_page=100; API total matched returned rows.",
       "pagesChecked": 1,
       "itemsSeen": 5,
@@ -106,7 +106,7 @@
       "url": "https://www.aicrowd.com/challenges",
       "region": "global",
       "focus": "ai-research",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official server-rendered listing was exhausted (data-request-completed=true), then every card detail was checked for a structured UPCOMING/RUNNING round.",
       "pagesChecked": 1,
       "itemsSeen": 18,
@@ -127,7 +127,7 @@
       "url": "https://dorahacks.io/hackathon",
       "region": "global",
       "focus": "web3-ai",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official ongoing and upcoming filtered catalogues rendered in full; localized WEEX duplicates consolidated and Winner Announced excluded.",
       "pagesChecked": 2,
       "itemsSeen": 18,
@@ -151,7 +151,7 @@
       "url": "https://lablab.ai/event",
       "region": "global",
       "focus": "ai-hackathons",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official event listing rendered as a finite page; every card marked Register or TBA was retained and Finished cards excluded.",
       "pagesChecked": 1,
       "itemsSeen": 12,
@@ -175,7 +175,7 @@
       "url": "https://www.hackster.io/contests",
       "region": "global",
       "focus": "hardware-iot",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official active-contests RSS feed traversed as a finite document.",
       "pagesChecked": 1,
       "itemsSeen": 2,
@@ -197,7 +197,7 @@
       "url": "https://www.hackerearth.com/challenges/",
       "region": "global",
       "focus": "coding-hackathons",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official public challenge API returned its finite current feed; every previously known official detail URL was also fetched live because current official details exist outside that API feed.",
       "pagesChecked": 1,
       "itemsSeen": 46,
@@ -223,7 +223,7 @@
       "url": "https://devfolio.co/hackathons",
       "region": "global",
       "focus": "hackathons",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official search API POST queried separately for application_open and upcoming at size=100.",
       "pagesChecked": 2,
       "itemsSeen": 28,
@@ -247,11 +247,11 @@
       "url": "https://unstop.com/competitions",
       "region": "global",
       "focus": "student-business-tech",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "All official open-catalogue pages read until two consecutive full snapshots had identical ID sets and stable totals, plus the official detail API for every accepted ID; rows without registration/future stages excluded.",
       "pagesChecked": 8,
-      "itemsSeen": 347,
-      "actionableFound": 346,
+      "itemsSeen": 350,
+      "actionableFound": 349,
       "completeListingClaim": true,
       "limitations": [
         "The completeListingClaim is limited to Unstop’s public open catalogue at the check time. The UI/API exposes open and closed lifecycle filters; an upcoming parameter was not recognized as a distinct public catalogue and returned the unfiltered 10,000-record cap.",
@@ -264,10 +264,10 @@
         "The catalogue intentionally includes records typed by Unstop as competitions, hackathons, and quizzes because all are returned by the official Competitions listing endpoint.",
         "Some organizers omit structured prizes, concise eligibility, or venue details. Those fields are explicitly marked unknown rather than inferred from search snippets."
       ],
-      "canonicalRecordCount": 346,
-      "uniqueAdditions": 344,
+      "canonicalRecordCount": 349,
+      "uniqueAdditions": 347,
       "duplicateRecords": 2,
-      "activeCanonicalRecordCount": 167
+      "activeCanonicalRecordCount": 168
     },
     {
       "id": "challenge-gov",
@@ -275,7 +275,7 @@
       "url": "https://www.challenge.gov/",
       "region": "usa-global-eligibility-varies",
       "focus": "government-innovation",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Challenge.gov sunset was followed to its official USA.gov successor; every item on the finite page labelled select active challenges was extracted.",
       "pagesChecked": 1,
       "itemsSeen": 10,
@@ -301,11 +301,11 @@
       "url": "https://www.herox.com/crowdsourcing-projects",
       "region": "global",
       "focus": "innovation-prizes",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official public search API for enter and coming-soon, followed by a fresh official timeline request for every undated row; only explicit future timeline events were retained.",
       "pagesChecked": 2,
-      "itemsSeen": 61,
-      "actionableFound": 8,
+      "itemsSeen": 60,
+      "actionableFound": 7,
       "completeListingClaim": true,
       "limitations": [
         "Completeness covers the two publicly actionable HeroX stage filters: enter (44) and coming-soon/pre-registration (17); private, invitation-only, or unlisted challenges cannot be observed.",
@@ -315,8 +315,8 @@
         "Independent audit removed 40 undated legacy enter/coming-soon records whose public detail pages did not provide a future actionable date; at least one (NIST Differential Privacy Synthetic Data Challenge) showed only a 2018–2019 competition window. They remain part of itemsSeen but are not treated as actionable on 2026-08-21.",
         "The stage feeds contained 55 undated rows; 2 had explicit future events in this run and 0 timeline requests failed."
       ],
-      "canonicalRecordCount": 8,
-      "uniqueAdditions": 8,
+      "canonicalRecordCount": 7,
+      "uniqueAdditions": 7,
       "duplicateRecords": 0,
       "activeCanonicalRecordCount": 0
     },
@@ -326,7 +326,7 @@
       "url": "https://tianchi.aliyun.com/competition/gameList/activeList",
       "region": "china-global-varies",
       "focus": "data-ai",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official isActive=1 list API traversed until accumulated top-level rows matched reported total; nested tracks normalized by raceId.",
       "pagesChecked": 4,
       "itemsSeen": 35,
@@ -350,7 +350,7 @@
       "url": "https://www.datafountain.cn/competitions",
       "region": "china",
       "focus": "data-ai",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official catalogue API traversed until rows matched reported total; IN_SERVICE + open signup + future end retained.",
       "pagesChecked": 13,
       "itemsSeen": 370,
@@ -375,7 +375,7 @@
       "url": "https://challenge.xfyun.cn/",
       "region": "china-global-varies",
       "focus": "ai",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "All six official type/status API result sets at pageSize=1000 plus the separately surfaced official 星火杯 page.",
       "pagesChecked": 7,
       "itemsSeen": 630,
@@ -400,7 +400,7 @@
       "url": "https://developer.huaweicloud.com/competition/",
       "region": "china-global-varies",
       "focus": "cloud-ai",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official competition-list POST traversed at 100 rows/page until total plus the separately surfaced C4-AI official page.",
       "pagesChecked": 6,
       "itemsSeen": 425,
@@ -425,7 +425,7 @@
       "url": "https://tch.cloud.tencent.com/contest",
       "region": "china",
       "focus": "cloud-ai",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official tch.cloud.tencent.com contest POST traversed to total plus the separate legacy cloud.tencent.com/developer/competition finite HTML catalogue.",
       "pagesChecked": 4,
       "itemsSeen": 33,
@@ -450,7 +450,7 @@
       "url": "https://modelscope.cn/competitions",
       "region": "china-global-varies",
       "focus": "ai-models",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official competition catalogue API traversed until rows matched reported total; current competition rows require a future structured timestamp.",
       "pagesChecked": 2,
       "itemsSeen": 128,
@@ -475,7 +475,7 @@
       "url": "https://aistudio.baidu.com/competition",
       "region": "china",
       "focus": "ai-data",
-      "checkedAt": "2026-08-23T20:48:29+08:00",
+      "checkedAt": "2026-08-23T23:01:45+08:00",
       "method": "Official current/upcoming listing endpoints traversed, followed by the official match/detail POST for every candidate; only processCode=1 with a future structured date was retained.",
       "pagesChecked": 2,
       "itemsSeen": 44,
@@ -27668,6 +27668,102 @@
       "originalFullName": "Blockchain amrita"
     },
     {
+      "id": "research-devpost-innovart-2027-art-and-technology-hack-day-cbba7321",
+      "name": "InnovArt 2027：艺术与科技黑客日",
+      "fullName": "InnovArt 2027：艺术与科技黑客日",
+      "organization": "Binnovative",
+      "category": "工程量产",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "截止时间：2027 年 1 月 2 日 12:00（美国东部时间）",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2027-01-03",
+      "primaryDeadline": {
+        "type": "milestone",
+        "date": "2027-01-03",
+        "certainty": "confirmed",
+        "timezone": "EST",
+        "label": "截止时间：2027 年 1 月 2 日 12:00（美国东部时间）"
+      },
+      "deadlines": [
+        {
+          "type": "submission",
+          "date": "2027-01-03",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "提交截止日期",
+          "primary": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "存在于完整的Devpost开放状态API中； 2026-08-23检查了官方详细信息元数据和公共规则。"
+      },
+      "description": "继 InnovArt 2026 成功举办后，InnovArt 2027 再次面向全球艺术与技术爱好者开放。这项由学生主导的国际黑客松欢迎音乐、美术、表演、服装与空间设计、工业设计、建筑等领域的创作者、研究者、策展人、软件开发者、数据爱好者和硬件工程师参加，鼓励跨领域协作，用技术激发艺术创意并展示创新作品。",
+      "audience": "未标记为仅限邀请；年龄、司法管辖区、团队和赞助商限制可能仍然适用——请在参赛前查看官方规则。",
+      "rewards": [
+        "12 个非现金奖项类别"
+      ],
+      "timeline": [
+        {
+          "event": "提交截止日期",
+          "date": "2027-01-03",
+          "timezone": "Asia/Shanghai",
+          "critical": true
+        }
+      ],
+      "detailUrl": "#research-devpost-innovart-2027-art-and-technology-hack-day-cbba7321",
+      "actionUrl": "https://innovart2027.devpost.com/challenges/start_a_submission",
+      "sources": [
+        {
+          "title": "Devpost 开放黑客马拉松 API",
+          "date": "2026-08-23",
+          "url": "https://devpost.com/api/hackathons?status%5B%5D=open&page=1",
+          "sourceKind": "official_listing_api"
+        },
+        {
+          "title": "InnovArt 2027：艺术与科技黑客日—Devpost 官方详情",
+          "date": "2026-08-23",
+          "url": "https://innovart2027.devpost.com/",
+          "sourceKind": "official_detail"
+        },
+        {
+          "title": "InnovArt 2027：艺术与科技黑客日—官方规则",
+          "date": "2026-08-23",
+          "url": "https://innovart2027.devpost.com/rules",
+          "sourceKind": "official_rules"
+        }
+      ],
+      "discoveredAt": "2026-08-23",
+      "researchBatch": "2026-08-23",
+      "researchPlatformId": "devpost",
+      "researchPlatformIds": [
+        "devpost"
+      ],
+      "researchPlatformName": "Devpost",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://innovart2027.devpost.com/",
+      "sourceCategories": [
+        "Music/Art",
+        "Beginner Friendly",
+        "Open Ended"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "InnovArt 2027: Art and Technology Hack Day",
+      "originalFullName": "InnovArt 2027: Art and Technology Hack Day"
+    },
+    {
       "id": "research-kaggle-predicting-smartphone-addiction-df5eb2d7",
       "name": "预测智能手机成瘾",
       "fullName": "预测智能手机成瘾",
@@ -52915,145 +53011,6 @@
       "originalFullName": "Jñāna Taraṅga : National Level Iks Quiz Competition"
     },
     {
-      "id": "research-unstop-inspired-by-american-express-for-data-science-role-k-68bdb243",
-      "name": "受到美国运通数据科学角色的启发：破解 2026 年能力倾向测试",
-      "fullName": "受到美国运通数据科学角色的启发：破解 2026 年能力倾向测试",
-      "organization": "Indian Institute of Technology (IIT), Guwahati",
-      "category": "数据算法",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 18:30:07+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-23",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-23",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 18:30:07+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-14T00:00:08+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-23T18:30:07+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-14T03:51:44+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "机会评估开始",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-21T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "机会评估结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-23",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "在2026年8月23日与Unstop公开目录和官方公开详细信息API进行了新对账。"
-      },
-      "description": "概述：KTC 能力倾向系列测试旨在评估参与者在技术和咨询领域取得成功职业生涯所必需的各个领域的技能。本系列将测试您在定量能力、言语推理、统计与概率、英语水平、数据解释和 SQL 方面的能力。准则： 资格： 任何填写了注册表的人都有资格参加 KTC 能力倾向系列测试。形式： 第一轮：初步测试 定量能力：20 题 言语推理：8 题 英语水平：7 题 数据解释：8 题 SQL：7 题 持续时间：整个测试 60 分钟。参赛者必须尝试所有部分。流程： 测试管理： 测试将在线进行。成功注册后，参与者将收到登录详细信息。团队必须确保稳定的互联网连接……",
-      "audience": "官方资格过滤器：全部。个人参与。",
-      "rewards": [
-        "未知——官方详细API未发布奖励信息。"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-14T00:00:08+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-23T18:30:07+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "机会评估开始",
-          "date": "2026-08-14T03:51:44+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "机会评估结束",
-          "date": "2026-08-21T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-inspired-by-american-express-for-data-science-role-k-68bdb243",
-      "actionUrl": "https://unstop.com/quiz/inspired-by-american-express-for-data-science-role-krack-the-case-2026-aptitude-test-iit-guwahati-1736643",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 2 页",
-          "date": "2026-08-23",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=2&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "受到美国运通数据科学角色的启发：破解 2026 年能力倾向测试 — 阻止公共详细信息 API",
-          "date": "2026-08-23",
-          "url": "https://unstop.com/api/public/competition/1736643",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "受到美国运通数据科学角色的启发：破解 2026 年能力倾向测试 — Unstop",
-          "date": "2026-08-23",
-          "url": "https://unstop.com/quiz/inspired-by-american-express-for-data-science-role-krack-the-case-2026-aptitude-test-iit-guwahati-1736643",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-23",
-      "researchBatch": "2026-08-23",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/quiz/inspired-by-american-express-for-data-science-role-krack-the-case-2026-aptitude-test-iit-guwahati-1736643",
-      "sourceCategories": [
-        "Quiz",
-        "Data Interpretation",
-        "SQL",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Inspired By American Express for Data Science Role: Krack The Case 2026 Aptitude Test",
-      "originalFullName": "Inspired By American Express for Data Science Role: Krack The Case 2026 Aptitude Test"
-    },
-    {
       "id": "research-unstop-market-verdict-a-finance-case-debate-by-mochatrade-y-217775b8",
       "name": "市场裁决：Mochatrade 的金融案例辩论 (YC P26)",
       "fullName": "市场裁决：Mochatrade 的金融案例辩论 (YC P26)",
@@ -59107,7 +59064,7 @@
       "tier": "B",
       "match": 7.2,
       "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 19:00:00+05:30（亚洲/加尔各答）。",
+      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 23:59:00+05:30（亚洲/加尔各答）。",
       "recordType": "competition",
       "seriesId": null,
       "parentId": null,
@@ -59117,7 +59074,7 @@
         "date": "2026-08-23",
         "certainty": "confirmed",
         "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 19:00:00+05:30（亚洲/加尔各答）。"
+        "label": "报名截止时间为 2026 年 8 月 23 日 23:59:00+05:30（亚洲/加尔各答）。"
       },
       "deadlines": [
         {
@@ -59130,7 +59087,7 @@
         },
         {
           "type": "registration",
-          "date": "2026-08-23T19:00:00+05:30",
+          "date": "2026-08-23T23:59:00+05:30",
           "certainty": "confirmed",
           "timezone": "Asia/Kolkata",
           "label": "注册结束",
@@ -59166,7 +59123,7 @@
         },
         {
           "event": "注册结束",
-          "date": "2026-08-23T19:00:00+05:30",
+          "date": "2026-08-23T23:59:00+05:30",
           "timezone": "Asia/Kolkata",
           "critical": true
         },
@@ -62018,17 +61975,17 @@
       "tier": "B",
       "match": 7.2,
       "location": "Online",
-      "dateLabel": "注册截止时间为 2026 年 9 月 06 日 00:00:00+05:30（亚洲/加尔各答）。",
+      "dateLabel": "注册截止时间为 2026 年 9 月 19 日00:00:00+05:30（亚洲/加尔各答）。",
       "recordType": "competition",
       "seriesId": null,
       "parentId": null,
-      "deadlineDate": "2026-09-06",
+      "deadlineDate": "2026-09-19",
       "primaryDeadline": {
         "type": "registration",
-        "date": "2026-09-06",
+        "date": "2026-09-19",
         "certainty": "confirmed",
         "timezone": "Asia/Kolkata",
-        "label": "注册截止时间为 2026 年 9 月 06 日 00:00:00+05:30（亚洲/加尔各答）。"
+        "label": "注册截止时间为 2026 年 9 月 19 日00:00:00+05:30（亚洲/加尔各答）。"
       },
       "deadlines": [
         {
@@ -62041,7 +61998,7 @@
         },
         {
           "type": "registration",
-          "date": "2026-09-06T00:00:00+05:30",
+          "date": "2026-09-19T00:00:00+05:30",
           "certainty": "confirmed",
           "timezone": "Asia/Kolkata",
           "label": "注册结束",
@@ -62061,7 +62018,7 @@
         "checkedAt": "2026-08-23",
         "sourceKind": "official-platform",
         "linkHealth": "reachable",
-        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+        "notes": "在2026年8月23日与Unstop公开目录和官方公开详细信息API进行了新对账。"
       },
       "description": "概述： Disrupt是一个以增长为导向的创业训练营，采用包容性方法，旨在提供竞争优势，适应所有阶段和背景的创业公司。Disrupt在其旅程中与1,500多家初创公司合作，旨在为参与者快速提供业务开发、营销、GTM和产品开发等重要主题，其结构与轨道规格保持一致。资格：初创公司 估值大于或等于5 ₹ Cr.的投资不能参与。任何阶段的初创公司都可以参与。参赛队伍只能由1–5名成员组成。规则和准则：只有组长/创始人必须在注册轮次中注册。其他详细信息将在第0轮中收集。核心团队的成员不应超过5人。会员可以是大学生、教授或在职专业人士。您可以 参与多个创业点子。初创公司将被要求提供其初创公司的证明和详细信息。在Unstop注册后，您将收到来自IIT Guwahati的E-Cell的电子邮件，以进行进一步的注册流程。",
       "audience": "团队规模：1–5；其他资格限制必须在官方页面上查看。",
@@ -62079,7 +62036,7 @@
         },
         {
           "event": "注册结束",
-          "date": "2026-09-06T00:00:00+05:30",
+          "date": "2026-09-19T00:00:00+05:30",
           "timezone": "Asia/Kolkata",
           "critical": true
         },
@@ -62133,6 +62090,251 @@
       },
       "originalName": "Disrupt'27: The Ultimate Startup Bootcamp",
       "originalFullName": "Disrupt'27: The Ultimate Startup Bootcamp"
+    },
+    {
+      "id": "research-unstop-ai-readiness-productivity-quiz-f9d444e9",
+      "name": "AI 就绪度与生产力测评",
+      "fullName": "AI 就绪度与生产力测评",
+      "organization": "NoobSync Innovations",
+      "category": "创意 AI",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "注册截止时间为 2026 年 9 月 06 日 00:00:00+05:30（亚洲/加尔各答）。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-09-06",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-09-06",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "注册截止时间为 2026 年 9 月 06 日 00:00:00+05:30（亚洲/加尔各答）。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-23T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-09-06T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-09-06T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+      },
+      "description": "这是一项约 5 分钟完成的 AI 就绪度与生产力测评，面向学生、应届生、职场人士和转行者。测评包含 15 道真实场景题，帮助你了解自己在时间管理、专注、优先级、学习、持续行动、团队协作和工作生活平衡方面的习惯。完成后可获得个人生产力画像、趣味性格结果和参与证书，也可登记参加免费的 AI 就绪度与职业指导活动。题目没有标准答案，请按真实倾向作答。",
+      "audience": "个人参与；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "未知——官方详细API未发布奖励信息。"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-23T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-09-06T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-09-06T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-ai-readiness-productivity-quiz-f9d444e9",
+      "actionUrl": "https://unstop.com/quiz/ai-readiness-productivity-quiz-noobsync-innovations-1743077",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "AI 就绪度与生产力测评—Unstop 官方详情 API",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/competition/1743077",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "AI 就绪度与生产力测评—Unstop",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/quiz/ai-readiness-productivity-quiz-noobsync-innovations-1743077",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-23",
+      "researchBatch": "2026-08-23",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/quiz/ai-readiness-productivity-quiz-noobsync-innovations-1743077",
+      "sourceCategories": [
+        "Quiz",
+        "Artificial Intelligence"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "AI Readiness & Productivity Quiz",
+      "originalFullName": "AI Readiness & Productivity Quiz"
+    },
+    {
+      "id": "research-unstop-slay-ctf-3e3f9af3",
+      "name": "Slay CTF（安全攻防赛事）",
+      "fullName": "Slay CTF",
+      "organization": "Jalpaiguri Government Engineering College (JGEC), West Bengal",
+      "category": "安全攻防",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "注册截止时间为 2026 年 11 月 30 日00:00:00+05:30（亚洲/加尔各答）。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-11-30",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-11-30",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "注册截止时间为 2026 年 11 月 30 日00:00:00+05:30（亚洲/加尔各答）。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-23T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-11-30T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-11-30T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+      },
+      "description": "Slay CTF 是一场 Jeopardy 题板式夺旗赛，用于考验攻防安全、分析思维与问题解决能力。比赛面向本科、研究生、专科学生、职业早期从业者和自学安全爱好者，可个人参赛或组成 1—4 人队伍，允许跨学校、跨专业组队。题目从入门到进阶，涵盖 Web 漏洞利用、开源情报、密码学、数字取证和逆向工程等方向。参赛者需利用漏洞、破解密码并追踪数字线索，在全球排行榜上竞争。",
+      "audience": "团队规模：1–4；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "未知——官方详细API未发布奖励信息。"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-23T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-11-30T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-11-30T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-slay-ctf-3e3f9af3",
+      "actionUrl": "https://unstop.com/hackathons/slay-ctf-jalpaiguri-government-engineering-college-jgec-west-bengal-1743206",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "Slay CTF—Unstop 官方详情 API",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/competition/1743206",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "Slay CTF—Unstop",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/hackathons/slay-ctf-jalpaiguri-government-engineering-college-jgec-west-bengal-1743206",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-23",
+      "researchBatch": "2026-08-23",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/hackathons/slay-ctf-jalpaiguri-government-engineering-college-jgec-west-bengal-1743206",
+      "sourceCategories": [
+        "Hackathon",
+        "Artificial Intelligence"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "Slay CTF"
     },
     {
       "id": "research-challenge-gov-acl-caregiver-ai-prize-challenge-b2c93d3c",
@@ -77363,14 +77565,14 @@
     }
   ],
   "asOfDate": "2026-08-23",
-  "activeAdditions": 409,
-  "activeResearchAdditions": 396,
+  "activeAdditions": 411,
+  "activeResearchAdditions": 398,
   "expiredRemoved": 164,
-  "preferenceExcluded": 255,
-  "internationalOnsiteExcluded": 255,
-  "preferenceCleanupRunId": "2026-08-23T13:01:33.761Z",
-  "expiredArchiveCount": 464,
-  "localizedAt": "2026-08-23T13:01:36.829Z",
+  "preferenceExcluded": 256,
+  "internationalOnsiteExcluded": 256,
+  "preferenceCleanupRunId": "2026-08-23T15:07:08.935Z",
+  "expiredArchiveCount": 465,
+  "localizedAt": "2026-08-23T15:07:14.304Z",
   "locale": "zh-CN",
   "localizationEngine": "Google Translate public endpoint with MyMemory public fallback via curl"
 }
