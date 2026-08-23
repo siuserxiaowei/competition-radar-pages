@@ -234,7 +234,7 @@ function applyFilters() {
     if (state.sort === 'match') return (b.match || 0) - (a.match || 0) || compareDeadlines(a, b);
     if (state.sort === 'tier') return (TIER_WEIGHT[b.tier] || 0) - (TIER_WEIGHT[a.tier] || 0) || compareDeadlines(a, b);
     if (state.sort === 'newest') return String(b.discoveredAt || b.correctedAt || '').localeCompare(String(a.discoveredAt || a.correctedAt || '')) || compareDeadlines(a, b);
-    return compareDeadlines(a, b);
+    return compareParticipationPreference(a, b) || compareDeadlines(a, b);
   });
 
   state.visible = Math.min(Math.max(state.visible, PAGE_SIZE), Math.max(state.filtered.length, PAGE_SIZE));
@@ -254,6 +254,18 @@ function compareDeadlines(a, b) {
   const bTime = b._deadline?.getTime() ?? Number.MAX_SAFE_INTEGER;
   if (aExpired && bExpired) return bTime - aTime;
   return aTime - bTime || (b.match || 0) - (a.match || 0);
+}
+
+function compareParticipationPreference(a, b) {
+  return participationPreferenceRank(a) - participationPreferenceRank(b);
+}
+
+function participationPreferenceRank(item) {
+  const { region, mode } = item.participation || {};
+  if (region === 'domestic' && mode === 'online') return 0;
+  if (region === 'domestic') return 1;
+  if (region === 'international' && mode === 'online') return 2;
+  return 3;
 }
 
 function renderList() {
