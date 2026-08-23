@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-23T11:25:31.763Z",
+  "updatedAt": "2026-08-23T12:12:54.424Z",
   "upstreamUpdatedAt": "2026-08-09",
   "generatedFrom": "https://siuserxiaowei.com/competitions.json",
-  "count": 659,
-  "additions": 641,
-  "curatedAdditions": 5,
-  "researchAdditions": 636,
+  "count": 670,
+  "additions": 649,
+  "curatedAdditions": 15,
+  "researchAdditions": 634,
   "researchPlatforms": 20,
   "researchDuplicates": 51,
   "researchCoverage": [
@@ -15,11 +15,11 @@
       "url": "https://devpost.com/hackathons",
       "region": "global",
       "focus": "hackathons",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official open-status JSON API traversed through a read-only renderer until accumulated rows matched meta.total_count.",
       "pagesChecked": 7,
-      "itemsSeen": 62,
-      "actionableFound": 62,
+      "itemsSeen": 61,
+      "actionableFound": 61,
       "completeListingClaim": true,
       "limitations": [
         "Scope follows Devpost open_state=open. Private/unlisted hackathons and items not exposed by the public API cannot be observed.",
@@ -27,8 +27,8 @@
         "AWS Trainium Frontier Competition was removed after the final live open-status API pass no longer returned it and its official detail page showed the event had ended on August 21, 2026.",
         "Direct unauthenticated requests were blocked or returned HTTP 202/403, so the public official JSON was read through r.jina.ai without login or CAPTCHA bypass."
       ],
-      "canonicalRecordCount": 62,
-      "uniqueAdditions": 52,
+      "canonicalRecordCount": 61,
+      "uniqueAdditions": 51,
       "duplicateRecords": 10,
       "activeCanonicalRecordCount": 58
     },
@@ -38,7 +38,7 @@
       "url": "https://www.kaggle.com/competitions",
       "region": "global",
       "focus": "data-science",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official ListCompetitions POST with LIST_OPTION_ACTIVE, public visibility, pageSize=1000, and no next token.",
       "pagesChecked": 2,
       "itemsSeen": 21,
@@ -62,7 +62,7 @@
       "url": "https://www.drivendata.org/competitions/",
       "region": "global",
       "focus": "social-impact-data",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official single-page catalogue rendered in full; all links before the explicit Completed competitions section were extracted.",
       "pagesChecked": 1,
       "itemsSeen": 10,
@@ -84,7 +84,7 @@
       "url": "https://zindi.africa/competitions",
       "region": "global",
       "focus": "data-science",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official public API status=open with per_page=100; API total matched returned rows.",
       "pagesChecked": 1,
       "itemsSeen": 5,
@@ -106,7 +106,7 @@
       "url": "https://www.aicrowd.com/challenges",
       "region": "global",
       "focus": "ai-research",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official server-rendered listing was exhausted (data-request-completed=true), then every card detail was checked for a structured UPCOMING/RUNNING round.",
       "pagesChecked": 1,
       "itemsSeen": 18,
@@ -127,7 +127,7 @@
       "url": "https://dorahacks.io/hackathon",
       "region": "global",
       "focus": "web3-ai",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official ongoing and upcoming filtered catalogues rendered in full; localized WEEX duplicates consolidated and Winner Announced excluded.",
       "pagesChecked": 2,
       "itemsSeen": 18,
@@ -151,7 +151,7 @@
       "url": "https://lablab.ai/event",
       "region": "global",
       "focus": "ai-hackathons",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official event listing rendered as a finite page; every card marked Register or TBA was retained and Finished cards excluded.",
       "pagesChecked": 1,
       "itemsSeen": 12,
@@ -175,7 +175,7 @@
       "url": "https://www.hackster.io/contests",
       "region": "global",
       "focus": "hardware-iot",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official active-contests RSS feed traversed as a finite document.",
       "pagesChecked": 1,
       "itemsSeen": 2,
@@ -197,7 +197,7 @@
       "url": "https://www.hackerearth.com/challenges/",
       "region": "global",
       "focus": "coding-hackathons",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official public challenge API returned its finite current feed; every previously known official detail URL was also fetched live because current official details exist outside that API feed.",
       "pagesChecked": 1,
       "itemsSeen": 46,
@@ -223,7 +223,7 @@
       "url": "https://devfolio.co/hackathons",
       "region": "global",
       "focus": "hackathons",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official search API POST queried separately for application_open and upcoming at size=100.",
       "pagesChecked": 2,
       "itemsSeen": 28,
@@ -247,11 +247,11 @@
       "url": "https://unstop.com/competitions",
       "region": "global",
       "focus": "student-business-tech",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "All official open-catalogue pages read until two consecutive full snapshots had identical ID sets and stable totals, plus the official detail API for every accepted ID; rows without registration/future stages excluded.",
       "pagesChecked": 8,
-      "itemsSeen": 347,
-      "actionableFound": 346,
+      "itemsSeen": 346,
+      "actionableFound": 345,
       "completeListingClaim": true,
       "limitations": [
         "The completeListingClaim is limited to Unstop’s public open catalogue at the check time. The UI/API exposes open and closed lifecycle filters; an upcoming parameter was not recognized as a distinct public catalogue and returned the unfiltered 10,000-record cap.",
@@ -264,10 +264,10 @@
         "The catalogue intentionally includes records typed by Unstop as competitions, hackathons, and quizzes because all are returned by the official Competitions listing endpoint.",
         "Some organizers omit structured prizes, concise eligibility, or venue details. Those fields are explicitly marked unknown rather than inferred from search snippets."
       ],
-      "canonicalRecordCount": 346,
-      "uniqueAdditions": 344,
+      "canonicalRecordCount": 345,
+      "uniqueAdditions": 343,
       "duplicateRecords": 2,
-      "activeCanonicalRecordCount": 165
+      "activeCanonicalRecordCount": 166
     },
     {
       "id": "challenge-gov",
@@ -275,7 +275,7 @@
       "url": "https://www.challenge.gov/",
       "region": "usa-global-eligibility-varies",
       "focus": "government-innovation",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Challenge.gov sunset was followed to its official USA.gov successor; every item on the finite page labelled select active challenges was extracted.",
       "pagesChecked": 1,
       "itemsSeen": 10,
@@ -301,7 +301,7 @@
       "url": "https://www.herox.com/crowdsourcing-projects",
       "region": "global",
       "focus": "innovation-prizes",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official public search API for enter and coming-soon, followed by a fresh official timeline request for every undated row; only explicit future timeline events were retained.",
       "pagesChecked": 2,
       "itemsSeen": 61,
@@ -326,7 +326,7 @@
       "url": "https://tianchi.aliyun.com/competition/gameList/activeList",
       "region": "china-global-varies",
       "focus": "data-ai",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official isActive=1 list API traversed until accumulated top-level rows matched reported total; nested tracks normalized by raceId.",
       "pagesChecked": 4,
       "itemsSeen": 35,
@@ -350,7 +350,7 @@
       "url": "https://www.datafountain.cn/competitions",
       "region": "china",
       "focus": "data-ai",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official catalogue API traversed until rows matched reported total; IN_SERVICE + open signup + future end retained.",
       "pagesChecked": 13,
       "itemsSeen": 370,
@@ -375,7 +375,7 @@
       "url": "https://challenge.xfyun.cn/",
       "region": "china-global-varies",
       "focus": "ai",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "All six official type/status API result sets at pageSize=1000 plus the separately surfaced official 星火杯 page.",
       "pagesChecked": 7,
       "itemsSeen": 630,
@@ -400,7 +400,7 @@
       "url": "https://developer.huaweicloud.com/competition/",
       "region": "china-global-varies",
       "focus": "cloud-ai",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official competition-list POST traversed at 100 rows/page until total plus the separately surfaced C4-AI official page.",
       "pagesChecked": 6,
       "itemsSeen": 425,
@@ -425,7 +425,7 @@
       "url": "https://tch.cloud.tencent.com/contest",
       "region": "china",
       "focus": "cloud-ai",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official tch.cloud.tencent.com contest POST traversed to total plus the separate legacy cloud.tencent.com/developer/competition finite HTML catalogue.",
       "pagesChecked": 4,
       "itemsSeen": 33,
@@ -450,7 +450,7 @@
       "url": "https://modelscope.cn/competitions",
       "region": "china-global-varies",
       "focus": "ai-models",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official competition catalogue API traversed until rows matched reported total; current competition rows require a future structured timestamp.",
       "pagesChecked": 2,
       "itemsSeen": 128,
@@ -475,7 +475,7 @@
       "url": "https://aistudio.baidu.com/competition",
       "region": "china",
       "focus": "ai-data",
-      "checkedAt": "2026-08-23T19:22:11+08:00",
+      "checkedAt": "2026-08-23T19:59:57+08:00",
       "method": "Official current/upcoming listing endpoints traversed, followed by the official match/detail POST for every candidate; only processCode=1 with a future structured date was retained.",
       "pagesChecked": 2,
       "itemsSeen": 44,
@@ -22214,6 +22214,454 @@
       }
     },
     {
+      "id": "huawei-gopaint-2026",
+      "name": "2026 华为天生会画数字创作大赛",
+      "fullName": "2026 华为天生会画数字创作大赛",
+      "organization": "华为终端",
+      "category": "创意 AI",
+      "tier": "S",
+      "match": 9.2,
+      "location": "中国线上投稿 · 数字绘画创作者",
+      "dateLabel": "投稿截止 2027-01-31",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2027-01-31",
+      "primaryDeadline": {
+        "type": "submission",
+        "date": "2027-01-31",
+        "certainty": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "label": "投稿截止"
+      },
+      "deadlines": [
+        {
+          "type": "submission",
+          "date": "2027-01-31",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "投稿截止",
+          "primary": true
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "华为官方赛事页直接确认 2026-08-05 启动、2027-01-31 截止投稿和奖项；公开正文未完整展示年龄、设备和作品格式限制，参赛前仍须在官网核对。"
+      },
+      "description": "华为面向数字艺术创作者举办的年度创作赛，官网公布年度创作者、金银铜奖、入围奖、未来之星奖和轻创作特别奖，并提供全球展示及官方应用机会。",
+      "audience": "数字绘画与插画创作者；具体年龄、设备、作品格式和知识产权要求以华为官方页面为准",
+      "rewards": [
+        "年度创作者 1 名：税前 50,000 元创作基金",
+        "金奖 3 名：各 30,000 元；银奖 5 名：各 20,000 元；铜奖 5 名：各 10,000 元",
+        "轻创作特别奖 5 名：各 5,000 元",
+        "入围奖、未来之星奖、全球展示与官方应用机会"
+      ],
+      "timeline": [
+        {
+          "event": "大赛启动",
+          "date": "2026-08-05",
+          "critical": false
+        },
+        {
+          "event": "投稿截止",
+          "date": "2027-01-31",
+          "critical": true
+        }
+      ],
+      "detailUrl": "#huawei-gopaint-2026",
+      "actionUrl": "https://consumer.huawei.com/cn/campaign/gopaint/",
+      "sources": [
+        {
+          "title": "华为官网｜天生会画数字创作大赛",
+          "date": "2026-08-23",
+          "url": "https://consumer.huawei.com/cn/campaign/gopaint/",
+          "sourceKind": "official_detail"
+        }
+      ],
+      "participation": {
+        "region": "domestic",
+        "regionLabel": "国内",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "chinaEligible": true,
+      "curatorCandidateIds": [
+        "cn-content-baidu-huawei-gopaint",
+        "cn-content-weibo-huawei-gopaint"
+      ],
+      "discoveredAt": "2026-08-23"
+    },
+    {
+      "id": "china-international-college-innovation-2026",
+      "name": "中国国际大学生创新大赛（2026）",
+      "fullName": "中国国际大学生创新大赛（2026）",
+      "organization": "中华人民共和国教育部 · 江苏省人民政府",
+      "category": "创业路演",
+      "tier": "S",
+      "match": 9.8,
+      "location": "中国 · 校级初赛、省级复赛与全国总决赛",
+      "dateLabel": "全国官网显示 7—9 月报名；各校内部截止日需另查",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": null,
+      "deadlineUnknownReason": "教育部大赛官网仅公布 2026 年 7—9 月报名区间，不同学校和赛区可能设置更早的内部截止日，不能臆造全国统一日级截止。",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": null,
+        "certainty": "month-range-only",
+        "timezone": "Asia/Shanghai",
+        "label": "7—9 月参赛报名；校级截止日需向所在学校核验"
+      },
+      "deadlines": [],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "教育部全国大学生创业服务网显示报名入口、2026 办赛通知和评审规则，并公布 7—9 月报名、8—10 月校赛/省赛、11 月总决赛；没有全国统一日级截止。"
+      },
+      "description": "教育部主办的全国大学生创新创业赛事，设置高教主赛道、青年红色筑梦之旅、职教、产业和萌芽等赛道；高教主赛道参赛类别明确包含“人工智能+”。",
+      "audience": "符合各赛道规则的中国高校学生、职业院校学生和相关项目团队；先联系所在学校确认校级报名截止与推荐流程",
+      "rewards": [
+        "高教主赛道中国大陆项目：金奖 240 个、银奖 480 个、铜奖 1440 个",
+        "青年红色筑梦之旅、职教与产业赛道分别设置金银铜奖",
+        "萌芽赛道设置创新潜力奖和总决赛入围证书"
+      ],
+      "timeline": [
+        {
+          "event": "参赛报名",
+          "date": "2026-07—2026-09",
+          "critical": true
+        },
+        {
+          "event": "高校初赛与省市复赛",
+          "date": "2026-08—2026-10",
+          "critical": false
+        },
+        {
+          "event": "全国总决赛",
+          "date": "2026-11",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#china-international-college-innovation-2026",
+      "actionUrl": "https://cy.ncss.cn/userhome",
+      "sources": [
+        {
+          "title": "全国大学生创业服务网｜中国国际大学生创新大赛（2026）",
+          "date": "2026-08-23",
+          "url": "https://cy.ncss.cn/",
+          "sourceKind": "official_detail"
+        },
+        {
+          "title": "教育部关于举办中国国际大学生创新大赛（2026）的通知",
+          "date": "2026-08-23",
+          "url": "https://cy.ncss.cn/information/2c93f4c69dfca46a019f91aa6535008a",
+          "sourceKind": "official_notice"
+        },
+        {
+          "title": "中国国际大学生创新大赛（2026）评审规则",
+          "date": "2026-08-23",
+          "url": "https://cy.ncss.cn/information/2c93f4c6a00f063201a01815a08e0022",
+          "sourceKind": "official_rules"
+        }
+      ],
+      "participation": {
+        "region": "domestic",
+        "regionLabel": "国内",
+        "mode": "unknown",
+        "modeLabel": "形式待确认"
+      },
+      "chinaEligible": true,
+      "curatorCandidateIds": [
+        "official-wechat-china-international-college-innovation-2026",
+        "bilibili-BV14E3x6jEGe",
+        "douyin-7643313409560031369"
+      ],
+      "discoveredAt": "2026-08-23"
+    },
+    {
+      "id": "cie-riscv-innovation-2026",
+      "name": "第二届 CIE 全国 RISC-V 高水平创新及应用大赛",
+      "fullName": "第二届 CIE 全国 RISC-V 高水平创新及应用大赛",
+      "organization": "中国电子学会及大赛联合组织单位",
+      "category": "开源开发",
+      "tier": "S",
+      "match": 9.3,
+      "location": "中国 · 在线初赛与决赛评审 · 全国总决赛线下",
+      "dateLabel": "在线报名与材料提交截止 2026-11-08 23:59",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-11-08",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-11-08",
+        "certainty": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "label": "在线报名与材料提交截止 23:59:59"
+      },
+      "deadlines": [
+        {
+          "type": "registration",
+          "date": "2026-11-08",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "在线报名与材料提交截止 23:59:59",
+          "primary": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "赛事官网及其公开官方 API 确认 6 月 30 日至 11 月 8 日在线报名，初赛和决赛采用在线评审，全国总决赛为线下现场讲演。"
+      },
+      "description": "面向 RISC-V 核心技术、开源生态与产业应用的全国赛事。报名阶段按赛题提交说明文档、PR/MR 或演示视频，先经在线初选和分领域决赛，再选拔项目进入全国线下总决赛。",
+      "audience": "中国个人、团队和相关单位；各赛题可能设置额外技术、成果或团队资格要求，应在报名系统逐项核对",
+      "rewards": [
+        "决赛排名前列项目获得中国电子学会盖章证书",
+        "全国总决赛优胜项目获得证书与纪念奖杯",
+        "高水平应用方向及部分定向命题赛题另设奖金或特色奖励"
+      ],
+      "timeline": [
+        {
+          "event": "报名开始",
+          "date": "2026-06-30",
+          "critical": false
+        },
+        {
+          "event": "在线报名与材料提交截止",
+          "date": "2026-11-08",
+          "critical": true
+        },
+        {
+          "event": "预赛在线评审",
+          "date": "2026-11-16—2026-11-27",
+          "critical": false
+        },
+        {
+          "event": "选拔赛在线评审",
+          "date": "2026-12-07—2026-12-18",
+          "critical": false
+        },
+        {
+          "event": "全国线下总决赛阶段",
+          "date": "2026-12-21—2027-01-16",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#cie-riscv-innovation-2026",
+      "actionUrl": "https://rv.cie.org.cn/",
+      "sources": [
+        {
+          "title": "CIE 全国 RISC-V 高水平创新及应用大赛官网",
+          "date": "2026-08-23",
+          "url": "https://rv.cie.org.cn/",
+          "sourceKind": "official_detail"
+        },
+        {
+          "title": "赛事官网公开官方数据接口",
+          "date": "2026-08-23",
+          "url": "https://api.rv.cie.org.cn/api/home/index",
+          "sourceKind": "official_api"
+        }
+      ],
+      "participation": {
+        "region": "domestic",
+        "regionLabel": "国内",
+        "mode": "hybrid",
+        "modeLabel": "线上+线下"
+      },
+      "chinaEligible": true,
+      "curatorCandidateIds": [
+        "juejin-001"
+      ],
+      "discoveredAt": "2026-08-23"
+    },
+    {
+      "id": "shanghai-open-source-innovation-2026",
+      "name": "2026 上海开源软件应用创新大赛",
+      "fullName": "2026 上海开源软件应用创新大赛",
+      "organization": "开源中国",
+      "category": "开源开发",
+      "tier": "S",
+      "match": 9.6,
+      "location": "全国报名与线上提交 · 入围团队上海线下路演",
+      "dateLabel": "报名与作品提交截止 2026-10-11 24:00",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-10-11",
+      "primaryDeadline": {
+        "type": "submission",
+        "date": "2026-10-11",
+        "certainty": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "label": "报名与作品材料提交截止 24:00"
+      },
+      "deadlines": [
+        {
+          "type": "submission",
+          "date": "2026-10-11",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "报名与作品材料提交截止 24:00",
+          "primary": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "开源中国赛事专页直接确认开放报名、全国资格、三条赛道、100 万元总奖池、10 月 11 日材料截止及 10 月 24 日上海线下总决赛。"
+      },
+      "description": "面向全国开源力量的 AI 与软件创新赛，设置 AI+工业软件、智算云、开源 AI 工具三条赛道，可选择企业命题或自主选题，要求提交可运行代码仓库、项目介绍和演示视频。",
+      "audience": "全国企业、高校、科研机构、开源社区和学生团队；个人或团队均可，建议 3—5 人",
+      "rewards": [
+        "总奖池累计 100 万元，包含现金、算力与 Token、大模型 API",
+        "每赛道一等奖 1 名、二等奖 2 名、三等奖 3 名、新锐潜力奖 4 名",
+        "获奖项目进入赛事项目库并获得产业、投融资和政策对接机会"
+      ],
+      "timeline": [
+        {
+          "event": "报名与作品材料提交截止 24:00",
+          "date": "2026-10-11",
+          "critical": true
+        },
+        {
+          "event": "公布入围名单",
+          "date": "2026-10-16",
+          "critical": false
+        },
+        {
+          "event": "上海线下总决赛路演",
+          "date": "2026-10-24",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#shanghai-open-source-innovation-2026",
+      "actionUrl": "https://www.oschina.net/os2026/",
+      "sources": [
+        {
+          "title": "开源中国｜2026 上海开源软件应用创新大赛",
+          "date": "2026-08-23",
+          "url": "https://www.oschina.net/os2026/",
+          "sourceKind": "official_detail"
+        }
+      ],
+      "participation": {
+        "region": "domestic",
+        "regionLabel": "国内",
+        "mode": "hybrid",
+        "modeLabel": "线上+线下"
+      },
+      "chinaEligible": true,
+      "curatorCandidateIds": [
+        "candidate-gap-juejin-shanghai-open-source"
+      ],
+      "discoveredAt": "2026-08-23"
+    },
+    {
+      "id": "ready-spec-ship-kiro-2026",
+      "name": "准备就绪，规格，发货Kiro 黑客松",
+      "fullName": "准备就绪，规格， 2026年船舶黑客马拉松",
+      "organization": "Coding Challenges · Kiro",
+      "category": "AI 软件",
+      "tier": "A",
+      "match": 9.2,
+      "location": "全球线上 · 成年个人或 2—3 人团队",
+      "dateLabel": "作品提交截止 2026-08-23 23:59 UTC（北京时间 8 月 24 日 07:59）",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-24",
+      "primaryDeadline": {
+        "type": "submission",
+        "date": "2026-08-24",
+        "certainty": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "label": "北京时间 07:59 截止；官方时间为 2026-08-23 23:59 UTC"
+      },
+      "deadlines": [
+        {
+          "type": "submission",
+          "date": "2026-08-24",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "北京时间 07:59 截止；官方时间为 2026-08-23 23:59 UTC",
+          "primary": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "赛事页与完整规则确认 8 月 23 日 23:59 UTC 截止、全球线上资格、个人或 2—3 人团队、中国大陆未列入排除地区；公开快照按北京时间行动日期保留到 8 月 24 日。"
+      },
+      "description": "使用 Kiro 构建、测试并发布真实可运行应用的线上黑客松。作品须为赛期内新项目，提交公开代码仓库、根目录 .kiro 文件夹、完整 README、可运行演示或测试版本、三分钟以内演示视频和测试说明。",
+      "audience": "达到所在地成年年龄的个人或 2—3 人团队；全球开放，中国大陆未列入官方排除地区；所有提交材料须为英文或附英文翻译",
+      "rewards": [
+        "$9,600 总奖励价值",
+        "第一名 $5,000 现金 + 12 个月 Kiro Pro Max",
+        "第二名 $1,000 现金 + 12 个月 Kiro Pro Max",
+        "第三名 12 个月 Kiro Pro Max"
+      ],
+      "timeline": [
+        {
+          "event": "作品提交截止 23:59 UTC（北京时间次日 07:59）",
+          "date": "2026-08-24",
+          "critical": true
+        },
+        {
+          "event": "评审期结束",
+          "date": "2026-09-05",
+          "critical": false
+        },
+        {
+          "event": "最晚公布获奖结果",
+          "date": "2026-09-06",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#ready-spec-ship-kiro-2026",
+      "actionUrl": "https://codingagents.fyi/hackathon/kiro/",
+      "sources": [
+        {
+          "title": "准备就绪、规格、船舶黑客马拉松 官方页面",
+          "date": "2026-08-23",
+          "url": "https://codingagents.fyi/hackathon/kiro/",
+          "sourceKind": "official_detail"
+        },
+        {
+          "title": "准备就绪、规格、船舶黑客马拉松 完整规则",
+          "date": "2026-08-23",
+          "url": "https://codingagents.fyi/hackathon/kiro/rules/",
+          "sourceKind": "official_rules"
+        }
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "chinaEligible": true,
+      "curatorCandidateIds": [
+        "dev-004"
+      ],
+      "discoveredAt": "2026-08-23",
+      "originalName": "Ready, Spec, Ship Kiro 黑客松",
+      "originalFullName": "Ready, Spec, Ship Hackathon 2026"
+    },
+    {
       "id": "all-things-agentic-google-2026",
       "name": "谷歌万物代理黑客马拉松",
       "fullName": "All Things Agentic 黑客马拉松 2026",
@@ -22505,6 +22953,479 @@
         "mode": "hybrid",
         "modeLabel": "线上+线下"
       }
+    },
+    {
+      "id": "comsol-shenzhen-showcase-2026",
+      "name": "COMSOL 用户年会 2026 深圳站仿真作品征集",
+      "fullName": "在 COMSOL 用户年会 2026（深圳站）上展示您的作品",
+      "organization": "COMSOL",
+      "category": "科研展示",
+      "tier": "A",
+      "match": 8.4,
+      "location": "中国线上提交 · 深圳线下展示与评奖",
+      "dateLabel": "摘要截止 2026-09-18；论文和海报截止 2026-09-30",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-09-18",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-09-18",
+        "certainty": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "label": "最终摘要提交截止"
+      },
+      "deadlines": [
+        {
+          "type": "registration",
+          "date": "2026-09-18",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "最终摘要提交截止",
+          "primary": true
+        },
+        {
+          "type": "submission",
+          "date": "2026-09-30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "入选后的论文和海报提交截止",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "COMSOL 中国官网确认摘要 9 月 18 日截止、论文和海报 9 月 30 日截止；最佳海报由 10 月 22 日深圳现场参会者投票，10 月 23 日现场公布，因此标为国内混合。"
+      },
+      "description": "面向使用 COMSOL 开展工程与科研仿真的用户征集摘要、论文、演讲和海报。摘要通过评审后可在深圳用户年会现场展示，也可只提交论文供会后收录；最佳海报奖由现场参会者投票产生。",
+      "audience": "拥有有效 COMSOL 软件许可、使用 COMSOL 开展仿真研究的中国工程师与科研人员；摘要入选后按官方要求提交论文、海报或演讲材料",
+      "rewards": [
+        "三项最佳海报奖，由现场参会者投票产生",
+        "录用的海报、演讲 PPT 与论文在 COMSOL 官网面向全球展示"
+      ],
+      "timeline": [
+        {
+          "event": "最终摘要提交截止",
+          "date": "2026-09-18",
+          "critical": true
+        },
+        {
+          "event": "论文和海报提交截止",
+          "date": "2026-09-30",
+          "critical": false
+        },
+        {
+          "event": "深圳现场展示与投票",
+          "date": "2026-10-22",
+          "critical": false
+        },
+        {
+          "event": "现场公布最佳海报",
+          "date": "2026-10-23",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#comsol-shenzhen-showcase-2026",
+      "actionUrl": "https://cn.comsol.com/conference/showcase/shenzhen",
+      "sources": [
+        {
+          "title": "COMSOL 中国｜用户年会 2026 深圳站",
+          "date": "2026-08-23",
+          "url": "https://cn.comsol.com/conference/shenzhen",
+          "sourceKind": "official_detail"
+        },
+        {
+          "title": "COMSOL 中国｜深圳站仿真作品征集",
+          "date": "2026-08-23",
+          "url": "https://cn.comsol.com/conference/showcase/shenzhen",
+          "sourceKind": "official_rules"
+        }
+      ],
+      "participation": {
+        "region": "domestic",
+        "regionLabel": "国内",
+        "mode": "hybrid",
+        "modeLabel": "线上+线下"
+      },
+      "chinaEligible": true,
+      "curatorCandidateIds": [
+        "cn-content-zhihu-comsol-showcase"
+      ],
+      "discoveredAt": "2026-08-23"
+    },
+    {
+      "id": "hiiibrand-awards-2026",
+      "name": "Hiiibrand Awards 2026 国际品牌与传达设计大赛",
+      "fullName": "2026年Hiiibrand大奖",
+      "organization": "Hiiibrand",
+      "category": "视觉设计",
+      "tier": "A",
+      "match": 7.9,
+      "location": "全球线上投稿 · 中国参赛者可参加",
+      "dateLabel": "常规投稿截止 2026-08-31 23:59（北京时间）",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-31",
+      "primaryDeadline": {
+        "type": "submission",
+        "date": "2026-08-31",
+        "certainty": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "label": "常规新投稿截止 23:59:59"
+      },
+      "deadlines": [
+        {
+          "type": "submission",
+          "date": "2026-08-31",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "常规新投稿截止 23:59:59",
+          "primary": true
+        },
+        {
+          "type": "update",
+          "date": "2026-09-30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "已投稿作品调整阶段截止；不可新建投稿",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "Hiiibrand 官方赛事页和无需登录的公开数据确认当前可新建投稿，常规截止为北京时间 8 月 31 日 23:59:59；9 月 30 日仅为已投稿作品调整阶段，不作为新参赛者截止。"
+      },
+      "description": "面向全球品牌、标志、包装、字体、插画及传达设计作品的线上赛事，分专业组和学生组投稿。新参赛者须在常规投稿阶段创建作品，之后的调整期只允许修改已提交内容。",
+      "audience": "全球专业设计师、设计机构和学生；中国参赛者可通过官网在线投稿，组别、作品年份、版权和费用要求以官方页面为准",
+      "rewards": [
+        "专业组与学生组奖项及官方获奖展示",
+        "入选作品获得 Hiiibrand 全球创意平台传播机会"
+      ],
+      "timeline": [
+        {
+          "event": "常规新投稿截止 23:59:59",
+          "date": "2026-08-31",
+          "critical": true
+        },
+        {
+          "event": "已投稿作品调整阶段截止",
+          "date": "2026-09-30",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#hiiibrand-awards-2026",
+      "actionUrl": "https://hiiibrand.com/awards/hiiibrand_awards_2026",
+      "sources": [
+        {
+          "title": "Hiiibrand｜赛事总览",
+          "date": "2026-08-23",
+          "url": "https://hiiibrand.com/awards",
+          "sourceKind": "official_listing"
+        },
+        {
+          "title": "2026年Hiiibrand大奖 官方页面",
+          "date": "2026-08-23",
+          "url": "https://hiiibrand.com/awards/hiiibrand_awards_2026",
+          "sourceKind": "official_detail"
+        }
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "chinaEligible": true,
+      "curatorCandidateIds": [
+        "cn-content-weibo-hiiibrand-open"
+      ],
+      "discoveredAt": "2026-08-23",
+      "originalFullName": "Hiiibrand Awards 2026"
+    },
+    {
+      "id": "opencv-ai-competition-2026",
+      "name": "OpenCV AI 竞赛 2026",
+      "fullName": "2026年OpenCV人工智能竞赛",
+      "organization": "OpenCV",
+      "category": "计算机视觉",
+      "tier": "S",
+      "match": 9.1,
+      "location": "全球线上 · 中国大陆未列入排除地区",
+      "dateLabel": "作品提交截止 2026-10-26 23:59 美西时间（北京时间 10 月 27 日）",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-10-27",
+      "primaryDeadline": {
+        "type": "submission",
+        "date": "2026-10-27",
+        "certainty": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "label": "北京时间截止日期；官方时间为 2026-10-26 23:59 Pacific Time"
+      },
+      "deadlines": [
+        {
+          "type": "submission",
+          "date": "2026-10-27",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "北京时间截止日期；官方时间为 2026-10-26 23:59 Pacific Time",
+          "primary": true
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "OpenCV 主办方页面和官方 Devpost 页面确认赛事开放、线上提交与评审、10 月 26 日 23:59 美西时间截止；中国大陆未列入官方排除地区。官网对团队人数上限存在 4 人与 5 人的冲突，因此本记录不写死团队人数。"
+      },
+      "description": "OpenCV 面向计算机视觉与空间智能开发者举办的全球线上竞赛，参赛者围绕官方方向提交提案、构建可运行的 AI 应用，并通过 Devpost 提交技术说明、演示和可供评审访问的端点或屏幕共享演示。",
+      "audience": "计算机视觉、AI 与空间智能开发者；全球开放，中国大陆未列入官方排除地区；团队人数等细则以最终 Devpost 规则为准",
+      "rewards": [
+        "总奖励最高 12,000 美元",
+        "OpenCV 官方展示与社区曝光机会"
+      ],
+      "timeline": [
+        {
+          "event": "报名与提案开放",
+          "date": "2026-08-12",
+          "critical": false
+        },
+        {
+          "event": "构建阶段开始",
+          "date": "2026-08-26",
+          "critical": false
+        },
+        {
+          "event": "作品提交截止 23:59 美西时间",
+          "date": "2026-10-27",
+          "critical": true
+        }
+      ],
+      "detailUrl": "#opencv-ai-competition-2026",
+      "actionUrl": "https://opencv26.devpost.com/",
+      "sources": [
+        {
+          "title": "OpenCV ｜ OpenCV人工智能竞赛2026",
+          "date": "2026-08-23",
+          "url": "https://opencv.org/opencv-ai-competition-2026/",
+          "sourceKind": "official_detail"
+        },
+        {
+          "title": "Devpost ｜ OpenCV人工智能竞赛2026",
+          "date": "2026-08-23",
+          "url": "https://opencv26.devpost.com/",
+          "sourceKind": "official_registration"
+        },
+        {
+          "title": "Devpost ｜ OpenCV人工智能竞赛2026 官方规则",
+          "date": "2026-08-23",
+          "url": "https://opencv26.devpost.com/rules",
+          "sourceKind": "official_rules"
+        }
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "chinaEligible": true,
+      "curatorCandidateIds": [
+        "official-001"
+      ],
+      "discoveredAt": "2026-08-23",
+      "originalName": "OpenCV AI 竞赛 2026",
+      "originalFullName": "OpenCV AI Competition 2026"
+    },
+    {
+      "id": "twilio-ai-startup-searchlight-2026",
+      "name": "Twilio 全球 AI 初创企业评选 2026",
+      "fullName": "Twilio AI Startup Searchlight 2026",
+      "organization": "Twilio",
+      "category": "创业路演",
+      "tier": "A",
+      "match": 8.3,
+      "location": "全球线上申请 · 面向已使用 Twilio 的 AI 初创企业",
+      "dateLabel": "申请截止 2026-09-11；官方未公布具体时刻与时区",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-09-11",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-09-11",
+        "certainty": "date-only",
+        "timezone": null,
+        "label": "申请截止；官方未公布具体时刻与时区"
+      },
+      "deadlines": [
+        {
+          "type": "registration",
+          "date": "2026-09-11",
+          "certainty": "date-only",
+          "timezone": null,
+          "label": "申请截止；官方未公布具体时刻与时区",
+          "primary": true
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "Twilio 官方活动页和公告确认 9 月 11 日截止、全球均可申请、在线表单申请和远程评审；官方未给出截止时刻或时区，因此不作推测。"
+      },
+      "description": "Twilio 面向通信与客户互动领域 AI 初创企业发起的全球评选计划。申请企业须展示已经集成 Twilio 的可运行产品，通过官方在线表单提交 Demo 和公司信息，入选后获得产品资源、品牌曝光及与 Twilio Ventures 对接的机会。",
+      "audience": "已有 Twilio 集成和可运行 Demo 的初创企业；融资少于 2 亿美元，需有 Twilio 账号，联系人年满 21 岁；全球申请，中国大陆未被排除",
+      "rewards": [
+        "评选 30 家入选企业",
+        "Twilio 产品额度和官方品牌曝光",
+        "与 Twilio Ventures 及生态资源对接机会"
+      ],
+      "timeline": [
+        {
+          "event": "申请截止",
+          "date": "2026-09-11",
+          "critical": true
+        },
+        {
+          "event": "远程评审与在线公布",
+          "date": "待官方公布",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#twilio-ai-startup-searchlight-2026",
+      "actionUrl": "https://www.twilio.com/en-us/lp/twilio-ai-startup-searchlight",
+      "sources": [
+        {
+          "title": "Twilio ｜ AI初创探照灯2026",
+          "date": "2026-08-23",
+          "url": "https://www.twilio.com/en-us/lp/twilio-ai-startup-searchlight",
+          "sourceKind": "official_detail"
+        },
+        {
+          "title": "Twilio 官方公告｜召集所有人工智能初创公司",
+          "date": "2026-08-23",
+          "url": "https://www.twilio.com/en-us/blog/company/news/calling-all-ai-startups-twilios-ai-startup-searchlight-2026",
+          "sourceKind": "official_notice"
+        }
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "chinaEligible": true,
+      "curatorCandidateIds": [
+        "candidate-gap-csdn-twilio-searchlight"
+      ],
+      "discoveredAt": "2026-08-23",
+      "originalName": "Twilio AI 初创企业 Searchlight 2026",
+      "originalFullName": "Twilio AI Startup Searchlight 2026"
+    },
+    {
+      "id": "skillvalix-ai-sales-sprint-2026",
+      "name": "SkillValix AI 销售冲刺黑客松 2026",
+      "fullName": "2026年人工智能销售冲刺黑客马拉松",
+      "organization": "SkillValix",
+      "category": "AI 软件",
+      "tier": "A",
+      "match": 8.5,
+      "location": "全球纯线上 · 1—6 人 · 每队报名费 ₹500",
+      "dateLabel": "报名截止 2026-09-22；作品提交截止 2026-09-24",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-09-24",
+      "primaryDeadline": {
+        "type": "submission",
+        "date": "2026-09-24",
+        "certainty": "confirmed",
+        "timezone": "UTC",
+        "label": "作品提交截止 14:31 UTC"
+      },
+      "deadlines": [
+        {
+          "type": "registration",
+          "date": "2026-09-22",
+          "certainty": "confirmed",
+          "timezone": "UTC",
+          "label": "报名截止 14:30 UTC",
+          "primary": false
+        },
+        {
+          "type": "submission",
+          "date": "2026-09-24",
+          "certainty": "confirmed",
+          "timezone": "UTC",
+          "label": "作品提交截止 14:31 UTC",
+          "primary": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "SkillValix 官方赛事页和同源公开 API 确认当前开放、全球可参加、完整线上、1—6 人、每队 ₹500，报名和提交截止时间均已公布；中国大陆未被排除。"
+      },
+      "description": "围绕 AI 销售与 B2B 获客构建可投入演示的产品，包括智能线索发现与评分、个性化邮件生成、人工审核、跟进建议和营销活动分析。作品需提交源代码、说明文档、截图和公开演示材料。",
+      "audience": "全球个人或 1—6 人团队，初学者可参加，中国大陆未被排除；每队报名费 ₹500，须在报名后按官方要求公开提交作品材料",
+      "rewards": [
+        "前三名分别获得标称价值 ₹100,000、₹75,000、₹50,000 的奖励组合",
+        "前十名获得 SkillValix 认证考试权益和证书",
+        "提交有效作品的参赛者获得可验证参赛证书"
+      ],
+      "timeline": [
+        {
+          "event": "报名截止 14:30 UTC",
+          "date": "2026-09-22",
+          "critical": true
+        },
+        {
+          "event": "作品提交截止 14:31 UTC",
+          "date": "2026-09-24",
+          "critical": true
+        }
+      ],
+      "detailUrl": "#skillvalix-ai-sales-sprint-2026",
+      "actionUrl": "https://www.skillvalix.com/hackathons/ai-sales-sprint-hackathon-2026",
+      "sources": [
+        {
+          "title": "SkillValix ｜ 2026年人工智能销售冲刺黑客马拉松",
+          "date": "2026-08-23",
+          "url": "https://www.skillvalix.com/hackathons/ai-sales-sprint-hackathon-2026",
+          "sourceKind": "official_detail"
+        },
+        {
+          "title": "SkillValix 官方公开赛事 API",
+          "date": "2026-08-23",
+          "url": "https://api.skillvalix.com/api/events/hackathons/ai-sales-sprint-hackathon-2026",
+          "sourceKind": "official_api"
+        }
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "chinaEligible": true,
+      "curatorCandidateIds": [
+        "dev-007"
+      ],
+      "discoveredAt": "2026-08-23",
+      "originalFullName": "AI Sales Sprint Hackathon 2026"
     },
     {
       "id": "research-devpost-africa-deep-tech-challenge-2026-dd2fd238",
@@ -60615,7 +61536,7 @@
         "checkedAt": "2026-08-23",
         "sourceKind": "official-platform",
         "linkHealth": "reachable",
-        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+        "notes": "在2026年8月23日与Unstop公开目录和官方公开详细信息API进行了新对账。"
       },
       "description": "机会描述思考。代码。竞争。征服。QuizCred推出CodeArena 2026 ，这是一项在线编码竞赛，旨在挑战学生的编程、解决问题、逻辑思维和DSA技能。无论您是初学者，迈出竞争性编程的第一步，还是经验丰富的程序员， CodeArena都能让您有机会测试自己的技能，与印度各地的学生竞争，并展示您的编程 能力。资格向攻读B.Tech/B.E.、BCA、B.Sc.的学生开放。、MCA、文凭和其他技术/CS相关课程。一年级、二年级、三年级和四年级的学生可以参加。向印度各地学院/大学的学生开放。参与者可以单独参加比赛。根据编码平台支持的语言，对所使用的编程语言没有限制。比赛形式第1轮–在线预选赛 时长： 60分钟学员将解答一系列编程和逻辑思维问题。问题将涵盖以下主题：编程基础数组和字符串搜索和排序基本数据结构算法逻辑问题解决参与者将根据分数和提交时间进行排名。表现最佳的参与者将有资格参加最后一轮比赛。第2轮–最终编码挑战持续时间： 90分钟参与者 将解决不同难度的多个编码问题。问题将包括简单、中等和困难级别的挑战。最终排名将根据通过的测试案例、分数和花费的时间来确定。规则每位参与者必须使用自己的身份证登记……",
       "audience": "个人参与；其他资格限制必须在官方页面上查看。",
@@ -60737,7 +61658,7 @@
         "checkedAt": "2026-08-23",
         "sourceKind": "official-platform",
         "linkHealth": "reachable",
-        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+        "notes": "在2026年8月23日与Unstop公开目录和官方公开详细信息API进行了新对账。"
       },
       "description": "PromptCraft ： AI创意挑战赛– 2026年8月社区链接：点击这里关于竞赛PromptCraft ： AI创意挑战赛是一项在线个人竞赛，旨在测试参与者的创造力、提示工程技能、概念开发和演示能力。参与者将获得一个挑战主题，并且将有限的时间使用有效的提示制定一个创造性的概念，并展示他们的工作流程 评委。资格向学生、毕业生、专业人士和人工智能/创意爱好者开放。无需事先具备专业经验。参与是个人的，参与者应该对人工智能工具和创意提示有基本的了解。竞赛形式模式：在线参赛：个人时长：约45–50分钟演讲时间：每位参赛者60秒平台： Google Meet主题：挑战主题将 由组织者宣布。过程通过Unstop注册比赛。加入官方沟通渠道，了解活动动态。在预定时间加入Google Meet会话。挑战主题和说明将公布。在给定的时间内使用创意提示发展您的概念。为您的概念和工作流程准备一份简短的演示文稿。在分配的60秒间距内展示您的作品。评委将 根据公布的标准对提交内容进行评估。排名最高的参与者将被宣布为获胜者。评估标准将对参与者进行评估：概念创新–创意的原创性和创造性。提示工程– E…",
       "audience": "个人参与；其他资格限制必须在官方页面上查看。",
@@ -60860,7 +61781,7 @@
         "checkedAt": "2026-08-23",
         "sourceKind": "official-platform",
         "linkHealth": "reachable",
-        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+        "notes": "在2026年8月23日与Unstop公开目录和官方公开详细信息API进行了新对账。"
       },
       "description": "欢迎来到尼尔吉里斯圣裘德公立学校（ SJPS ）的圣裘德守则竞技场！面向有抱负的编码人员的在线编码挑战。关于机会：走进圣裘德守则竞技场（ St. Jude's Code Arena ） ，这是由尼尔吉里斯圣裘德公立学校（ SJPS ）主办的激动人心的在线编码挑战赛。此活动专为渴望在动态的虚拟环境中测试和展示其编程技能的个人而设计。准备好参与具有挑战性的活动 问题，将您的编码技能提升到一个新的水平。这是您磨练Python技能并提高逻辑推理能力的机会。无论您是想获得经验，与同行竞争，还是只是享受解决问题的快感， St. Jude's Code Arena都提供了一个独特的平台，供您在技术领域学习和成长。资格和注册： St. Jude's Code Arena仅适用于 9–12年级的学生。支持的语言： C C + + Java Python 3 +竞赛结构：本次在线编程挑战的结构如下：由于这是一项在线编程挑战，参与者将直接通过其数字环境参与解决问题。奖励和奖品：奖励和奖品详情（如提供） ：第一名-现金奖第二名-礼物第三名-证书加入圣犹大守则竞技场 在这个引人入胜的在线挑战中展示您的编码天赋！",
       "audience": "个人参与；其他资格限制必须在官方页面上查看。",
@@ -60985,7 +61906,7 @@
         "checkedAt": "2026-08-23",
         "sourceKind": "official-platform",
         "linkHealth": "reachable",
-        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+        "notes": "在2026年8月23日与Unstop公开目录和官方公开详细信息API进行了新对账。"
       },
       "description": "概述：活动名称： INIT '26 –黑客马拉松形式： 24小时在线黑客马拉松模式：在线资格：来自公认高校的工程专业学生团队规模：正好3名成员地点：在线参与者将有24小时的时间根据黑客马拉松开始时发布的问题陈述构思、构建和开发解决方案。资格和团队规则：仅向任何认可的工程专业学生开放 学院/大学。每个团队必须由3名成员组成。允许大学间团队参赛。来自不同工程专业和学年的成员可以组成一个团队。每个参与者只能加入一个团队。曲目：参与者可以在注册过程中从两首曲目中选择一首。轨道1 ：金融科技轨道2 ：公共安全注意：注册完成后，所选轨道无法更改。黑客马拉松时间表： 5 2026年9月12:00 PM —黑客马拉松开始：问题陈述将发布， 24小时构建期将正式开始。2026年9月6日12:00 PM —提交截止日期：所有团队必须在截止日期前提交最终项目和演示材料。必填提交要求：每个团队都需要提交以下两项：项目/存储库链接： GitHub存储库链接或原型/部署项目链接 创意演示（ PPT ） ：团队必须提交一份PPT ，解释其解决方案。正式的PPT格式/模板将由组织团队提供。两者都必须提交。未能提交任何一个组成部分可能会导致提交材料被考虑在……",
       "audience": "团队规模： 3人；必须在官方页面上查看其他资格限制。",
@@ -61055,6 +61976,128 @@
       },
       "originalName": "INIT'26 - Hackathon",
       "originalFullName": "INIT'26 - Hackathon"
+    },
+    {
+      "id": "research-unstop-cloudforge-66b4569d",
+      "name": "Cloudforge（安全攻防赛事）",
+      "fullName": "Cloudforge",
+      "organization": "Atal Bihari Vajpayee-Indian Institute of Information Technology and Management",
+      "category": "安全攻防",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "2026-08-25T 00:01:00 + 05:30 （亚洲/加尔各答）报名截止。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-25",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-08-25",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "2026-08-25T 00:01:00 + 05:30 （亚洲/加尔各答）报名截止。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-20T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-08-25T00:01:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-09-06T12:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+      },
+      "description": "这是一场大学间黑客马拉松，旨在鼓励学生使用现代技术构建创新、实用和有影响力的解决方案，包括云计算、人工智能、生成式人工智能、Web开发、数据科学、网络安全和其他新兴技术。请在Student Builder Group上注册，以便顺利进行： Student Builder Group点击查看轨道和问题陈述：问题陈述 资格向目前就读的大专/大学生开放。任何专业/分支机构（ CSE、ECE、EEE、机械、土木等）的学生均可参加。格式和流程注册：参与者单独注册。问题陈述/主题：将提供多个轨道，涵盖AI/GenAI、云、Web/移动开发、自动化、网络安全和开放式创新等领域。创意与发展：选择一项 问题陈述，并在黑客马拉松期间开发工作原型/解决方案。提交：在截止日期前提交您的项目、源代码/存储库、项目描述和所需的文档。评估：项目将由导师/评委根据创新、技术实施、与问题陈述的相关性、可用性、可扩展性和演示文稿进行评估。竞赛格式问题陈述/曲目数量：待定 开发回合：团队在整个黑客马拉松中选择问题陈述。最终评审/演示所有提交必须在宣布的截止日期前完成。规则提交的项目必须由注册团队在……期间开发",
+      "audience": "个人参与；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "热门提交内容— 120,000印度卢比—价值AWS积分"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-20T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-08-25T00:01:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-09-06T12:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-cloudforge-66b4569d",
+      "actionUrl": "https://unstop.com/hackathons/cloudforge-atal-bihari-vajpayee-indian-institute-of-information-technology-and-management-1741840",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "Cloudforge — 停止公共详细 API",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/competition/1741840",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "Cloudforge — 不间断",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/hackathons/cloudforge-atal-bihari-vajpayee-indian-institute-of-information-technology-and-management-1741840",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-23",
+      "researchBatch": "2026-08-23",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/hackathons/cloudforge-atal-bihari-vajpayee-indian-institute-of-information-technology-and-management-1741840",
+      "sourceCategories": [
+        "Hackathon",
+        "Artificial Intelligence"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "Cloudforge"
     },
     {
       "id": "research-challenge-gov-acl-caregiver-ai-prize-challenge-b2c93d3c",
@@ -76285,14 +77328,14 @@
     }
   ],
   "asOfDate": "2026-08-23",
-  "activeAdditions": 398,
-  "activeResearchAdditions": 395,
+  "activeAdditions": 409,
+  "activeResearchAdditions": 396,
   "expiredRemoved": 164,
-  "preferenceExcluded": 257,
-  "internationalOnsiteExcluded": 257,
-  "preferenceCleanupRunId": "2026-08-23T11:24:11.892Z",
+  "preferenceExcluded": 254,
+  "internationalOnsiteExcluded": 254,
+  "preferenceCleanupRunId": "2026-08-23T12:12:51.629Z",
   "expiredArchiveCount": 463,
-  "localizedAt": "2026-08-23T11:25:31.643Z",
+  "localizedAt": "2026-08-23T12:12:54.335Z",
   "locale": "zh-CN",
   "localizationEngine": "Google Translate public endpoint with MyMemory public fallback via curl"
 }

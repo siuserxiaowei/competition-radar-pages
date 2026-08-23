@@ -282,7 +282,7 @@ function renderList() {
     const favorite = fragment.querySelector('.favorite-button');
     fragment.querySelector('.card-index').textContent = String(index + 1).padStart(2, '0');
     fragment.querySelector('.card-title').textContent = item.name;
-    fragment.querySelector('.card-org').textContent = `${item.organization || '主办方待确认'} · ${localizedLocation(item.location)}`;
+    fragment.querySelector('.card-org').textContent = `${localizedOrganization(item.organization)} · ${localizedLocation(item.location)}`;
     fragment.querySelector('.card-deadline').textContent = item._status.label;
     fragment.querySelector('.card-score').textContent = `${item.tier || '—'} / 适配 ${Number(item.match || 0).toFixed(1)}`;
     fragment.querySelector('.card-flags').append(...buildFlags(item));
@@ -361,7 +361,7 @@ function renderDetail(item) {
       <header class="detail-head">
         <div class="detail-kicker">${flags}</div>
         <h3>${escapeHtml(item.name)}</h3>
-        <p class="detail-org">${escapeHtml(item.organization || '主办方待确认')} · ${escapeHtml(localizedLocation(item.location))}</p>
+        <p class="detail-org">${escapeHtml(localizedOrganization(item.organization))} · ${escapeHtml(localizedLocation(item.location))}</p>
       </header>
       <div class="detail-deadline">
         <div>
@@ -463,6 +463,12 @@ function localizedLocation(value) {
   if (/^Online$/i.test(text)) return '线上';
   if (/^Virtual$/i.test(text)) return '线上';
   if (/^Hybrid$/i.test(text)) return '线上与线下混合';
+  return text;
+}
+
+function localizedOrganization(value) {
+  const text = String(value || '').trim();
+  if (!text || /^(?:unknown\b|nill$)/i.test(text)) return '主办方待确认';
   return text;
 }
 
