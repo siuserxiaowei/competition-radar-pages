@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-23T12:12:54.424Z",
+  "updatedAt": "2026-08-23T13:01:36.950Z",
   "upstreamUpdatedAt": "2026-08-09",
   "generatedFrom": "https://siuserxiaowei.com/competitions.json",
   "count": 670,
-  "additions": 649,
+  "additions": 650,
   "curatedAdditions": 15,
-  "researchAdditions": 634,
+  "researchAdditions": 635,
   "researchPlatforms": 20,
-  "researchDuplicates": 51,
+  "researchDuplicates": 50,
   "researchCoverage": [
     {
       "id": "devpost",
@@ -15,11 +15,11 @@
       "url": "https://devpost.com/hackathons",
       "region": "global",
       "focus": "hackathons",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official open-status JSON API traversed through a read-only renderer until accumulated rows matched meta.total_count.",
       "pagesChecked": 7,
-      "itemsSeen": 61,
-      "actionableFound": 61,
+      "itemsSeen": 60,
+      "actionableFound": 60,
       "completeListingClaim": true,
       "limitations": [
         "Scope follows Devpost open_state=open. Private/unlisted hackathons and items not exposed by the public API cannot be observed.",
@@ -27,10 +27,10 @@
         "AWS Trainium Frontier Competition was removed after the final live open-status API pass no longer returned it and its official detail page showed the event had ended on August 21, 2026.",
         "Direct unauthenticated requests were blocked or returned HTTP 202/403, so the public official JSON was read through r.jina.ai without login or CAPTCHA bypass."
       ],
-      "canonicalRecordCount": 61,
-      "uniqueAdditions": 51,
+      "canonicalRecordCount": 60,
+      "uniqueAdditions": 50,
       "duplicateRecords": 10,
-      "activeCanonicalRecordCount": 58
+      "activeCanonicalRecordCount": 57
     },
     {
       "id": "kaggle",
@@ -38,7 +38,7 @@
       "url": "https://www.kaggle.com/competitions",
       "region": "global",
       "focus": "data-science",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official ListCompetitions POST with LIST_OPTION_ACTIVE, public visibility, pageSize=1000, and no next token.",
       "pagesChecked": 2,
       "itemsSeen": 21,
@@ -62,7 +62,7 @@
       "url": "https://www.drivendata.org/competitions/",
       "region": "global",
       "focus": "social-impact-data",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official single-page catalogue rendered in full; all links before the explicit Completed competitions section were extracted.",
       "pagesChecked": 1,
       "itemsSeen": 10,
@@ -84,7 +84,7 @@
       "url": "https://zindi.africa/competitions",
       "region": "global",
       "focus": "data-science",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official public API status=open with per_page=100; API total matched returned rows.",
       "pagesChecked": 1,
       "itemsSeen": 5,
@@ -106,7 +106,7 @@
       "url": "https://www.aicrowd.com/challenges",
       "region": "global",
       "focus": "ai-research",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official server-rendered listing was exhausted (data-request-completed=true), then every card detail was checked for a structured UPCOMING/RUNNING round.",
       "pagesChecked": 1,
       "itemsSeen": 18,
@@ -127,7 +127,7 @@
       "url": "https://dorahacks.io/hackathon",
       "region": "global",
       "focus": "web3-ai",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official ongoing and upcoming filtered catalogues rendered in full; localized WEEX duplicates consolidated and Winner Announced excluded.",
       "pagesChecked": 2,
       "itemsSeen": 18,
@@ -141,8 +141,8 @@
         "Direct unauthenticated requests triggered AWS WAF, so public official URLs were read through r.jina.ai without solving or bypassing a CAPTCHA."
       ],
       "canonicalRecordCount": 15,
-      "uniqueAdditions": 11,
-      "duplicateRecords": 4,
+      "uniqueAdditions": 12,
+      "duplicateRecords": 3,
       "activeCanonicalRecordCount": 13
     },
     {
@@ -151,7 +151,7 @@
       "url": "https://lablab.ai/event",
       "region": "global",
       "focus": "ai-hackathons",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official event listing rendered as a finite page; every card marked Register or TBA was retained and Finished cards excluded.",
       "pagesChecked": 1,
       "itemsSeen": 12,
@@ -175,7 +175,7 @@
       "url": "https://www.hackster.io/contests",
       "region": "global",
       "focus": "hardware-iot",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official active-contests RSS feed traversed as a finite document.",
       "pagesChecked": 1,
       "itemsSeen": 2,
@@ -197,7 +197,7 @@
       "url": "https://www.hackerearth.com/challenges/",
       "region": "global",
       "focus": "coding-hackathons",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official public challenge API returned its finite current feed; every previously known official detail URL was also fetched live because current official details exist outside that API feed.",
       "pagesChecked": 1,
       "itemsSeen": 46,
@@ -223,7 +223,7 @@
       "url": "https://devfolio.co/hackathons",
       "region": "global",
       "focus": "hackathons",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official search API POST queried separately for application_open and upcoming at size=100.",
       "pagesChecked": 2,
       "itemsSeen": 28,
@@ -247,11 +247,11 @@
       "url": "https://unstop.com/competitions",
       "region": "global",
       "focus": "student-business-tech",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "All official open-catalogue pages read until two consecutive full snapshots had identical ID sets and stable totals, plus the official detail API for every accepted ID; rows without registration/future stages excluded.",
       "pagesChecked": 8,
-      "itemsSeen": 346,
-      "actionableFound": 345,
+      "itemsSeen": 347,
+      "actionableFound": 346,
       "completeListingClaim": true,
       "limitations": [
         "The completeListingClaim is limited to Unstop’s public open catalogue at the check time. The UI/API exposes open and closed lifecycle filters; an upcoming parameter was not recognized as a distinct public catalogue and returned the unfiltered 10,000-record cap.",
@@ -264,10 +264,10 @@
         "The catalogue intentionally includes records typed by Unstop as competitions, hackathons, and quizzes because all are returned by the official Competitions listing endpoint.",
         "Some organizers omit structured prizes, concise eligibility, or venue details. Those fields are explicitly marked unknown rather than inferred from search snippets."
       ],
-      "canonicalRecordCount": 345,
-      "uniqueAdditions": 343,
+      "canonicalRecordCount": 346,
+      "uniqueAdditions": 344,
       "duplicateRecords": 2,
-      "activeCanonicalRecordCount": 166
+      "activeCanonicalRecordCount": 167
     },
     {
       "id": "challenge-gov",
@@ -275,7 +275,7 @@
       "url": "https://www.challenge.gov/",
       "region": "usa-global-eligibility-varies",
       "focus": "government-innovation",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Challenge.gov sunset was followed to its official USA.gov successor; every item on the finite page labelled select active challenges was extracted.",
       "pagesChecked": 1,
       "itemsSeen": 10,
@@ -301,7 +301,7 @@
       "url": "https://www.herox.com/crowdsourcing-projects",
       "region": "global",
       "focus": "innovation-prizes",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official public search API for enter and coming-soon, followed by a fresh official timeline request for every undated row; only explicit future timeline events were retained.",
       "pagesChecked": 2,
       "itemsSeen": 61,
@@ -326,7 +326,7 @@
       "url": "https://tianchi.aliyun.com/competition/gameList/activeList",
       "region": "china-global-varies",
       "focus": "data-ai",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official isActive=1 list API traversed until accumulated top-level rows matched reported total; nested tracks normalized by raceId.",
       "pagesChecked": 4,
       "itemsSeen": 35,
@@ -350,7 +350,7 @@
       "url": "https://www.datafountain.cn/competitions",
       "region": "china",
       "focus": "data-ai",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official catalogue API traversed until rows matched reported total; IN_SERVICE + open signup + future end retained.",
       "pagesChecked": 13,
       "itemsSeen": 370,
@@ -375,7 +375,7 @@
       "url": "https://challenge.xfyun.cn/",
       "region": "china-global-varies",
       "focus": "ai",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "All six official type/status API result sets at pageSize=1000 plus the separately surfaced official 星火杯 page.",
       "pagesChecked": 7,
       "itemsSeen": 630,
@@ -400,7 +400,7 @@
       "url": "https://developer.huaweicloud.com/competition/",
       "region": "china-global-varies",
       "focus": "cloud-ai",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official competition-list POST traversed at 100 rows/page until total plus the separately surfaced C4-AI official page.",
       "pagesChecked": 6,
       "itemsSeen": 425,
@@ -425,7 +425,7 @@
       "url": "https://tch.cloud.tencent.com/contest",
       "region": "china",
       "focus": "cloud-ai",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official tch.cloud.tencent.com contest POST traversed to total plus the separate legacy cloud.tencent.com/developer/competition finite HTML catalogue.",
       "pagesChecked": 4,
       "itemsSeen": 33,
@@ -450,7 +450,7 @@
       "url": "https://modelscope.cn/competitions",
       "region": "china-global-varies",
       "focus": "ai-models",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official competition catalogue API traversed until rows matched reported total; current competition rows require a future structured timestamp.",
       "pagesChecked": 2,
       "itemsSeen": 128,
@@ -475,7 +475,7 @@
       "url": "https://aistudio.baidu.com/competition",
       "region": "china",
       "focus": "ai-data",
-      "checkedAt": "2026-08-23T19:59:57+08:00",
+      "checkedAt": "2026-08-23T20:48:29+08:00",
       "method": "Official current/upcoming listing endpoints traversed, followed by the official match/detail POST for every candidate; only processCode=1 with a future structured date was retained.",
       "pagesChecked": 2,
       "itemsSeen": 44,
@@ -27285,96 +27285,6 @@
       },
       "originalName": "AI & Innovation Day @ AITR Indore",
       "originalFullName": "AI & Innovation Day @ AITR Indore"
-    },
-    {
-      "id": "research-devpost-technisa-hacks-07f34c3a",
-      "name": "TechNisa 黑客攻击",
-      "fullName": "TechNisa 黑客攻击",
-      "organization": "other",
-      "category": "AI 软件",
-      "tier": "B",
-      "match": 7.2,
-      "location": "多伦多城市大学",
-      "dateLabel": "截止日期：2026 年 8 月 23 日 @ 上午 8:00（美国东部时间）",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-23",
-      "primaryDeadline": {
-        "type": "milestone",
-        "date": "2026-08-23",
-        "certainty": "confirmed",
-        "timezone": "EDT",
-        "label": "截止日期：2026 年 8 月 23 日 @ 上午 8:00（美国东部时间）"
-      },
-      "deadlines": [
-        {
-          "type": "submission",
-          "date": "2026-08-23",
-          "certainty": "confirmed",
-          "timezone": "EDT",
-          "label": "提交截止日期",
-          "primary": true
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-23",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "存在于官方 Devpost 开放状态 API 中，并获取了其公共官方详细信息页面。截止日期标签/时区从详细信息页面转录；仅限受邀者资格之外的资格需要链接的官方规则。"
-      },
-      "description": "赋予科技行业穆斯林女性权力，通过技术构建、学习、联系和创造有意义的解决方案。",
-      "audience": "接受的黑客",
-      "rewards": [
-        "$CAD 0"
-      ],
-      "timeline": [
-        {
-          "event": "提交截止日期",
-          "date": "2026-08-23",
-          "timezone": "EDT",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-devpost-technisa-hacks-07f34c3a",
-      "actionUrl": "https://technisa-hacks.devpost.com/challenges/start_a_submission",
-      "sources": [
-        {
-          "title": "Devpost 开放黑客马拉松 API 第 7 页",
-          "date": "2026-08-21",
-          "url": "https://devpost.com/api/hackathons?status%5B%5D=open&page=7",
-          "sourceKind": "official_listing_api"
-        },
-        {
-          "title": "TechNisa Hacks — 官方 Devpost 详细信息",
-          "date": "2026-08-21",
-          "url": "https://technisa-hacks.devpost.com/",
-          "sourceKind": "official_detail"
-        }
-      ],
-      "discoveredAt": "2026-08-23",
-      "researchBatch": "2026-08-23",
-      "researchPlatformId": "devpost",
-      "researchPlatformIds": [
-        "devpost"
-      ],
-      "researchPlatformName": "Devpost",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://technisa-hacks.devpost.com/",
-      "sourceCategories": [
-        "Beginner Friendly",
-        "Education",
-        "Social Good"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "unknown",
-        "modeLabel": "形式待确认"
-      },
-      "originalName": "TechNisa Hacks",
-      "originalFullName": "TechNisa Hacks"
     },
     {
       "id": "research-devpost-graphiques-innovation-challenge-af641e62",
@@ -62029,7 +61939,7 @@
         "checkedAt": "2026-08-23",
         "sourceKind": "official-platform",
         "linkHealth": "reachable",
-        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+        "notes": "在2026年8月23日与Unstop公开目录和官方公开详细信息API进行了新对账。"
       },
       "description": "这是一场大学间黑客马拉松，旨在鼓励学生使用现代技术构建创新、实用和有影响力的解决方案，包括云计算、人工智能、生成式人工智能、Web开发、数据科学、网络安全和其他新兴技术。请在Student Builder Group上注册，以便顺利进行： Student Builder Group点击查看轨道和问题陈述：问题陈述 资格向目前就读的大专/大学生开放。任何专业/分支机构（ CSE、ECE、EEE、机械、土木等）的学生均可参加。格式和流程注册：参与者单独注册。问题陈述/主题：将提供多个轨道，涵盖AI/GenAI、云、Web/移动开发、自动化、网络安全和开放式创新等领域。创意与发展：选择一项 问题陈述，并在黑客马拉松期间开发工作原型/解决方案。提交：在截止日期前提交您的项目、源代码/存储库、项目描述和所需的文档。评估：项目将由导师/评委根据创新、技术实施、与问题陈述的相关性、可用性、可扩展性和演示文稿进行评估。竞赛格式问题陈述/曲目数量：待定 开发回合：团队在整个黑客马拉松中选择问题陈述。最终评审/演示所有提交必须在宣布的截止日期前完成。规则提交的项目必须由注册团队在……期间开发",
       "audience": "个人参与；其他资格限制必须在官方页面上查看。",
@@ -62098,6 +62008,131 @@
         "modeLabel": "线上"
       },
       "originalName": "Cloudforge"
+    },
+    {
+      "id": "research-unstop-disrupt-27-the-ultimate-startup-bootcamp-2ef6d1d9",
+      "name": "Disrupt '27 ：终极创业训练营",
+      "fullName": "Disrupt '27 ：终极创业训练营",
+      "organization": "Indian Institute of Technology (IIT), Guwahati",
+      "category": "创业路演",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "注册截止时间为 2026 年 9 月 06 日 00:00:00+05:30（亚洲/加尔各答）。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-09-06",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-09-06",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "注册截止时间为 2026 年 9 月 06 日 00:00:00+05:30（亚洲/加尔各答）。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-23T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-09-06T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-09-06T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-23",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "2026 年 8 月 23 日已与 Unstop 完整开放目录和官方公开详情 API 核对；结构化队伍人数以外的资格限制，请在官方页面再次确认。"
+      },
+      "description": "概述： Disrupt是一个以增长为导向的创业训练营，采用包容性方法，旨在提供竞争优势，适应所有阶段和背景的创业公司。Disrupt在其旅程中与1,500多家初创公司合作，旨在为参与者快速提供业务开发、营销、GTM和产品开发等重要主题，其结构与轨道规格保持一致。资格：初创公司 估值大于或等于5 ₹ Cr.的投资不能参与。任何阶段的初创公司都可以参与。参赛队伍只能由1–5名成员组成。规则和准则：只有组长/创始人必须在注册轮次中注册。其他详细信息将在第0轮中收集。核心团队的成员不应超过5人。会员可以是大学生、教授或在职专业人士。您可以 参与多个创业点子。初创公司将被要求提供其初创公司的证明和详细信息。在Unstop注册后，您将收到来自IIT Guwahati的E-Cell的电子邮件，以进行进一步的注册流程。",
+      "audience": "团队规模：1–5；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "表现最佳者—来自印度顶级风险投资公司和投资者的投资报价。",
+        "顶级获奖者— 200,000印度卢比-价值200万的奖品将在训练营结束时颁发给表现最好的人，其中包括积极参加训练营的人。",
+        "参与证书"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-23T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-09-06T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-09-06T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-disrupt-27-the-ultimate-startup-bootcamp-2ef6d1d9",
+      "actionUrl": "https://unstop.com/competitions/disrupt27-the-ultimate-startup-bootcamp-iit-guwahati-1743163",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "Disrupt '27 ：终极创业训练营— Unstop public detail API",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/api/public/competition/1743163",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "Disrupt '27 ：终极创业训练营— Unstop",
+          "date": "2026-08-23",
+          "url": "https://unstop.com/competitions/disrupt27-the-ultimate-startup-bootcamp-iit-guwahati-1743163",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-23",
+      "researchBatch": "2026-08-23",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/competitions/disrupt27-the-ultimate-startup-bootcamp-iit-guwahati-1743163",
+      "sourceCategories": [
+        "Competition",
+        "Entrepreneurship"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "Disrupt'27: The Ultimate Startup Bootcamp",
+      "originalFullName": "Disrupt'27: The Ultimate Startup Bootcamp"
     },
     {
       "id": "research-challenge-gov-acl-caregiver-ai-prize-challenge-b2c93d3c",
@@ -77331,11 +77366,11 @@
   "activeAdditions": 409,
   "activeResearchAdditions": 396,
   "expiredRemoved": 164,
-  "preferenceExcluded": 254,
-  "internationalOnsiteExcluded": 254,
-  "preferenceCleanupRunId": "2026-08-23T12:12:51.629Z",
-  "expiredArchiveCount": 463,
-  "localizedAt": "2026-08-23T12:12:54.335Z",
+  "preferenceExcluded": 255,
+  "internationalOnsiteExcluded": 255,
+  "preferenceCleanupRunId": "2026-08-23T13:01:33.761Z",
+  "expiredArchiveCount": 464,
+  "localizedAt": "2026-08-23T13:01:36.829Z",
   "locale": "zh-CN",
   "localizationEngine": "Google Translate public endpoint with MyMemory public fallback via curl"
 }
