@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-23T17:18:35.202Z",
+  "updatedAt": "2026-08-24T04:47:57.201Z",
   "upstreamUpdatedAt": "2026-08-09",
   "generatedFrom": "https://siuserxiaowei.com/competitions.json",
-  "count": 670,
+  "count": 658,
   "additions": 651,
-  "curatedAdditions": 17,
-  "researchAdditions": 634,
+  "curatedAdditions": 20,
+  "researchAdditions": 631,
   "researchPlatforms": 20,
-  "researchDuplicates": 48,
+  "researchDuplicates": 47,
   "researchCoverage": [
     {
       "id": "devpost",
@@ -15,11 +15,11 @@
       "url": "https://devpost.com/hackathons",
       "region": "global",
       "focus": "hackathons",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official open-status JSON API traversed through a read-only renderer until accumulated rows matched meta.total_count.",
-      "pagesChecked": 8,
-      "itemsSeen": 59,
-      "actionableFound": 59,
+      "pagesChecked": 7,
+      "itemsSeen": 60,
+      "actionableFound": 60,
       "completeListingClaim": true,
       "limitations": [
         "Scope follows Devpost open_state=open. Private/unlisted hackathons and items not exposed by the public API cannot be observed.",
@@ -27,8 +27,8 @@
         "AWS Trainium Frontier Competition was removed after the final live open-status API pass no longer returned it and its official detail page showed the event had ended on August 21, 2026.",
         "Direct unauthenticated requests were blocked or returned HTTP 202/403, so the public official JSON was read through r.jina.ai without login or CAPTCHA bypass."
       ],
-      "canonicalRecordCount": 59,
-      "uniqueAdditions": 49,
+      "canonicalRecordCount": 60,
+      "uniqueAdditions": 50,
       "duplicateRecords": 10,
       "activeCanonicalRecordCount": 56
     },
@@ -38,7 +38,7 @@
       "url": "https://www.kaggle.com/competitions",
       "region": "global",
       "focus": "data-science",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official ListCompetitions POST with LIST_OPTION_ACTIVE, public visibility, pageSize=1000, and no next token.",
       "pagesChecked": 2,
       "itemsSeen": 21,
@@ -62,7 +62,7 @@
       "url": "https://www.drivendata.org/competitions/",
       "region": "global",
       "focus": "social-impact-data",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official single-page catalogue rendered in full; all links before the explicit Completed competitions section were extracted.",
       "pagesChecked": 1,
       "itemsSeen": 10,
@@ -84,7 +84,7 @@
       "url": "https://zindi.africa/competitions",
       "region": "global",
       "focus": "data-science",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official public API status=open with per_page=100; API total matched returned rows.",
       "pagesChecked": 1,
       "itemsSeen": 5,
@@ -106,7 +106,7 @@
       "url": "https://www.aicrowd.com/challenges",
       "region": "global",
       "focus": "ai-research",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official server-rendered listing was exhausted (data-request-completed=true), then every card detail was checked for a structured UPCOMING/RUNNING round.",
       "pagesChecked": 1,
       "itemsSeen": 18,
@@ -127,11 +127,11 @@
       "url": "https://dorahacks.io/hackathon",
       "region": "global",
       "focus": "web3-ai",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official ongoing and upcoming filtered catalogues rendered in full; localized WEEX duplicates consolidated and Winner Announced excluded.",
       "pagesChecked": 2,
-      "itemsSeen": 18,
-      "actionableFound": 15,
+      "itemsSeen": 17,
+      "actionableFound": 14,
       "completeListingClaim": true,
       "limitations": [
         "Direct requests to dorahacks.io triggered an AWS WAF CAPTCHA. In accordance with the research boundary, no CAPTCHA was solved or bypassed; the public official URLs were read through a read-only rendering proxy.",
@@ -140,10 +140,10 @@
         "Several organizers publish only a relative 'days left' label or explicitly say dates are TBA. Those deadline fields remain null instead of being inferred. Password-gated submission access on AlgoBharat and absent detail-page dates on BLI/MDBA are called out per record.",
         "Direct unauthenticated requests triggered AWS WAF, so public official URLs were read through r.jina.ai without solving or bypassing a CAPTCHA."
       ],
-      "canonicalRecordCount": 15,
+      "canonicalRecordCount": 14,
       "uniqueAdditions": 12,
-      "duplicateRecords": 3,
-      "activeCanonicalRecordCount": 13
+      "duplicateRecords": 2,
+      "activeCanonicalRecordCount": 12
     },
     {
       "id": "lablab",
@@ -151,7 +151,7 @@
       "url": "https://lablab.ai/event",
       "region": "global",
       "focus": "ai-hackathons",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official event listing rendered as a finite page; every card marked Register or TBA was retained and Finished cards excluded.",
       "pagesChecked": 1,
       "itemsSeen": 12,
@@ -175,7 +175,7 @@
       "url": "https://www.hackster.io/contests",
       "region": "global",
       "focus": "hardware-iot",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official active-contests RSS feed traversed as a finite document.",
       "pagesChecked": 1,
       "itemsSeen": 2,
@@ -197,7 +197,7 @@
       "url": "https://www.hackerearth.com/challenges/",
       "region": "global",
       "focus": "coding-hackathons",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official public challenge API returned its finite current feed; every previously known official detail URL was also fetched live because current official details exist outside that API feed.",
       "pagesChecked": 1,
       "itemsSeen": 46,
@@ -223,11 +223,11 @@
       "url": "https://devfolio.co/hackathons",
       "region": "global",
       "focus": "hackathons",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official search API POST queried separately for application_open and upcoming at size=100.",
       "pagesChecked": 2,
-      "itemsSeen": 28,
-      "actionableFound": 28,
+      "itemsSeen": 32,
+      "actionableFound": 32,
       "completeListingClaim": true,
       "limitations": [
         "The Devfolio landing page shows only 20 open cards, but the official search API reported and returned 24 open records; the API total, not the homepage display limit, is used.",
@@ -236,10 +236,10 @@
         "Devfolio uses the legacy Asia/Calcutta timezone label for most records; it is normalized to Asia/Kolkata without changing timestamps.",
         "The Great Agent Hackathon is marked online in structured metadata while its public description says shortlisted teams attend an in-person Bangalore build; both stages are disclosed."
       ],
-      "canonicalRecordCount": 28,
-      "uniqueAdditions": 28,
+      "canonicalRecordCount": 32,
+      "uniqueAdditions": 32,
       "duplicateRecords": 0,
-      "activeCanonicalRecordCount": 14
+      "activeCanonicalRecordCount": 13
     },
     {
       "id": "unstop",
@@ -247,11 +247,11 @@
       "url": "https://unstop.com/competitions",
       "region": "global",
       "focus": "student-business-tech",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "All official open-catalogue pages read until two consecutive full snapshots had identical ID sets and stable totals, plus the official detail API for every accepted ID; only rows with registration open through the current Shanghai date were retained.",
       "pagesChecked": 8,
-      "itemsSeen": 352,
-      "actionableFound": 349,
+      "itemsSeen": 343,
+      "actionableFound": 341,
       "completeListingClaim": true,
       "limitations": [
         "The completeListingClaim is limited to Unstop’s public open catalogue at the check time. The UI/API exposes open and closed lifecycle filters; an upcoming parameter was not recognized as a distinct public catalogue and returned the unfiltered 10,000-record cap.",
@@ -264,10 +264,10 @@
         "The catalogue intentionally includes records typed by Unstop as competitions, hackathons, and quizzes because all are returned by the official Competitions listing endpoint.",
         "Some organizers omit structured prizes, concise eligibility, or venue details. Those fields are explicitly marked unknown rather than inferred from search snippets."
       ],
-      "canonicalRecordCount": 349,
-      "uniqueAdditions": 347,
+      "canonicalRecordCount": 341,
+      "uniqueAdditions": 339,
       "duplicateRecords": 2,
-      "activeCanonicalRecordCount": 170
+      "activeCanonicalRecordCount": 158
     },
     {
       "id": "challenge-gov",
@@ -275,7 +275,7 @@
       "url": "https://www.challenge.gov/",
       "region": "usa-global-eligibility-varies",
       "focus": "government-innovation",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Challenge.gov sunset was followed to its official USA.gov successor; every item on the finite page labelled select active challenges was extracted.",
       "pagesChecked": 1,
       "itemsSeen": 10,
@@ -301,10 +301,10 @@
       "url": "https://www.herox.com/crowdsourcing-projects",
       "region": "global",
       "focus": "innovation-prizes",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official public search API for enter and coming-soon, followed by a fresh official timeline request for every undated row; only explicit future timeline events were retained.",
       "pagesChecked": 2,
-      "itemsSeen": 60,
+      "itemsSeen": 59,
       "actionableFound": 5,
       "completeListingClaim": true,
       "limitations": [
@@ -315,7 +315,9 @@
         "Independent audit removed 40 undated legacy enter/coming-soon records whose public detail pages did not provide a future actionable date; at least one (NIST Differential Privacy Synthetic Data Challenge) showed only a 2018–2019 competition window. They remain part of itemsSeen but are not treated as actionable on 2026-08-21.",
         "The stage feeds contained 55 undated rows; 2 had explicit future events in this run and 0 timeline requests failed.",
         "The stage feeds contained 5 dated and 55 undated rows; 3 dated rows still had an actionable submission deadline or no extractable exact deadline, 2 undated rows had explicit future events, and 0 timeline requests failed.",
-        "The stage feeds contained 5 dated and 55 undated rows; 3 dated rows still had an actionable submission deadline or no extractable exact deadline, 2 undated rows had explicit future events, 0 dated detail reads failed, and 0 timeline requests failed."
+        "The stage feeds contained 5 dated and 55 undated rows; 3 dated rows still had an actionable submission deadline or no extractable exact deadline, 2 undated rows had explicit future events, 0 dated detail reads failed, and 0 timeline requests failed.",
+        "The stage feeds contained 4 dated and 55 undated rows; 3 dated rows still had an actionable submission deadline or no extractable exact deadline, 2 undated rows had explicit future events, 1 dated detail reads failed, and 0 timeline requests failed.",
+        "The stage feeds contained 4 dated and 55 undated rows; 3 dated rows still had an actionable submission deadline or no extractable exact deadline, 2 undated rows had explicit future events, 0 dated detail reads failed, and 0 timeline requests failed."
       ],
       "canonicalRecordCount": 5,
       "uniqueAdditions": 5,
@@ -328,8 +330,8 @@
       "url": "https://tianchi.aliyun.com/competition/gameList/activeList",
       "region": "china-global-varies",
       "focus": "data-ai",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
-      "method": "Official isActive=1 list API traversed until accumulated top-level rows matched reported total; nested tracks normalized by raceId.",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
+      "method": "Official isActive=1 list API traversed until accumulated top-level rows matched reported total; nested tracks normalized by raceId. Open-registration rows use signupEndTime as the primary date for new entrants; already-registered rows use raceEndTime.",
       "pagesChecked": 4,
       "itemsSeen": 35,
       "actionableFound": 25,
@@ -352,7 +354,7 @@
       "url": "https://www.datafountain.cn/competitions",
       "region": "china",
       "focus": "data-ai",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official catalogue API traversed until rows matched reported total; IN_SERVICE + open signup + future end retained.",
       "pagesChecked": 13,
       "itemsSeen": 370,
@@ -377,7 +379,7 @@
       "url": "https://challenge.xfyun.cn/",
       "region": "china-global-varies",
       "focus": "ai",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "All six official type/status API result sets at pageSize=1000 plus the separately surfaced official 星火杯 page.",
       "pagesChecked": 7,
       "itemsSeen": 630,
@@ -402,7 +404,7 @@
       "url": "https://developer.huaweicloud.com/competition/",
       "region": "china-global-varies",
       "focus": "cloud-ai",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official competition-list POST traversed at 100 rows/page until total plus the separately surfaced C4-AI official page.",
       "pagesChecked": 6,
       "itemsSeen": 425,
@@ -427,7 +429,7 @@
       "url": "https://tch.cloud.tencent.com/contest",
       "region": "china",
       "focus": "cloud-ai",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official tch.cloud.tencent.com contest POST traversed to total plus the separate legacy cloud.tencent.com/developer/competition finite HTML catalogue.",
       "pagesChecked": 4,
       "itemsSeen": 33,
@@ -452,7 +454,7 @@
       "url": "https://modelscope.cn/competitions",
       "region": "china-global-varies",
       "focus": "ai-models",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official competition catalogue API traversed until rows matched reported total; current competition rows require a future structured timestamp.",
       "pagesChecked": 2,
       "itemsSeen": 128,
@@ -477,7 +479,7 @@
       "url": "https://aistudio.baidu.com/competition",
       "region": "china",
       "focus": "ai-data",
-      "checkedAt": "2026-08-24T01:15:13+08:00",
+      "checkedAt": "2026-08-24T12:41:14+08:00",
       "method": "Official current/upcoming listing endpoints traversed, followed by the official match/detail POST for every candidate; only processCode=1 with a future structured date was retained.",
       "pagesChecked": 2,
       "itemsSeen": 44,
@@ -498,7 +500,7 @@
       "activeCanonicalRecordCount": 41
     }
   ],
-  "corrections": 1,
+  "corrections": 2,
   "items": [
     {
       "id": "tencentgamecreator2026",
@@ -5155,8 +5157,8 @@
         }
       ],
       "participation": {
-        "region": "international",
-        "regionLabel": "国外",
+        "region": "domestic",
+        "regionLabel": "国内",
         "mode": "unknown",
         "modeLabel": "形式待确认"
       }
@@ -9040,7 +9042,7 @@
       "category": "学生限定",
       "tier": "A",
       "match": 9,
-      "location": "全球高校与科研机构学生 · 不得跨校组队 · 总决赛在苏州大学",
+      "location": "中国线上报名与复赛提交 · 苏州大学线下总决赛",
       "dateLabel": "报名截止 2026-08-31 23:59",
       "recordType": "competition",
       "seriesId": null,
@@ -9065,13 +9067,13 @@
       ],
       "verification": {
         "status": "verified",
-        "checkedAt": "2026-07-30",
+        "checkedAt": "2026-08-24",
         "sourceKind": "official",
         "linkHealth": "reachable",
-        "notes": "已按大赛官网组委会 2026〔13〕号通知核对资格、队伍、赛程与复赛收费；月份级赛程不作为新的可行动截止日。"
+        "notes": "已按 AIC 大赛官网组委会 2026〔13〕号通知复核：报名与复赛作品制作提交在线完成，总决赛在苏州大学现场举行；初赛免费，入围复赛后每队 500 元。"
       },
       "description": "官方产业命题赛道，围绕 AI+商科、工科、医科、农科和艺术五个方向开发智能体，评估需求分析、智能体设计、技术实现、模型调优和行业认可度。",
-      "audience": "全球高校或科研机构拥有正式学籍的研究生、本科生和专科生；每队 2–3 名同校学生，可配不超过 2 名指导教师，不得跨校组队。",
+      "audience": "全球高校或科研机构拥有正式学籍的研究生、本科生和专科生；每队 2—3 名同校学生，可配不超过 2 名指导教师，不得跨校组队；初赛免费，入围复赛后每队收取 500 元参赛费",
       "rewards": [
         "复赛和总决赛均设一、二、三等奖与证书",
         "复赛一、二等奖团队晋级总决赛",
@@ -9093,11 +9095,12 @@
           "url": "https://www.aicomp.cn/notice/notice-3/3640.html"
         }
       ],
+      "correctedAt": "2026-08-24",
       "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "unknown",
-        "modeLabel": "形式待确认"
+        "region": "domestic",
+        "regionLabel": "国内",
+        "mode": "hybrid",
+        "modeLabel": "线上+线下"
       }
     },
     {
@@ -10783,78 +10786,67 @@
       "id": "delphi-agent-arena-2026",
       "name": "德尔福代理竞技场",
       "fullName": "Delphi: Agent Arena 竞赛（回顾 × DoraHacks）",
-      "organization": "Gensyn",
+      "organization": "Gensyn × DoraHacks",
       "category": "AI 软件",
       "tier": "B",
       "match": 7.5,
-      "location": "Virtual",
-      "dateLabel": "竞赛交易于2026年8月24日截止；未注明确切的关闭时间和时区",
+      "location": "全球线上 · 钱包即身份",
+      "dateLabel": "报名 2026-08-03 开启 · 竞赛窗口 2026-08-10 至 08-24",
       "recordType": "competition",
       "seriesId": null,
       "parentId": null,
       "deadlineDate": "2026-08-24",
       "primaryDeadline": {
-        "type": "end",
+        "type": "submission",
         "date": "2026-08-24",
         "certainty": "confirmed",
-        "timezone": "unknown",
-        "label": "竞赛交易于2026年8月24日截止；未注明确切的关闭时间和时区"
+        "timezone": "UTC",
+        "label": "交易竞赛窗口结束"
       },
       "deadlines": [
         {
-          "type": "milestone",
-          "date": "2026-08-03",
-          "certainty": "confirmed",
-          "timezone": "unknown",
-          "label": "开放注册",
-          "primary": false
-        },
-        {
-          "type": "milestone",
+          "type": "entry",
           "date": "2026-08-10",
           "certainty": "confirmed",
-          "timezone": "unknown",
-          "label": "交易窗口打开",
+          "timezone": "UTC",
+          "label": "交易竞赛窗口开始（报名 08-03 开启）",
           "primary": false
         },
         {
-          "type": "end",
+          "type": "submission",
           "date": "2026-08-24",
           "certainty": "confirmed",
-          "timezone": "unknown",
-          "label": "交易结束",
+          "timezone": "UTC",
+          "label": "交易竞赛窗口结束",
           "primary": true
         }
       ],
       "verification": {
-        "status": "verified_with_unknowns",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
+        "status": "verified",
+        "checkedAt": "2026-08-02",
+        "sourceKind": "official",
         "linkHealth": "reachable",
-        "notes": "官方详细信息验证了日期、任务、奖励和钱包规则。确切的关闭时间/时区和地理资格仍然未知。"
+        "notes": "加密相关合规风险已在难度与资格中提示；奖励与窗口按 DoraHacks 官方页核对。"
       },
-      "description": "在 Gensyn 测试网上构建预测市场的自主交易代理。注册代理钱包，在比赛窗口期进行交易，结算及资格审核后按最终盈亏排名。",
-      "audience": "欢迎个人和团队参赛；每项参赛作品必须使用一个已注册的钱包。参赛者必须建立一个能够循环做出决策和行动的代理，不得注册多个钱包来耕种排行榜，并且不得串通。参赛资格和奖品资格受链接的 Gensyn 基金会服务条款管辖； DoraHacks 详细信息页面上未重述地理详细信息。",
+      "description": "Gensyn 链上信息市场协议的 Agent 自主交易竞赛：Agent 在测试网自主交易，按 P&L 排名分 $10,000；不用交代码、策略保密，一个钱包一个名额，需主网持有 0.001 ETH 作反机器人验证。",
+      "audience": "全球线上；需以太坊钱包与 0.001 ETH 验证；免费",
       "rewards": [
-        "总奖金池为 10,000 美元，以 USDC 支付"
+        "现金 $10,000（$5,000 / $3,000 / $2,000 按交易 P&L 排名）"
       ],
       "timeline": [
         {
-          "event": "开放注册",
+          "event": "报名开启",
           "date": "2026-08-03",
-          "timezone": "unknown",
           "critical": false
         },
         {
-          "event": "交易窗口打开",
+          "event": "交易竞赛窗口开始",
           "date": "2026-08-10",
-          "timezone": "unknown",
           "critical": false
         },
         {
-          "event": "交易结束",
+          "event": "交易竞赛窗口结束",
           "date": "2026-08-24",
-          "timezone": "unknown",
           "critical": true
         }
       ],
@@ -10865,40 +10857,11 @@
           "title": "核验来源｜Delphi Agent Arena",
           "date": "2026-08-02",
           "url": "https://dorahacks.io/hackathon/delphi-agent-competition"
-        },
-        {
-          "title": "DoraHacks ongoing hackathons",
-          "date": "2026-08-21",
-          "url": "https://dorahacks.io/hackathon?status=ongoing",
-          "sourceKind": "official_listing"
-        },
-        {
-          "title": "Delphi: Agent Arena Competition",
-          "date": "2026-08-21",
-          "url": "https://dorahacks.io/hackathon/delphi-agent-competition/detail",
-          "sourceKind": "official_detail"
         }
       ],
-      "researchStatus": "open",
-      "researchDetailUrl": "https://dorahacks.io/hackathon/delphi-agent-competition/detail",
-      "sourceCategories": [
-        "AI agents",
-        "autonomous trading",
-        "prediction markets",
-        "blockchain",
-        "DeFi"
-      ],
-      "correctedAt": "2026-08-24",
-      "researchRefreshedAt": "2026-08-24",
-      "researchPlatformIds": [
-        "dorahacks"
-      ],
-      "researchPlatformNames": [
-        "DoraHacks Hackathons"
-      ],
       "participation": {
-        "region": "unknown",
-        "regionLabel": "地区待确认",
+        "region": "international",
+        "regionLabel": "国外",
         "mode": "online",
         "modeLabel": "线上"
       },
@@ -12045,141 +12008,6 @@
         "modeLabel": "线上"
       },
       "originalFullName": "Build the Autodesk University 2027 Product（Hackster × Autodesk）"
-    },
-    {
-      "id": "sea-openai-hackathon-tw-2026",
-      "name": "Sea×OpenAI 黑客松台湾站",
-      "fullName": "Sea × OpenAI 亚太黑客松系列赛 · 台湾站",
-      "organization": "Sea × OpenAI",
-      "category": "国际曝光",
-      "tier": "B",
-      "match": 7,
-      "location": "台北线下（TICC）",
-      "dateLabel": "报名截止 2026-08-26（台湾时间）",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-26",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-26",
-        "certainty": "confirmed",
-        "timezone": "Asia/Shanghai",
-        "label": "报名截止（台湾时间）"
-      },
-      "deadlines": [
-        {
-          "type": "registration",
-          "date": "2026-08-26",
-          "certainty": "confirmed",
-          "timezone": "Asia/Shanghai",
-          "label": "报名截止（台湾时间）",
-          "primary": true
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-02",
-        "sourceKind": "official",
-        "linkHealth": "reachable",
-        "notes": "大陆居民赴台实际受限已标注。"
-      },
-      "description": "Sea 与 OpenAI 的亚太黑客松系列赛台湾站（2026-09-12 全天，台北国际会议中心）：OpenAI 提供总价值 $50,000 API credits，前五名团队成员各获一年 ChatGPT Pro；7-31 刚官宣。",
-      "audience": "开发者/学生/新创团队；台北线下，免费",
-      "rewards": [
-        "总价值 $50,000 OpenAI API credits",
-        "前五名成员各 1 年 ChatGPT Pro"
-      ],
-      "timeline": [
-        {
-          "event": "报名截止（台湾时间）",
-          "date": "2026-08-26",
-          "critical": true
-        }
-      ],
-      "detailUrl": "https://siuserxiaowei.com/competitions/sea-openai-hackathon-tw-2026/",
-      "actionUrl": "https://shopee.tw/m/seaxopenai-hackathon-tw",
-      "sources": [
-        {
-          "title": "核验来源｜Sea×OpenAI 黑客松台湾站",
-          "date": "2026-08-02",
-          "url": "https://shopee.tw/m/seaxopenai-hackathon-tw"
-        }
-      ],
-      "participation": {
-        "region": "unknown",
-        "regionLabel": "地区待确认",
-        "mode": "offline",
-        "modeLabel": "线下"
-      }
-    },
-    {
-      "id": "hotai-hackathon-2026",
-      "name": "和泰 AI 黑客松",
-      "fullName": "2026 和泰 AI 黑客松（Hotai Motor）",
-      "organization": "和泰集团",
-      "category": "国际曝光",
-      "tier": "B",
-      "match": 6.9,
-      "location": "台北线下（决赛）",
-      "dateLabel": "初赛报名缴件截止 2026-10-14 13:00（台湾时间；08-31 前报名有早鸟 200 点）",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-10-14",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-10-14",
-        "certainty": "confirmed",
-        "timezone": "Asia/Shanghai",
-        "label": "初赛报名缴件截止（13:00 台湾时间）"
-      },
-      "deadlines": [
-        {
-          "type": "registration",
-          "date": "2026-10-14",
-          "certainty": "confirmed",
-          "timezone": "Asia/Shanghai",
-          "label": "初赛报名缴件截止（13:00 台湾时间）",
-          "primary": true
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-02",
-        "sourceKind": "official",
-        "linkHealth": "reachable",
-        "notes": "当前报名窗口、资格硬门槛、费用与奖励边界已按所列官方或权威来源复核；未披露字段保持 not-stated。"
-      },
-      "description": "和泰集团（丰田台湾总代理）AI 黑客松：高中职/大学生及社会人士皆可组队，总奖金超 NT$100 万（最高 NT$30 万）；队长须具中华民国国籍，决赛工作坊与决赛须赴台北线下。",
-      "audience": "高中职/大学生及社会人士组队；队长须具中华民国国籍；免费",
-      "rewards": [
-        "现金总奖金超 NT$100 万（最高 NT$30 万）",
-        "和泰 Points"
-      ],
-      "timeline": [
-        {
-          "event": "初赛报名缴件截止（13:00 台湾时间）",
-          "date": "2026-10-14",
-          "critical": true
-        }
-      ],
-      "detailUrl": "https://siuserxiaowei.com/competitions/hotai-hackathon-2026/",
-      "actionUrl": "https://ht-hackathon.tw/",
-      "sources": [
-        {
-          "title": "核验来源｜和泰 AI 黑客松",
-          "date": "2026-08-02",
-          "url": "https://ht-hackathon.tw/"
-        }
-      ],
-      "participation": {
-        "region": "unknown",
-        "regionLabel": "地区待确认",
-        "mode": "offline",
-        "modeLabel": "线下"
-      },
-      "originalFullName": "2026 和泰 AI 黑客松（Hotai Motor）"
     },
     {
       "id": "csig-rongqi-anomaly-2026",
@@ -14754,8 +14582,8 @@
         }
       ],
       "participation": {
-        "region": "domestic",
-        "regionLabel": "国内",
+        "region": "international",
+        "regionLabel": "国外",
         "mode": "unknown",
         "modeLabel": "形式待确认"
       },
@@ -23169,6 +22997,289 @@
         "wechat-wave1-taishan-architecture-photo-2026"
       ],
       "discoveredAt": "2026-08-23"
+    },
+    {
+      "id": "feishu-ai-juehuo-online-hackathon-2026",
+      "name": "飞书 AI 绝活大会线上黑客松",
+      "fullName": "飞书 AI 绝活大会「线上黑客松」",
+      "organization": "飞书",
+      "category": "AI 软件",
+      "tier": "S",
+      "match": 9.8,
+      "location": "中国纯线上 · 个人参赛",
+      "dateLabel": "作品投稿截止 2026-08-28 18:00",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-28",
+      "primaryDeadline": {
+        "type": "submission",
+        "date": "2026-08-28",
+        "certainty": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "label": "作品投稿截止 18:00"
+      },
+      "deadlines": [
+        {
+          "type": "submission",
+          "date": "2026-08-28",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "作品投稿截止 18:00",
+          "primary": true
+        },
+        {
+          "type": "voting",
+          "date": "2026-08-31",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "社区投票和社媒数据统计结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-09-03",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "直播 Demo 与颁奖",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-08-24",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "飞书官方小红书说明和官方公开日历交叉确认投稿、投票及颁奖安排；小红书只作为发现与官方发布线索，报名入口解析到飞书公开日历。"
+      },
+      "description": "个人用飞书和 AI 解决真实工作或生活需求的线上产品赛。飞书必须参与读取数据、执行任务或回写结果，AI 必须参与分析、生成、判断或执行；只把 AI 输出粘进飞书或只用 AI 辅助写代码不符合要求。需提交产品介绍、上手指南和 3 分钟内实机 Demo，并在指定社媒发布。",
+      "audience": "个人参赛，每人限投 1 件；不限开发经验。已有产品可以参加，但须说明比赛期间新增内容，并提供 Commit、更新日志或前后截图",
+      "rewards": [
+        "共 10 个奖项，含绝活之王、最佳飞书 AI Native 实践、最佳业务价值和效率类奖项",
+        "绝活之王：Mac mini",
+        "其他奖品包括人体工学椅、安克 AI 录音豆和 Vibe Coding 键盘"
+      ],
+      "timeline": [
+        {
+          "event": "作品征集开始",
+          "date": "2026-08-20",
+          "critical": false
+        },
+        {
+          "event": "作品投稿截止 18:00",
+          "date": "2026-08-28",
+          "critical": true
+        },
+        {
+          "event": "社区投票",
+          "date": "2026-08-29",
+          "critical": false
+        },
+        {
+          "event": "投票与社媒数据统计结束",
+          "date": "2026-08-31",
+          "critical": false
+        },
+        {
+          "event": "直播 Demo 与颁奖",
+          "date": "2026-09-03",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#feishu-ai-juehuo-online-hackathon-2026",
+      "actionUrl": "https://www.feishu.cn/calendar/share?token=0136fa6c7ad50df63a050c684726ba84",
+      "sources": [
+        {
+          "title": "飞书官方小红书｜飞书 AI 绝活大会线上黑客松",
+          "date": "2026-08-24",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a868682000000001b0323be",
+          "sourceKind": "official_social"
+        },
+        {
+          "title": "飞书官方公开日历｜飞书 AI 绝活大会 LIVE",
+          "date": "2026-08-24",
+          "url": "https://www.feishu.cn/calendar/share?token=0136fa6c7ad50df63a050c684726ba84",
+          "sourceKind": "official_registration"
+        }
+      ],
+      "participation": {
+        "region": "domestic",
+        "regionLabel": "国内",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "chinaEligible": true,
+      "discoveredAt": "2026-08-24"
+    },
+    {
+      "id": "kaiwu-ai-maker-hackathon-fuzhou-2026",
+      "name": "开物·48 小时 AI 造物黑客松",
+      "fullName": "开物·48 小时 AI 造物黑客松（福州）",
+      "organization": "福州福瑞智联科技有限公司",
+      "category": "AI 软件",
+      "tier": "A",
+      "match": 8.8,
+      "location": "中国福州线下 · 凯里亚德酒店",
+      "dateLabel": "官方报名页仍开放；活动 2026-08-28 09:00 开始",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-28",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-08-28",
+        "certainty": "conservative-action-date",
+        "timezone": "Asia/Shanghai",
+        "label": "官方页未单列报名截止；以活动开始日作为报名行动上限"
+      },
+      "deadlines": [
+        {
+          "type": "registration",
+          "date": "2026-08-28",
+          "certainty": "conservative-action-date",
+          "timezone": "Asia/Shanghai",
+          "label": "官方页未单列报名截止；以活动开始日作为报名行动上限",
+          "primary": true
+        },
+        {
+          "type": "milestone",
+          "date": "2026-08-29",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "活动结束 23:45",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-24",
+        "sourceKind": "official-registration",
+        "linkHealth": "reachable",
+        "notes": "主办方活动行报名页实时显示参赛票 ¥99、热销中，活动 8 月 28 日 09:00 开始；官方页没有单列报名截止，因此没有把截图中的 8 月 25 日当作一手事实。"
+      },
+      "description": "福州线下 48 小时 AI 造物黑客松，围绕 5 条赛道用 MoneyAI-Agents 从零完成可演示产品。官方活动页摘要显示冠军奖池 20,000 元并提供天使直通卡。",
+      "audience": "希望在 48 小时内完成 AI 产品原型的开发者、学生和创业者；参赛票 ¥99，具体组队、设备和知识产权规则报名后须继续核对",
+      "rewards": [
+        "冠军奖池 20,000 元",
+        "天使直通卡"
+      ],
+      "timeline": [
+        {
+          "event": "线下活动开始 09:00",
+          "date": "2026-08-28",
+          "critical": true
+        },
+        {
+          "event": "48 小时活动结束 23:45",
+          "date": "2026-08-29",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#kaiwu-ai-maker-hackathon-fuzhou-2026",
+      "actionUrl": "https://www.huodongxing.com/event/1873777362200",
+      "sources": [
+        {
+          "title": "福州福瑞智联科技有限公司｜活动行官方报名页",
+          "date": "2026-08-24",
+          "url": "https://www.huodongxing.com/event/1873777362200",
+          "sourceKind": "official_registration"
+        }
+      ],
+      "participation": {
+        "region": "domestic",
+        "regionLabel": "国内",
+        "mode": "offline",
+        "modeLabel": "线下"
+      },
+      "chinaEligible": true,
+      "discoveredAt": "2026-08-24"
+    },
+    {
+      "id": "waves-ai-film-hackathon-2026",
+      "name": "海浪 AI 电影黑客松",
+      "fullName": "海浪 AI 电影黑客松 · 48 小时极限创作",
+      "organization": "天猫小黑盒 · 海浪电影周 · AMD",
+      "category": "创意 AI",
+      "tier": "S",
+      "match": 9.3,
+      "location": "中国线上招募 · 阿那亚线下 48 小时创作",
+      "dateLabel": "招募截止 2026-08-27",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-27",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-08-27",
+        "certainty": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "label": "招募截止"
+      },
+      "deadlines": [
+        {
+          "type": "registration",
+          "date": "2026-08-27",
+          "certainty": "confirmed",
+          "timezone": "Asia/Shanghai",
+          "label": "招募截止",
+          "primary": true
+        }
+      ],
+      "verification": {
+        "status": "verified",
+        "checkedAt": "2026-08-24",
+        "sourceKind": "official",
+        "linkHealth": "reachable",
+        "notes": "AMD 官方文章确认线上征集、阿那亚线下黑客松与电影节展映模式；认证的联想天猫官方旗舰店微博确认 8 月 11—27 日招募，公开短链解析到飞书报名表。"
+      },
+      "description": "面向 AI 影像创作者的 48 小时极限创作黑客松。AMD 官方说明赛事采用线上征集、线下黑客松和电影节展映三段式，优秀创作者受邀前往阿那亚完成现场创作。",
+      "audience": "AI 影像与电影创作者；公开招募表单可在线填写，入选者须前往阿那亚参加 48 小时线下创作",
+      "rewards": [
+        "优秀作品进入海浪电影周展映",
+        "入选者参加阿那亚 48 小时极限创作与现场活动"
+      ],
+      "timeline": [
+        {
+          "event": "公开招募开始",
+          "date": "2026-08-11",
+          "critical": false
+        },
+        {
+          "event": "招募截止",
+          "date": "2026-08-27",
+          "critical": true
+        }
+      ],
+      "detailUrl": "#waves-ai-film-hackathon-2026",
+      "actionUrl": "https://my.feishu.cn/share/base/form/shrcnnwtLIOER52ZFnmYZN8HFAh",
+      "sources": [
+        {
+          "title": "AMD 官方｜AIGC 微电影大赛与海浪 48 小时黑客松",
+          "date": "2026-08-24",
+          "url": "https://www.amd.com/zh-cn/blogs/2026/amd-bw-2026-passion-driven-gaming-ai.html",
+          "sourceKind": "official_detail"
+        },
+        {
+          "title": "联想天猫官方旗舰店微博｜海浪 AI 电影黑客松招募",
+          "date": "2026-08-24",
+          "url": "https://www.sina.cn/weibo/detail/5334428882567374.html",
+          "sourceKind": "official_social"
+        },
+        {
+          "title": "飞书公开报名表｜海浪 AI 电影黑客松",
+          "date": "2026-08-24",
+          "url": "https://my.feishu.cn/share/base/form/shrcnnwtLIOER52ZFnmYZN8HFAh",
+          "sourceKind": "official_registration"
+        }
+      ],
+      "participation": {
+        "region": "domestic",
+        "regionLabel": "国内",
+        "mode": "hybrid",
+        "modeLabel": "线上+线下"
+      },
+      "chinaEligible": true,
+      "discoveredAt": "2026-08-24"
     },
     {
       "id": "research-devpost-africa-deep-tech-challenge-2026-dd2fd238",
@@ -32361,139 +32472,6 @@
       "originalName": "VENTURE'26"
     },
     {
-      "id": "research-devfolio-hacknex-season-2-87961a9f",
-      "name": "HackNex 第 2 季",
-      "fullName": "HackNex 第 2 季",
-      "organization": "JIS College of Engineering, Kalyani on 25th–26th September 2026",
-      "category": "安全攻防",
-      "tier": "B",
-      "match": 7.2,
-      "location": "JIS 工程学院，巴拉克波尔 - 卡利亚尼高速公路，A5 座，A 座，卡利亚尼，西孟加拉邦，印度；卡利亚尼；西孟加拉邦；印度",
-      "dateLabel": "申请截止时间 2026-08-23T18:30:00+00:00（Devfolio 活动时区：亚洲/加尔各答）",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "end",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "申请截止时间 2026-08-23T18:30:00+00:00（Devfolio 活动时区：亚洲/加尔各答）"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-05-07T18:30:00+00:00",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "申请开放",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-23T18:30:00+00:00",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "申请已关闭",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-09-25T05:30:00+00:00",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "黑客马拉松开始",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-09-26T05:30:00+00:00",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "黑客马拉松结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "官方搜索 API 记录和公共微型网站 URL 已验证。"
-      },
-      "description": "黑客设计竞赛。 HackNex 第 2 季是 InnovoCon 第 2 季下的一场 24 小时国家级黑客马拉松，由 Kalyani 的 JIS 工程学院于 2026 年 9 月 25 日至 26 日主办。该活动汇集了来自全国各地的开发人员、设计师、创新者和技术爱好者，共同协作并为现实世界的挑战构建有影响力的解决方案。黑客马拉松的特色是……",
-      "audience": "问：黑客马拉松的团队规模要求是多少？： 答：团队必须至少由 4 名成员组成，最多由 6 名成员组成。",
-      "rewards": [
-        "1st Prize",
-        "2nd Prize",
-        "3rd Prize",
-        "硬件获胜者"
-      ],
-      "timeline": [
-        {
-          "event": "申请开放",
-          "date": "2026-05-07T18:30:00+00:00",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "申请已关闭",
-          "date": "2026-08-23T18:30:00+00:00",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "黑客马拉松开始",
-          "date": "2026-09-25T05:30:00+00:00",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "黑客马拉松结束",
-          "date": "2026-09-26T05:30:00+00:00",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        }
-      ],
-      "detailUrl": "#research-devfolio-hacknex-season-2-87961a9f",
-      "actionUrl": "https://hacknex-season-2.devfolio.co/",
-      "sources": [
-        {
-          "title": "Devfolio 公共黑客马拉松搜索 API",
-          "date": "2026-08-21",
-          "url": "https://api.devfolio.co/api/search/hackathons",
-          "sourceKind": "official-api"
-        },
-        {
-          "title": "HackNex 第 2 季 — Devfolio",
-          "date": "2026-08-21",
-          "url": "https://hacknex-season-2.devfolio.co/",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "devfolio",
-      "researchPlatformIds": [
-        "devfolio"
-      ],
-      "researchPlatformName": "Devfolio Hackathons",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://hacknex-season-2.devfolio.co/",
-      "sourceCategories": [
-        "hackathon"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "unknown",
-        "modeLabel": "形式待确认"
-      },
-      "originalName": "HackNex Season 2",
-      "originalFullName": "HackNex Season 2"
-    },
-    {
       "id": "research-devfolio-ethkochi-1201e9c5",
       "name": "ETHKochi（AI 软件赛事）",
       "fullName": "ETHKochi",
@@ -38120,117 +38098,6 @@
       "originalFullName": "National Branding Challenge (Online): Can you lead a Brand"
     },
     {
-      "id": "research-unstop-cognivanta-2026-the-future-of-competitive-intelligen-82b20fd5",
-      "name": "Cognivanta 2026 – 竞争情报的未来",
-      "fullName": "Cognivanta 2026 – 竞争情报的未来",
-      "organization": "H & P Projects",
-      "category": "安全攻防",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-07-13T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-24T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "竞争情报的未来 活动日期：2026 年 8 月 25 日 方式：在线 持续时间：60 分钟 问题总数：30 资格：向所有学科的学生和专业人士开放。比赛级别：全国智力问答锦标赛规则和指南 参赛者必须在报名截止日期前报名。测验将于2026年8月25日以在线方式进行。比赛由 30 道多项选择题 (MCQ) 组成。参与者将有 60 分钟的时间完成测验。每个参与者只能尝试一次.. 建议测验领域 人工智能与机器学习 工业 5.0 和智能制造 科学与技术 空间科学与天文学 网络安全 商业与创业 一般知识与时事 机器人与自动化 可持续发展与气候变化 新兴工程技术 口号“更快思考。T…",
-      "audience": "官方资格过滤器：全部。个人参与。",
-      "rewards": [
-        "未知——官方详细API未发布奖励信息。"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-07-13T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-24T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-cognivanta-2026-the-future-of-competitive-intelligen-82b20fd5",
-      "actionUrl": "https://unstop.com/quiz/cognivanta-2026-the-future-of-competitive-intelligence-h-p-projects-1717817",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 3 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=3&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "Cognivanta 2026 – 竞争情报的未来 – 不间断的公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1717817",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "Cognivanta 2026 – 竞争情报的未来 — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/quiz/cognivanta-2026-the-future-of-competitive-intelligence-h-p-projects-1717817",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/quiz/cognivanta-2026-the-future-of-competitive-intelligence-h-p-projects-1717817",
-      "sourceCategories": [
-        "Quiz",
-        "Artificial Intelligence (AI)",
-        "Entrepreneurship",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Cognivanta 2026 – The Future of Competitive Intelligence",
-      "originalFullName": "Cognivanta 2026 – The Future of Competitive Intelligence"
-    },
-    {
       "id": "research-unstop-product-design-challenge-cefebe43",
       "name": "产品与设计挑战",
       "fullName": "产品与设计挑战",
@@ -40580,467 +40447,6 @@
       },
       "originalName": "Brain War 2026 – National Level Tech Quiz",
       "originalFullName": "Brain War 2026 – National Level Tech Quiz"
-    },
-    {
-      "id": "research-unstop-product-design-builder-award-26-c8725747",
-      "name": "产品设计建造者奖’26",
-      "fullName": "产品设计建造者奖’26",
-      "organization": "Wooble",
-      "category": "创意 AI",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-07-24T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-24T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-07-31T01:04:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "通过 Wooble 提交。打开",
-          "primary": false
-        },
-        {
-          "type": "submission",
-          "date": "2026-08-14T01:04:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "通过 Wooble 提交。关闭",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "概述：识别真正的用户问题并设计一款能够周全解决该问题的数字产品。展示您的研究、产品思维、迭代、界面和工作原型——而不仅仅是有吸引力的屏幕。构建一些有用的东西，解释每一个重要的决定，并竞争“26 年产品设计构建者奖”。设计人们真正需要的东西，而不是另一个漂亮的屏幕。 Product Design Builder Award ’26 邀请设计师、学生和问题解决者识别真正的用户问题，并设计出深思熟虑的数字产品，使体验更简单、更清晰或更容易获得。这项挑战不仅仅以视觉吸引力来评判。我们希望了解您如何识别问题、做出决策、应对限制以及将见解转化为可用的产品体验。挑战：设计或重新设计一款能够改善日常体验的数字产品……",
-      "audience": "官方资格过滤器：全部。个人参与。",
-      "rewards": [
-        "总奖汇总：节日总冠军可获得高达25k的现金奖励。",
-        "第一 - INR 5,000 - 证书",
-        "第二次 — 2,000 印度卢比 — 证书",
-        "第三 — 生产力套件 — 证书"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-07-24T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-24T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "通过 Wooble 提交。打开",
-          "date": "2026-07-31T01:04:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "通过 Wooble 提交。关闭",
-          "date": "2026-08-14T01:04:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-product-design-builder-award-26-c8725747",
-      "actionUrl": "https://unstop.com/competitions/product-design-builder-award-26-wooble-builder-awards-26-wooble-1724536",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 3 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=3&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "产品设计建造者奖’26 — 不间断的公共细节 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1724536",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "产品设计建造者奖’26 — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/product-design-builder-award-26-wooble-builder-awards-26-wooble-1724536",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/product-design-builder-award-26-wooble-builder-awards-26-wooble-1724536",
-      "sourceCategories": [
-        "Competition",
-        "Innovation Challenge",
-        "Product Knowledge",
-        "User Experience (UX) Design",
-        "Wireframing",
-        "UI/UX Design",
-        "Product Design"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Product Design Builder Award ’26",
-      "originalFullName": "Product Design Builder Award ’26"
-    },
-    {
-      "id": "research-unstop-interactup-s-national-level-ngo-national-core-commit-a2d6d88d",
-      "name": "Interactup（国家级非政府组织）2026 年国家核心委员会选拔挑战赛",
-      "fullName": "Interactup（国家级非政府组织）2026 年国家核心委员会选拔挑战赛",
-      "organization": "InteractUp",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-07-24T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-24T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-07T12:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "表单筛选开启",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-14T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "表单筛选结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-09T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "采访筛选轮开始",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-24T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "采访筛选轮结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "思考。竞争。创造。带领。 InteractUp 推出了 Interactup 2026 年国家核心委员会选拔挑战赛，这是一项多阶段竞赛，旨在甄选能够批判性思考、有效沟通、解决现实问题以及将想法转化为可执行计划的个人。选定的个人有机会加入 2026-27 委员会。将通过一系列竞争性回合来测试参与者的分析、构思、制定战略、展示和执行的能力。加入以下群组：https://chat.whatsapp.com/LWkbDzB3kHI5lQiaT3z0jp 关于 InteractUp：InteractUp 是一家专业驱动、社区主导的国家级非政府组织，致力于技能发展、学生发展、初创企业、企业专业人士、心理健康、教育和社会影响倡议。 InteractUp 社区在印度各地已拥有 4,500 多名成员，并且……",
-      "audience": "官方资格筛选器：本科生、研究生、工程生、管理、艺术、商业、科学及其他、法律、医学。团队规模：1-4 人。",
-      "rewards": [
-        "志愿者入围候选人 — 预安置机会"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-07-24T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-24T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "表单筛选开启",
-          "date": "2026-08-07T12:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "表单筛选结束",
-          "date": "2026-08-14T23:59:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "采访筛选轮开始",
-          "date": "2026-08-09T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "采访筛选轮结束",
-          "date": "2026-08-24T23:59:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-interactup-s-national-level-ngo-national-core-commit-a2d6d88d",
-      "actionUrl": "https://unstop.com/competitions/interactups-national-level-ngo-national-core-committees-selection-challenge-2026-interactup-1724707",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 3 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=3&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "Interactup（国家级非政府组织）2026 年国家核心委员会选拔挑战赛 — 不间断的公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1724707",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "Interactup（国家级非政府组织）2026 年国家核心委员会选拔挑战赛 — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/interactups-national-level-ngo-national-core-committees-selection-challenge-2026-interactup-1724707",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/interactups-national-level-ngo-national-core-committees-selection-challenge-2026-interactup-1724707",
-      "sourceCategories": [
-        "Competition",
-        "Case Competition",
-        "Communication Skills",
-        "Problem Solving",
-        "Critical Thinking",
-        "Skill Development",
-        "Research Skills",
-        "Leadership Development",
-        "Volunteer Management",
-        "Others"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Interactup's (National Level NGO) National Core Committees Selection Challenge 2026",
-      "originalFullName": "Interactup's (National Level NGO) National Core Committees Selection Challenge 2026"
-    },
-    {
-      "id": "research-unstop-brand-creative-builder-award-26-bbed5596",
-      "name": "品牌与创意建设者奖’26",
-      "fullName": "品牌与创意建设者奖’26",
-      "organization": "Wooble",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-07-25T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-24T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-07-31T00:51:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "通过链接 wooble.org 提交轮次开启",
-          "primary": false
-        },
-        {
-          "type": "submission",
-          "date": "2026-08-14T00:51:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "通过链接 wooble.org 提交的轮次结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "围绕您真正关心的事物创建一个品牌。参与者可以： 创建一个全新品牌 重新构想现有品牌 为某个事业、产品、服务、活动、社区或个人品牌开展活动 提交他们当前正在开发的品牌项目 选择他们感兴趣的任何行业或受众 建议的项目路径：参与者可以选择一个： 新品牌创建：为原始业务、产品、服务或社区建立完整的身份。品牌重塑：重新定位和设计现有品牌，解释需要改进的地方。创意活动：围绕产品发布、文化时刻、社会事业或业务目标开展活动。个人品牌：为专业人士、创造者、创始人或公众人物创建有意义的身份和沟通系统。开放创意项目：提交另一个由品牌主导的项目，该项目恶魔......",
-      "audience": "官方资格过滤器：全部。个人参与。",
-      "rewards": [
-        "未知——官方详细API未发布奖励信息。"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-07-25T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-24T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "通过链接 wooble.org 提交轮次开启",
-          "date": "2026-07-31T00:51:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "通过链接 wooble.org 提交的轮次结束",
-          "date": "2026-08-14T00:51:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-brand-creative-builder-award-26-bbed5596",
-      "actionUrl": "https://unstop.com/competitions/brand-creative-builder-award-26-wooble-builder-awards-26-wooble-1726009",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 3 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=3&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "品牌与创意建设者奖’26 — 不间断的公共细节 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1726009",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "品牌与创意建造者奖’26 — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/brand-creative-builder-award-26-wooble-builder-awards-26-wooble-1726009",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/brand-creative-builder-award-26-wooble-builder-awards-26-wooble-1726009",
-      "sourceCategories": [
-        "Competition",
-        "Innovation Challenge",
-        "Brand Strategy",
-        "Business Planning",
-        "Creative Direction",
-        "Storyboarding",
-        "Visual Design Principles",
-        "Brand Marketing"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Brand & Creative Builder Award ’26",
-      "originalFullName": "Brand & Creative Builder Award ’26"
     },
     {
       "id": "research-unstop-the-turing-gauntlet-043b4761",
@@ -43839,185 +43245,6 @@
       },
       "originalName": "Orvix Hackathon",
       "originalFullName": "Orvix Hackathon"
-    },
-    {
-      "id": "research-unstop-co-operative-employee-owned-business-ideathon-e9680cb2",
-      "name": "合作社/员工拥有的商业创意马拉松",
-      "fullName": "合作社/员工拥有的商业创意马拉松",
-      "organization": "Kairos Creative",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 23:59:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 23:59:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-09T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-23T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-09T00:01:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "第一轮：书面想法开始",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-23T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "第一轮：书面想法结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-27T10:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "第二轮：证明它（陪审团对话）开始",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-29T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "第二轮：证明它（陪审团对话）结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "关于 Ideathon：印度的大多数平台都是建立在为其提供支持的人员之上的。送货骑手、经纪人、培训师、农民和服务提供商创造了价值，而所有权和大部分利润却在别处。合作、员工所有和收入共享模式颠覆了这种结构：从事工作的人拥有真正的所有权、真正的治理以及他们所创造的东西的真正份额。 Namma Yatri 和 Amul 证明这不是理论。合作商业创意马拉松邀请您设计一项这样的业务。第一轮只要求一件事：对企业的合理书面想法，其中员工或生产者是真正的所有者，写得足够清晰，以便陪审团可以看到其背后的想法。没有宣传材料，没有原型。第二轮是入围名单用真实数字证明这一点的地方。这是一场创意竞赛。获胜并不需要您构建、加入或运行任何……",
-      "audience": "官方资格过滤器：全部。团队规模：1-3 人。",
-      "rewards": [
-        "总奖金摘要：奖金 1,00,000 卢比，包括针对女性和不同能力参赛者的特别奖。",
-        "获胜者 — 50,000 印度卢比 — 证书",
-        "亚军 — INR 15,000 — 证书",
-        "特别奖 – 女性或女性领导团队的最佳创意 — 10,000 印度卢比 — 证书",
-        "特别奖 – 不同能力参与者的最佳创意 — 10,000 印度卢比 — 证书"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-09T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-23T23:59:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "第一轮：书面想法开始",
-          "date": "2026-08-09T00:01:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "第一轮：书面想法结束",
-          "date": "2026-08-23T23:59:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "第二轮：证明它（陪审团对话）开始",
-          "date": "2026-08-27T10:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "第二轮：证明它（陪审团对话）结束",
-          "date": "2026-08-29T23:59:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-co-operative-employee-owned-business-ideathon-e9680cb2",
-      "actionUrl": "https://unstop.com/competitions/co-operativeemployee-owned-business-ideathon-kairos-creative-1730454",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 2 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=2&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "合作社/员工拥有的商业创意马拉松 - 不间断的公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1730454",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "合作社/员工所有的商业创意马拉松 — 不间断",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/co-operativeemployee-owned-business-ideathon-kairos-creative-1730454",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/co-operativeemployee-owned-business-ideathon-kairos-creative-1730454",
-      "sourceCategories": [
-        "Competition",
-        "Innovation Challenge",
-        "Critical Thinking",
-        "Problem Solving",
-        "Problem Identification",
-        "Business Acumen",
-        "Business Planning",
-        "Proposal Writing",
-        "Strategic Thinking",
-        "Financial Modeling",
-        "Strategy & Planning",
-        "Business Analysis"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Co-operative/Employee Owned Business Ideathon",
-      "originalFullName": "Co-operative/Employee Owned Business Ideathon"
     },
     {
       "id": "research-unstop-india-supply-chain-student-challenge-2026-29a87847",
@@ -47955,176 +47182,6 @@
       "originalFullName": "Lead the justice 3: Turning Conviction into Action"
     },
     {
-      "id": "research-unstop-soft-skills-competition-online-verbal-warfare-where--970d6003",
-      "name": "软技能竞赛（在线）：言语战争 - 言语成为武器。",
-      "fullName": "软技能竞赛（在线）：言语战争 - 言语成为武器。",
-      "organization": "InteractUp",
-      "category": "游戏创作",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-10T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-24T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-15T12:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "淘汰赛（在线）开始",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-20T12:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "淘汰赛（在线）结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-22T12:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "决赛（Google Meet）开幕",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-22T14:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "决赛（Google Meet）结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "言语成为武器的言语战。你认为你能说话吗？言语战提出了一个更难的问题：你能比对手思考得更快，在压力下说服，适应规则变化，并将你的言语变成你最强大的武器吗？忘记传统的辩论，即准备演讲并等待轮到你。在《舌战》中，每一轮都会改变游戏规则。一开始你可能是团队的一员，但联盟可能会消失。您可能拥有其他人没有的信息。您可能需要捍卫您不相信的论点，挑战对手的逻辑，揭露隐藏的议程，进行战略谈判，或者在几秒钟内彻底改变您的立场。这就是公开演讲与策略、心理学、批判性思维和自发性的结合。最终之战20名参赛者。 60 分钟。一战场。没有第二次机会。第 1 轮 - 第一步 20 名参与者 → 5 个团队一起工作。...",
-      "audience": "官方资格过滤器：全部。团队规模：1-2 人。",
-      "rewards": [
-        "未知——官方详细API未发布奖励信息。"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-10T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-24T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "淘汰赛（在线）开始",
-          "date": "2026-08-15T12:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "淘汰赛（在线）结束",
-          "date": "2026-08-20T12:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "决赛（Google Meet）开幕",
-          "date": "2026-08-22T12:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "决赛（Google Meet）结束",
-          "date": "2026-08-22T14:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-soft-skills-competition-online-verbal-warfare-where--970d6003",
-      "actionUrl": "https://unstop.com/competitions/soft-skills-development-online-verbal-warfare-where-words-become-weapons-interactup-1734375",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 2 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=2&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "软技能竞赛（在线）：言语战争 - 言语成为武器。 — 停止公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1734375",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "软技能竞赛（在线）：言语战争 - 言语成为武器。 — 不间断",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/soft-skills-development-online-verbal-warfare-where-words-become-weapons-interactup-1734375",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/soft-skills-development-online-verbal-warfare-where-words-become-weapons-interactup-1734375",
-      "sourceCategories": [
-        "Competition",
-        "General Competition",
-        "Strategic Thinking",
-        "Adaptability",
-        "Public Speaking",
-        "Critical Thinking",
-        "Business Intelligence"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Soft Skills Competition (Online): VERBAL WARFARE- Where Words Become Weapons.",
-      "originalFullName": "Soft Skills Competition (Online): VERBAL WARFARE- Where Words Become Weapons."
-    },
-    {
       "id": "research-unstop-finshiksha-learning-championship-2026-the-premier-fi-f648c6fd",
       "name": "2026 年 FinShiksha 学习锦标赛：商学院学生的顶级金融竞赛",
       "fullName": "2026 年 FinShiksha 学习锦标赛：商学院学生的顶级金融竞赛",
@@ -48133,17 +47190,17 @@
       "tier": "B",
       "match": 7.2,
       "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 24 日 11:46:48+05:30（亚洲/加尔各答）。",
+      "dateLabel": "报名截止：2026-08-24T23:59:48+05:30（印度标准时间）。",
       "recordType": "competition",
       "seriesId": null,
       "parentId": null,
-      "deadlineDate": "2026-08-24",
+      "deadlineDate": "2026-08-25",
       "primaryDeadline": {
         "type": "registration",
-        "date": "2026-08-24",
+        "date": "2026-08-25",
         "certainty": "confirmed",
         "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 24 日 11:46:48+05:30（亚洲/加尔各答）。"
+        "label": "报名截止：2026-08-24T23:59:48+05:30（印度标准时间）。"
       },
       "deadlines": [
         {
@@ -48156,7 +47213,7 @@
         },
         {
           "type": "registration",
-          "date": "2026-08-24T11:46:48+05:30",
+          "date": "2026-08-24T23:59:48+05:30",
           "certainty": "confirmed",
           "timezone": "Asia/Kolkata",
           "label": "注册结束",
@@ -48189,7 +47246,7 @@
         },
         {
           "event": "注册结束",
-          "date": "2026-08-24T11:46:48+05:30",
+          "date": "2026-08-24T23:59:48+05:30",
           "timezone": "Asia/Kolkata",
           "critical": true
         }
@@ -48416,399 +47473,6 @@
       },
       "originalName": "Capital Conclave - Finception",
       "originalFullName": "Capital Conclave - Finception"
-    },
-    {
-      "id": "research-unstop-supply-chain-track-kenvue-future-leader-identificati-3c04b81b",
-      "name": "供应链轨道 - Kenvue 2026 年未来领导者识别计划",
-      "fullName": "供应链轨道 - Kenvue 2026 年未来领导者识别计划",
-      "organization": "Kenvue",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 23:59:52+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 23:59:52+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-14T10:00:52+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-23T23:59:52+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-24T12:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "在线评估开启",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-24T18:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "在线评估结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-31T22:12:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "个人资料验证打开",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-09-03T22:13:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "个人资料验证关闭",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-31T12:57:17+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "最终采访开始",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-09-01T23:57:17+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "最终采访结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "Kenvue 是全球收入最大的纯消费者健康公司。我们的标志性品牌以一个多世纪的传统为基础，以科学为推动力，包括 Aveeno®、BAND-AID® 品牌创可贴、Johnson’s®、Listerine®、Neutrogena®、Tylenol® 和 Zyrtec®，每天都受到医疗保健专业人士的推荐。作为全球消费者健康领导者，Kenvue 影响着全球超过 10 亿人的生活。我们一直在寻找充满活力、大胆且富有洞察力的人才加入我们的团队，并加快我们的努力，为全球各地的人们带来美好的每一天。我们很高兴为您带来“Kenvue 未来领导者识别计划”，这是一个快节奏、密集的深入研究我们的世界，快速消费品和消费者健康行业联手提供最好的医疗保健。我们的未来领导者将获得身临其境的体验和……",
-      "audience": "官方资格筛选：研究生、管理学。个人参与。",
-      "rewards": [
-        "暑期实习计划的 PPI — 有机会获得校园暑期实习计划选择的预安置机会。入围候选人将获得实习机会，并获得每月 15 万卢比的津贴。 — 岗前实习"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-14T10:00:52+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-23T23:59:52+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "在线评估开启",
-          "date": "2026-08-24T12:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "在线评估结束",
-          "date": "2026-08-24T18:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "个人资料验证打开",
-          "date": "2026-08-31T22:12:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "个人资料验证关闭",
-          "date": "2026-09-03T22:13:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "最终采访开始",
-          "date": "2026-08-31T12:57:17+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "最终采访结束",
-          "date": "2026-09-01T23:57:17+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-supply-chain-track-kenvue-future-leader-identificati-3c04b81b",
-      "actionUrl": "https://unstop.com/quiz/crp-supply-chain-track-kenvue-future-leader-identification-program-2026-kenvue-future-leader-identification-program-202-1734627",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 2 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=2&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "供应链轨道 - Kenvue 未来领导者识别计划 2026 — 不间断的公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1734627",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "供应链轨道 - Kenvue 2026 年未来领导者识别计划 — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/quiz/crp-supply-chain-track-kenvue-future-leader-identification-program-2026-kenvue-future-leader-identification-program-202-1734627",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/quiz/crp-supply-chain-track-kenvue-future-leader-identification-program-2026-kenvue-future-leader-identification-program-202-1734627",
-      "sourceCategories": [
-        "Quiz",
-        "Problem Solving",
-        "Business Acumen",
-        "Supply Chain Operations",
-        "Business Analysis"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Supply Chain Track - Kenvue Future Leader Identification Program 2026",
-      "originalFullName": "Supply Chain Track - Kenvue Future Leader Identification Program 2026"
-    },
-    {
-      "id": "research-unstop-commercial-track-kenvue-future-leader-identification-08457cf3",
-      "name": "商业赛道 - Kenvue 2026 年未来领导者识别计划",
-      "fullName": "商业赛道 - Kenvue 2026 年未来领导者识别计划",
-      "organization": "Kenvue",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 23:59:29+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 23:59:29+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-14T10:00:29+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-23T23:59:29+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-24T12:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "在线评估开启",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-24T18:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "在线评估结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-25T10:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "个人资料验证打开",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-25T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "个人资料验证关闭",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-31T07:05:57+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "最终采访开始",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-09-03T18:05:57+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "最终采访结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "Kenvue 是全球收入最大的纯消费者健康公司。我们的标志性品牌以一个多世纪的传统为基础，以科学为推动力，包括 Aveeno®、BAND-AID® 品牌创可贴、Johnson’s®、Listerine®、Neutrogena®、Tylenol® 和 Zyrtec®，每天都受到医疗保健专业人士的推荐。作为全球消费者健康领导者，Kenvue 影响着全球超过 10 亿人的生活。我们一直在寻找充满活力、大胆且富有洞察力的人才加入我们的团队，并加快我们的努力，为全球各地的人们带来美好的每一天。我们很高兴为您带来“Kenvue 未来领导者识别计划”，这是一个快节奏、密集的深入研究我们的世界，快速消费品和消费者健康行业联手提供最好的医疗保健。我们的未来领导者将获得身临其境的体验……",
-      "audience": "官方资格筛选：研究生、管理学。个人参与。",
-      "rewards": [
-        "暑期实习计划的 PPI — 有机会获得校园暑期实习计划选择的预安置机会。入围候选人将获得实习机会，并获得每月 15 万卢比的津贴。 — 岗前实习"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-14T10:00:29+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-23T23:59:29+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "在线评估开启",
-          "date": "2026-08-24T12:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "在线评估结束",
-          "date": "2026-08-24T18:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "个人资料验证打开",
-          "date": "2026-08-25T10:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "个人资料验证关闭",
-          "date": "2026-08-25T23:59:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "最终采访开始",
-          "date": "2026-08-31T07:05:57+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "最终采访结束",
-          "date": "2026-09-03T18:05:57+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-commercial-track-kenvue-future-leader-identification-08457cf3",
-      "actionUrl": "https://unstop.com/quiz/crp-commercial-track-kenvue-future-leader-identification-program-2026-kenvue-future-leader-identification-program-2026--1734630",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 2 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=2&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "商业轨道 - Kenvue 未来领导者识别计划 2026 — 不间断的公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1734630",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "商业赛道 - Kenvue 未来领导者识别计划 2026 — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/quiz/crp-commercial-track-kenvue-future-leader-identification-program-2026-kenvue-future-leader-identification-program-2026--1734630",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/quiz/crp-commercial-track-kenvue-future-leader-identification-program-2026-kenvue-future-leader-identification-program-2026--1734630",
-      "sourceCategories": [
-        "Quiz",
-        "Business Acumen",
-        "Communication Skills",
-        "Analytical Skills",
-        "General Marketing",
-        "Business Analysis"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Commercial Track - Kenvue Future Leader Identification Program 2026",
-      "originalFullName": "Commercial Track - Kenvue Future Leader Identification Program 2026"
     },
     {
       "id": "research-unstop-call-for-articles-the-trust-economy-can-brands-still-bef2d9d8",
@@ -49124,184 +47788,6 @@
       },
       "originalName": "Quantitative Trading Strategy Article Writing + Video Presentation Competition",
       "originalFullName": "Quantitative Trading Strategy Article Writing + Video Presentation Competition"
-    },
-    {
-      "id": "research-unstop-breakpoint-hackathon-2026-c091b374",
-      "name": "2026 年断点黑客马拉松",
-      "fullName": "2026 年断点黑客马拉松",
-      "organization": "invoqe",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "注册截止时间为 2026 年 8 月 24 日00:00:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-12T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-24T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-12T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "想法提交已开启",
-          "primary": false
-        },
-        {
-          "type": "submission",
-          "date": "2026-08-25T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "想法提交结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-09-04T10:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "大结局：最终提交开始",
-          "primary": false
-        },
-        {
-          "type": "submission",
-          "date": "2026-09-04T19:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "大结局：最终提交结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "关于黑客马拉松：一切正常 - 直到它不起作用。找出失败的地方。构建修复。 Breakpoint Hackathon 的目的是挑战您找到一些无法正常工作的东西 - 令人沮丧的工作流程、低效的流程、过时的产品、可访问性差距或技术和社会中被忽视的问题。您的任务很简单：确定断点并进行有意义的改进。不要仅仅因为你可以而建造一些东西。找到真正的问题，了解现有系统失败的原因，并创建一个解决方案，使其更快、更简单、更智能、更安全或更易于访问。从软件和人工智能到医疗保健、教育、金融、交通和日常生活——断点就在你的手中。曲目： 人工智能与智能系统 软件与开发工具 医疗保健与福祉 教育与学习 金融与商业 社会影响与可访问性 移动性与用户体验...",
-      "audience": "官方资格过滤器：全部。团队规模：1-4 人。",
-      "rewards": [
-        "总体奖项摘要：参与者的认可、证书、网络和开源曝光。",
-        "获奖者 — 获奖者证书 + 交流机会 + 开源认可 — 证书",
-        "第一名亚军 — 第一名亚军证书 + 交流机会 + 开源认可 — 证书",
-        "二等奖 — 二等奖证书 + 交流机会 + 开源认可 — 证书",
-        "前 10 名团队 — 优异奖证书 — 证书"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-12T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-24T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "想法提交已开启",
-          "date": "2026-08-12T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "想法提交结束",
-          "date": "2026-08-25T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "大结局：最终提交开始",
-          "date": "2026-09-04T10:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "大结局：最终提交结束",
-          "date": "2026-09-04T19:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-breakpoint-hackathon-2026-c091b374",
-      "actionUrl": "https://unstop.com/hackathons/breakpoint-hackathon-2026-invoqe-1734966",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 2 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=2&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "Breakpoint Hackathon 2026 — 不间断的公共细节 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1734966",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "断点黑客马拉松 2026 — 不间断",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/hackathons/breakpoint-hackathon-2026-invoqe-1734966",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/hackathons/breakpoint-hackathon-2026-invoqe-1734966",
-      "sourceCategories": [
-        "Hackathon",
-        "Online Coding Challenge",
-        "Artificial Intelligence (AI)",
-        "Teamwork and Collaboration",
-        "Innovation Management",
-        "Software Development Life Cycle (SDLC)",
-        "Technical Communication",
-        "Problem Solving",
-        "Critical Thinking",
-        "Business Analysis",
-        "Software Development"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Breakpoint Hackathon 2026",
-      "originalFullName": "Breakpoint Hackathon 2026"
     },
     {
       "id": "research-unstop-mosip-decode-2026-0fa7d221",
@@ -51309,440 +49795,6 @@
       "originalFullName": "The Trust Economy Challenge: Super App or Super Mess?"
     },
     {
-      "id": "research-unstop-purchase-track-britannia-creatovate-2-0-9c968780",
-      "name": "购买轨迹 - Britannia Creatovate 2.0",
-      "fullName": "购买轨迹 - Britannia Creatovate 2.0",
-      "organization": "Britannia Industries Ltd.",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 23:59:09+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 23:59:09+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-13T04:30:09+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-23T23:59:09+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-14T18:00:17+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "案例启动和提交已开启",
-          "primary": false
-        },
-        {
-          "type": "submission",
-          "date": "2026-08-23T23:59:17+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "案例启动和提交结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-09-05T20:29:17+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "校园大结局开幕",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-09-22T08:28:17+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "校园大结局结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-11-25T20:54:17+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "大结局开幕",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-11-26T11:53:17+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "大结局结束",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-11-17T03:24:15+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "总体机会结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "我们是谁：Britannia 成立于 1918 年，在印度是一个家喻户晓的品牌，拥有 100 多年的历史。虽然我们是饼干和面包店的市场领导者，但我们是一家着眼于未来、扩展到新类别的公司。我们的愿景是成为一家负责任的全食品公司，提供充满令人兴奋的美好品质的产品。我们的文化以强大的雇主品牌为指导：“Make Ti)ngs Happen”。我们邀请您通过与我们一起进行现实世界的案例研究来兑现这一承诺，因为我们赌注于您的潜力，而这就是赌注的开始。资格标准：向攻读全日制 2 年 MBA/PGDM 课程的一年级学生开放，将于 2028 年毕业。参赛者必须在两个合格校区组成的团队中注册：印度管理学院 (IIM)、孟买印度外贸学院 (IIFT)、新德里 团队组建指南：所有团队成员应来自同一学院……",
-      "audience": "官方资格过滤器：研究生、管理学。团队规模：2人。",
-      "rewards": [
-        "校园决赛获胜者 — 校园决赛获胜者将获得暑期实习机会 — 预安置机会",
-        "总决赛获胜者/获胜团队 — 500,000 印度卢比 — 总决赛获胜者/获胜团队将获得 50 万卢比现金和证书 — 证书",
-        "总决赛亚军/亚军团队 — 300,000 印度卢比 — 总决赛亚军/亚军团队将获得 30 万卢比现金和证书 — 证书",
-        "评审团选择 — 200,000 印度卢比 — 根据评审团的最终决定，总决赛季军/亚军团队将获得 20 万卢比现金和证书。适用条款和条件* — 证书",
-        "总决赛入围者 — 总决赛入围者将有机会向 Britannia 领导团队展示他们的作品"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-13T04:30:09+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-23T23:59:09+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "案例启动和提交已开启",
-          "date": "2026-08-14T18:00:17+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "案例启动和提交结束",
-          "date": "2026-08-23T23:59:17+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "校园大结局开幕",
-          "date": "2026-09-05T20:29:17+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "校园大结局结束",
-          "date": "2026-09-22T08:28:17+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "大结局开幕",
-          "date": "2026-11-25T20:54:17+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "大结局结束",
-          "date": "2026-11-26T11:53:17+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "总体机会结束",
-          "date": "2026-11-17T03:24:15+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-purchase-track-britannia-creatovate-2-0-9c968780",
-      "actionUrl": "https://unstop.com/competitions/crp-purchase-track-britannia-creatovate-20-britannia-creatovate-2026-britannia-industries-ltd-1736291",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 2 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=2&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "购买轨迹 - Britannia Creatovate 2.0 — 不间断的公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1736291",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "购买轨迹 - Britannia Creatovate 2.0 — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/crp-purchase-track-britannia-creatovate-20-britannia-creatovate-2026-britannia-industries-ltd-1736291",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/crp-purchase-track-britannia-creatovate-20-britannia-creatovate-2026-britannia-industries-ltd-1736291",
-      "sourceCategories": [
-        "Competition",
-        "Case Competition",
-        "Problem Solving",
-        "Business Acumen",
-        "Business Planning",
-        "Data Analysis (Excel)",
-        "Strategy & Planning",
-        "Business Analysis"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Purchase Track - Britannia Creatovate 2.0",
-      "originalFullName": "Purchase Track - Britannia Creatovate 2.0"
-    },
-    {
-      "id": "research-unstop-supply-chain-track-britannia-creatovate-2-0-a07ebc7c",
-      "name": "供应链轨道 - Britannia Creatovate 2.0",
-      "fullName": "供应链轨道 - Britannia Creatovate 2.0",
-      "organization": "Britannia Industries Ltd.",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 23:59:09+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 23:59:09+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-13T05:00:09+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-23T23:59:09+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-14T18:00:06+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "案例启动和提交已开启",
-          "primary": false
-        },
-        {
-          "type": "submission",
-          "date": "2026-08-23T23:59:06+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "案例启动和提交结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-09-05T16:03:06+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "校园大结局开幕",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-09-21T06:02:06+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "校园大结局结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-11-25T15:03:06+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "大结局开幕",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-11-26T06:02:06+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "大结局结束",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-11-17T03:24:15+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "总体机会结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "我们是谁：Britannia 成立于 1918 年，在印度是一个家喻户晓的品牌，拥有 100 多年的历史。虽然我们是饼干和面包店的市场领导者，但我们是一家着眼于未来、扩展到新类别的公司。我们的愿景是成为一家负责任的全食品公司，提供充满令人兴奋的美好品质的产品。我们的文化以强大的雇主品牌为指导：“Make Ti)ngs Happen”。我们邀请您通过与我们一起进行现实世界的案例研究来兑现这一承诺，因为我们赌注于您的潜力，而这就是赌注的开始。资格标准：向攻读全日制 2 年 MBA/PGDM 课程的一年级学生开放，将于 2028 年毕业。参与者必须在两个符合资格的校区组成的团队中注册：Shailesh J. Mehta 管理学院 (SJMSoM)、IIT 孟买分校、孟买 S. P. Jain 管理与研究学院 (SPJIMR)、孟买印度管理学院 (IIM)、Mu…",
-      "audience": "官方资格过滤器：研究生、管理学。团队规模：2人。",
-      "rewards": [
-        "总决赛入围者 — 总决赛入围者将有机会向 Britannia 领导团队展示他们的作品",
-        "校园决赛获胜者 — 校园决赛获胜者将获得暑期实习机会 — 预安置机会",
-        "总决赛获胜者/获胜团队 — 500,000 印度卢比 — 总决赛获胜者/获胜团队将获得 50 万卢比现金和证书 — 证书",
-        "总决赛亚军/亚军团队 — 300,000 印度卢比 — 总决赛亚军/亚军团队将获得 30 万卢比现金和证书 — 证书",
-        "评审团选择 — 200,000 印度卢比 — 根据评审团的最终决定，总决赛季军/亚军团队将获得 20 万卢比现金和证书。适用条款和条件* — 证书"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-13T05:00:09+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-23T23:59:09+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "案例启动和提交已开启",
-          "date": "2026-08-14T18:00:06+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "案例启动和提交结束",
-          "date": "2026-08-23T23:59:06+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "校园大结局开幕",
-          "date": "2026-09-05T16:03:06+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "校园大结局结束",
-          "date": "2026-09-21T06:02:06+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "大结局开幕",
-          "date": "2026-11-25T15:03:06+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "大结局结束",
-          "date": "2026-11-26T06:02:06+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "总体机会结束",
-          "date": "2026-11-17T03:24:15+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-supply-chain-track-britannia-creatovate-2-0-a07ebc7c",
-      "actionUrl": "https://unstop.com/competitions/crp-supply-chain-track-britannia-creatovate-20-britannia-creatovate-2026-britannia-industries-ltd-1736299",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 2 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=2&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "供应链追踪 - Britannia Creatovate 2.0 — 不间断的公共详细 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1736299",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "供应链轨道 - Britannia Creatovate 2.0 — 不间断",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/crp-supply-chain-track-britannia-creatovate-20-britannia-creatovate-2026-britannia-industries-ltd-1736299",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/crp-supply-chain-track-britannia-creatovate-20-britannia-creatovate-2026-britannia-industries-ltd-1736299",
-      "sourceCategories": [
-        "Competition",
-        "Case Competition",
-        "Problem Solving",
-        "HR Analytics",
-        "Business Acumen",
-        "Communication Skills",
-        "Business Development",
-        "Strategy & Planning"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Supply Chain Track - Britannia Creatovate 2.0",
-      "originalFullName": "Supply Chain Track - Britannia Creatovate 2.0"
-    },
-    {
       "id": "research-unstop-campus-growth-challenge-2026-365a28e0",
       "name": "2026 年校园成长挑战",
       "fullName": "2026 年校园成长挑战",
@@ -52574,211 +50626,6 @@
       },
       "originalName": "Jñāna Taraṅga : National Level Iks Quiz Competition",
       "originalFullName": "Jñāna Taraṅga : National Level Iks Quiz Competition"
-    },
-    {
-      "id": "research-unstop-market-verdict-a-finance-case-debate-by-mochatrade-y-217775b8",
-      "name": "市场裁决：Mochatrade 的金融案例辩论 (YC P26)",
-      "fullName": "市场裁决：Mochatrade 的金融案例辩论 (YC P26)",
-      "organization": "Mochatrade",
-      "category": "数据算法",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 24 日08:00:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 24 日08:00:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-14T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-24T08:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-24T12:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "第 1 轮 - FINANCE IQ Start 开启",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-24T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "第一轮 - FINANCE IQ Start 结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-25T01:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "第二轮：市场分析挑战赛开始",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-27T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "第二轮：市场分析挑战赛结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-30T09:30:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "第三轮：市场裁决开始",
-          "primary": false
-        },
-        {
-          "type": "end",
-          "date": "2026-08-30T15:30:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "第三轮：市场裁决结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "市场结论 | Mochatrade 的金融案例辩论 (YC P26) 您认为您了解市场吗？证明一下。市场裁决是一项高强度的金融竞赛，您将分析市场走势情景，撰写立场文件，并在压力下捍卫您的观点。分析现实世界的金融场景。支持或反对市场主张的辩论。在现场法官交火下进行研究和反驳。迅速思考并捍卫自己的逻辑。有什么危险？ 6,000 卢比 + 卓越证书 4,000 卢比 + 卓越证书 最佳研究员 + 最佳反驳者 – 优异证书 入围证书 8 月 24 日 – Finance IQ | 8 月 25 日 – 市场分析 | 8 月 30 日 – 总决赛团队规模：1–2 |前 8 支球队进入决赛 不要只看市场意见。学会捍卫它。",
-      "audience": "官方资格过滤器：全部。团队规模：1-2 人。",
-      "rewards": [
-        "第一 - INR 6,000 - 证书",
-        "2nd — INR 4,000",
-        "最佳研究员 + 最佳反驳者 — 优异奖 — 证书"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-14T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-24T08:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "第 1 轮 - FINANCE IQ Start 开启",
-          "date": "2026-08-24T12:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "第一轮 - FINANCE IQ Start 结束",
-          "date": "2026-08-24T23:59:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "第二轮：市场分析挑战赛开始",
-          "date": "2026-08-25T01:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "第二轮：市场分析挑战赛结束",
-          "date": "2026-08-27T23:59:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "第三轮：市场裁决开始",
-          "date": "2026-08-30T09:30:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "第三轮：市场裁决结束",
-          "date": "2026-08-30T15:30:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        }
-      ],
-      "detailUrl": "#research-unstop-market-verdict-a-finance-case-debate-by-mochatrade-y-217775b8",
-      "actionUrl": "https://unstop.com/competitions/market-verdict-a-finance-case-debate-by-mochatrade-yc-p26-mochatrade-1736961",
-      "sources": [
-        {
-          "title": "停止公开竞赛 API — 第 1 页",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "市场裁决：Mochatrade 的金融案例辩论 (YC P26) — 不间断的公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1736961",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "市场裁决：Mochatrade 的金融案例辩论 (YC P26) — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/market-verdict-a-finance-case-debate-by-mochatrade-yc-p26-mochatrade-1736961",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/market-verdict-a-finance-case-debate-by-mochatrade-yc-p26-mochatrade-1736961",
-      "sourceCategories": [
-        "Competition",
-        "General Competition",
-        "Communication Skills",
-        "Financial Analysis",
-        "Research Skills",
-        "Critical Thinking",
-        "Market Research Methods",
-        "Market Trend Analysis",
-        "Financial Forecasting",
-        "Product Knowledge",
-        "Investment Research",
-        "Finance"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Market Verdict: A Finance Case Debate by Mochatrade (YC P26)",
-      "originalFullName": "Market Verdict: A Finance Case Debate by Mochatrade (YC P26)"
     },
     {
       "id": "research-unstop-national-finance-consulting-challenge-2026-09e3524a",
@@ -58621,131 +56468,6 @@
       "originalFullName": "EC-Council HackAI Challenge: RACEx360"
     },
     {
-      "id": "research-unstop-startup-poster-presentation-161f42cc",
-      "name": "初创公司海报演示",
-      "fullName": "初创公司海报演示",
-      "organization": "Guru Tegh Bahadur Institute of Technology (GTBIT), New Delhi",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "注册截止时间为 2026 年 8 月 24 日06:00:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "注册截止时间为 2026 年 8 月 24 日06:00:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-17T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-24T06:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-24T12:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "总体机会结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified_with_unknowns",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "海报展示是一项以创新为重点的在线活动，为参与者提供了通过创意和信息丰富的海报展示其创业想法的机会。参与者将开发一个创业概念，识别现实世界的问题，提出创新的解决方案，并通过视觉上引人入胜的海报展示他们的想法。该活动鼓励创造力、创新、创业思维和有效沟通。领域： 技术：利用人工智能、软件、新兴技术、智能系统和数字工具来解决现实世界问题的创新技术驱动解决方案。医疗保健：想法侧重于通过更好的可及性、诊断、健康、医疗技术、患者护理和健康管理来改善医疗保健。绿色创新：通过可再生能源、减少废物、保护、环保产品和可持续实践来应对环境挑战的可持续解决方案。商业和电子商务：创新的商业模式、数字市场、消费者解决方案、服务和战略，可以改变人们购买、销售和开展业务的方式。参与者必须做的事情：参与者必须根据属于四个指定领域之一的创业想法创建一张海报。海报指南 明确提及初创公司名称。提供 20-30 个字的初创公司概述。使用清晰的要点来呈现重要信息。图像和视觉效果是可选的。保持海报富有创意、清晰、信息丰富且易于理解。启动创意必须属于四个指定域之一......",
-      "audience": "个人参与；其他资格限制必须在官方页面上查看。",
-      "rewards": [
-        "所有人 — 每个参与者都会收到一份电子证书。"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-17T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-24T06:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "总体机会结束",
-          "date": "2026-08-24T12:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        }
-      ],
-      "detailUrl": "#research-unstop-startup-poster-presentation-161f42cc",
-      "actionUrl": "https://unstop.com/competitions/startup-poster-presentation-guru-tegh-bahadur-institute-of-technology-gtbit-new-delhi-1738925",
-      "sources": [
-        {
-          "title": "不断开放竞赛目录",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "初创公司海报演示 — 停止公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1738925",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "初创海报演示 — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/startup-poster-presentation-guru-tegh-bahadur-institute-of-technology-gtbit-new-delhi-1738925",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/startup-poster-presentation-guru-tegh-bahadur-institute-of-technology-gtbit-new-delhi-1738925",
-      "sourceCategories": [
-        "Competition",
-        "Artificial Intelligence",
-        "Entrepreneurship",
-        "Software Development"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Startup Poster Presentation",
-      "originalFullName": "Startup Poster Presentation"
-    },
-    {
       "id": "research-unstop-eureka-x-devengers-584662c0",
       "name": "尤里卡 x 德文格斯",
       "fullName": "尤里卡 x 德文格斯",
@@ -61656,30 +59378,30 @@
       "originalName": "Slay CTF"
     },
     {
-      "id": "research-unstop-the-governance-challenge-2026-tgc-2026-f1cad6cf",
-      "name": "2026 年治理挑战 (TGC 2026)",
-      "fullName": "2026 年治理挑战 (TGC 2026)",
-      "organization": "Samagra",
-      "category": "创业路演",
+      "id": "research-unstop-category-kings-quiz-1-the-detergent-disruptors-4edc4b8e",
+      "name": "品类之王第 1 期：洗涤剂颠覆者知识竞赛",
+      "fullName": "品类之王第 1 期：洗涤剂颠覆者知识竞赛",
+      "organization": "Indian Institute of Management (IIM), Rohtak",
+      "category": "创意 AI",
       "tier": "B",
       "match": 7.2,
       "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 23:59:24+05:30（亚洲/加尔各答）。",
+      "dateLabel": "报名截止：2026-08-26T19:59:44+05:30（印度标准时间）。",
       "recordType": "competition",
       "seriesId": null,
       "parentId": null,
-      "deadlineDate": "2026-08-24",
+      "deadlineDate": "2026-08-26",
       "primaryDeadline": {
         "type": "registration",
-        "date": "2026-08-24",
+        "date": "2026-08-26",
         "certainty": "confirmed",
         "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 23:59:24+05:30（亚洲/加尔各答）。"
+        "label": "报名截止：2026-08-26T19:59:44+05:30（印度标准时间）。"
       },
       "deadlines": [
         {
           "type": "milestone",
-          "date": "2026-07-27T09:33:24+05:30",
+          "date": "2026-08-24T00:00:44+05:30",
           "certainty": "confirmed",
           "timezone": "Asia/Kolkata",
           "label": "注册开放",
@@ -61687,7 +59409,7 @@
         },
         {
           "type": "registration",
-          "date": "2026-08-23T23:59:24+05:30",
+          "date": "2026-08-26T19:59:44+05:30",
           "certainty": "confirmed",
           "timezone": "Asia/Kolkata",
           "label": "注册结束",
@@ -61695,7 +59417,7 @@
         },
         {
           "type": "milestone",
-          "date": "2026-09-30T21:00:50+05:30",
+          "date": "2026-09-26T23:59:00+05:30",
           "certainty": "confirmed",
           "timezone": "Asia/Kolkata",
           "label": "总体机会结束",
@@ -61709,284 +59431,35 @@
         "linkHealth": "reachable",
         "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
       },
-      "description": "治理挑战赛 (TGC) 是印度首个以治理为重点的竞赛，参赛者为印度 30 所一流商业和公共政策学校。观看去年的视频，了解有关 TGC 的更多信息。治理挑战 (TGC) 为您提供解决州政府确定的现实世界治理挑战的机会，并向首席部长、高级政府官员和行业领袖展示您的解决方案。每年，TGC 都会围绕选定州的紧迫治理优先事项进行案例研究，让参与者有机会针对实际政策挑战制定实用、高影响力的解决方案。这是第四届治理挑战赛 (TGC)，由马哈拉施特拉邦政府主办，盖茨基金会支持，萨马格拉组织。今年的挑战邀请参与者回答以下问题：“马哈拉施特拉邦政府可以采取哪些措施才能在 2035 年使马哈拉施特拉邦成为创新中心？”治理挑战赛 (TGC) 包括三轮：校园轮、国民轮和峰会轮。上面提供了每轮的详细时间表和里程碑。在整个比赛过程中，参赛团队将获得广泛的支持，帮助他们开发高影响力、可立即实施的解决方案。这包括获取参考材料、专门的团队伙伴提供反馈、IAS 官员和行业领导者的指导、知识共享会议以及其他学习机会。排名前六的团队将有机会向马哈拉施特拉邦首席部长、高级官员展示他们的解决方案……",
-      "audience": "团队规模： 3人；必须在官方页面上查看其他资格限制。",
-      "rewards": [
-        "获胜者 — 500,000 印度卢比",
-        "亚军 — 300,000 印度卢比",
-        "季军 — 100,000 印度卢比",
-        "校园优胜者 — 进入全国赛的前 30 支队伍将与政府高级领导人、IAS 官员和行业专家进行交流，同时还将获得 TGC 独家礼品和纪念礼物。",
-        "招聘机会（Samagra 的 PPI）— 所有 6 名决赛入围者都将入围 Samagra 的安置前面试。"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-07-27T09:33:24+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-23T23:59:24+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "总体机会结束",
-          "date": "2026-09-30T21:00:50+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        }
-      ],
-      "detailUrl": "#research-unstop-the-governance-challenge-2026-tgc-2026-f1cad6cf",
-      "actionUrl": "https://unstop.com/competitions/crp-the-governance-challenge-2026-tgc-2026-samagra-1726557",
-      "sources": [
-        {
-          "title": "不断开放竞赛目录",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "2026 年治理挑战 (TGC 2026) — 不间断的公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1726557",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "2026 年治理挑战 (TGC 2026) — 不间断",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/crp-the-governance-challenge-2026-tgc-2026-samagra-1726557",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/crp-the-governance-challenge-2026-tgc-2026-samagra-1726557",
-      "sourceCategories": [
-        "Competition",
-        "Entrepreneurship",
-        "Business & Finance"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "The Governance Challenge 2026 (TGC 2026)",
-      "originalFullName": "The Governance Challenge 2026 (TGC 2026)"
-    },
-    {
-      "id": "research-unstop-your-idea-our-capital-50k-sprint-b63ec270",
-      "name": "创意变现 50K 创业挑战赛",
-      "fullName": "创意变现 50K 创业挑战赛",
-      "organization": "InteractUp",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 23:59:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 23:59:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-07T00:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-23T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-23T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "总体机会结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified_with_unknowns",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "关于机会：创意到收入：50K 是 InteractUP 创业委员会发起的一项创业挑战赛，为选定的团队提供将其商业创意转化为创收企业的机会。选定的团队可以在 5 个月内每月获得 10,000 卢比，总计高达 50,000 卢比的资金，用于构建、执行和验证他们的想法。与传统的商业计划竞赛不同，这一挑战的重点是执行、创收和可衡量的业务成果。挑战是什么？提出实用且可扩展的商业理念。解释您将如何开始和经营业务。展示您将如何使用每月 10,000 卢比的资金。通过执行产生实际收入和利润。每月跟踪您的业务绩效。演示如何收回投资并产生利润。这不仅仅是一场创意竞赛。您的想法将通过执行和数字进行测试。确保您是以下小组的成员，以获取定期更新：https://chat.whatsapp.com/GM8b3KKm9geL0jTtDmQPkH 第一轮 - 90 秒商业推介 提交 1 到 1.5 分钟的视频，内容包括：商业理念 - 您打算打造什么？问题 - 您要解决什么问题或需求？启动计划 - 您将如何启动业务？概述五个月期间您预计会产生的费用和您希望产生的收入。第 1 个月的详细说明 资本计划 - 您将如何使用每月收到的 10,000 卢比？收入模式 - 您将如何产生收入？您的成本、收入和预期利润会是什么样……",
-      "audience": "团队规模：1–4；其他资格限制必须在官方页面上查看。",
-      "rewards": [
-        "前 2 名团队每人获得 50,000 卢比 - 100,000 印度卢比"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-07T00:00:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-23T23:59:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "总体机会结束",
-          "date": "2026-08-23T23:59:00+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        }
-      ],
-      "detailUrl": "#research-unstop-your-idea-our-capital-50k-sprint-b63ec270",
-      "actionUrl": "https://unstop.com/competitions/idea-to-income-50k-interactup-1733316",
-      "sources": [
-        {
-          "title": "不断开放竞赛目录",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "创意变现 50K 创业挑战赛 — Unstop 官方详情 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1733316",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "创意变现 50K 创业挑战赛 — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/competitions/idea-to-income-50k-interactup-1733316",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/competitions/idea-to-income-50k-interactup-1733316",
-      "sourceCategories": [
-        "Competition",
-        "Entrepreneurship"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "YOUR IDEA. OUR CAPITAL.- 50k Sprint",
-      "originalFullName": "YOUR IDEA. OUR CAPITAL.- 50k Sprint"
-    },
-    {
-      "id": "research-unstop-inspired-by-pwc-for-business-analyst-role-krack-the--4a57d305",
-      "name": "受到普华永道业务分析师角色的启发：Krack The Case 2026 能力倾向测试",
-      "fullName": "受到普华永道业务分析师角色的启发：Krack The Case 2026 能力倾向测试",
-      "organization": "Indian Institute of Technology (IIT), Guwahati",
-      "category": "创业路演",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 23:59:00+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 23:59:00+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-14T05:00:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-23T23:59:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-24T00:22:00+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "总体机会结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified_with_unknowns",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "关于机会：KTC 能力倾向系列测试 – 灵感来自普华永道业务分析师回合，旨在评估参与者对电子商务和咨询领域的业务、产品和数据分析师角色的准备情况。该测试评估 SQL 和数据库概念、Excel、业务和产品分析、猜测、Python 和数据处理以及产品框架等时间压力下的应用数据技能和商业判断力。格式：SQL 和数据库概念 Excel 业务和产品分析猜测 Python 和数据处理框架和公司 总计：50 个问题，150 分 持续时间：40 分钟 参与者必须尝试所有部分。流程：不允许使用计算器、参考资料或外部工具。所有问题均设计为在规定时间内手工解决。评估：首先评估参与者的准确性，其次评估速度。每个问题都有一个正确选项。本轮没有多项选择题。评分规则： 每个正确答案得 3 分。每个错误答案都会扣 1 分（-1 分）。未尝试的问题为零分。每道题都有一个正确的选项。不会授予部分学分。如果出现平局，将根据完成测试所需的时间来决定排名。行为：任何形式的作弊、串通或违反规则的行为将立即被取消资格。参与者有责任确保整个测试过程中稳定的互联网连接。对于连接问题，不会提供重新测试。问题不得复制，...",
+      "description": "“品类之王”十期系列的首场知识竞赛，主题聚焦印度快速消费品和洗涤剂品牌史，包括 Nirma、HUL 等品牌如何塑造或改写品类。比赛为个人赛，共 20 题、限时 7 分钟；答对每题得 1 分，不倒扣，平分时由主办方决定名次。",
       "audience": "个人参与；其他资格限制必须在官方页面上查看。",
       "rewards": [
-        "未知——官方详细API未发布奖励信息。"
+        "冠军 — 500 印度卢比",
+        "亚军",
+        "季军"
       ],
       "timeline": [
         {
           "event": "注册开放",
-          "date": "2026-08-14T05:00:00+05:30",
+          "date": "2026-08-24T00:00:44+05:30",
           "timezone": "Asia/Kolkata",
           "critical": false
         },
         {
           "event": "注册结束",
-          "date": "2026-08-23T23:59:00+05:30",
+          "date": "2026-08-26T19:59:44+05:30",
           "timezone": "Asia/Kolkata",
           "critical": true
         },
         {
           "event": "总体机会结束",
-          "date": "2026-08-24T00:22:00+05:30",
+          "date": "2026-09-26T23:59:00+05:30",
           "timezone": "Asia/Kolkata",
           "critical": false
         }
       ],
-      "detailUrl": "#research-unstop-inspired-by-pwc-for-business-analyst-role-krack-the--4a57d305",
-      "actionUrl": "https://unstop.com/quiz/inspired-by-pwc-for-business-analyst-role-krack-the-case-2026-aptitude-test-iit-guwahati-1736640",
+      "detailUrl": "#research-unstop-category-kings-quiz-1-the-detergent-disruptors-4edc4b8e",
+      "actionUrl": "https://unstop.com/quiz/category-kings-quiz-1-the-detergent-disruptors-iim-rohtak-1743159",
       "sources": [
         {
           "title": "不断开放竞赛目录",
@@ -61995,15 +59468,15 @@
           "sourceKind": "official-listing-api"
         },
         {
-          "title": "受到普华永道业务分析师角色的启发：Krack The Case 2026 能力倾向测试 — 阻止公共详细信息 API",
+          "title": "品类之王第 1 期：洗涤剂颠覆者知识竞赛 — Unstop 官方详情 API",
           "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1736640",
+          "url": "https://unstop.com/api/public/competition/1743159",
           "sourceKind": "official-detail-api"
         },
         {
-          "title": "受到普华永道业务分析师角色的启发：破解 2026 年能力倾向测试 — Unstop",
+          "title": "品类之王第 1 期：洗涤剂颠覆者知识竞赛 — Unstop",
           "date": "2026-08-24",
-          "url": "https://unstop.com/quiz/inspired-by-pwc-for-business-analyst-role-krack-the-case-2026-aptitude-test-iit-guwahati-1736640",
+          "url": "https://unstop.com/quiz/category-kings-quiz-1-the-detergent-disruptors-iim-rohtak-1743159",
           "sourceKind": "official-detail"
         }
       ],
@@ -62015,130 +59488,7 @@
       ],
       "researchPlatformName": "Unstop Competitions",
       "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/quiz/inspired-by-pwc-for-business-analyst-role-krack-the-case-2026-aptitude-test-iit-guwahati-1736640",
-      "sourceCategories": [
-        "Quiz",
-        "Entrepreneurship"
-      ],
-      "participation": {
-        "region": "international",
-        "regionLabel": "国外",
-        "mode": "online",
-        "modeLabel": "线上"
-      },
-      "originalName": "Inspired By PwC for Business Analyst Role: Krack The Case 2026 Aptitude Test",
-      "originalFullName": "Inspired By PwC for Business Analyst Role: Krack The Case 2026 Aptitude Test"
-    },
-    {
-      "id": "research-unstop-inspired-by-american-express-for-data-science-role-k-68bdb243",
-      "name": "受到美国运通数据科学角色的启发：破解 2026 年能力倾向测试",
-      "fullName": "受到美国运通数据科学角色的启发：破解 2026 年能力倾向测试",
-      "organization": "Indian Institute of Technology (IIT), Guwahati",
-      "category": "数据算法",
-      "tier": "B",
-      "match": 7.2,
-      "location": "Online",
-      "dateLabel": "报名截止时间为 2026 年 8 月 23 日 23:59:07+05:30（亚洲/加尔各答）。",
-      "recordType": "competition",
-      "seriesId": null,
-      "parentId": null,
-      "deadlineDate": "2026-08-24",
-      "primaryDeadline": {
-        "type": "registration",
-        "date": "2026-08-24",
-        "certainty": "confirmed",
-        "timezone": "Asia/Kolkata",
-        "label": "报名截止时间为 2026 年 8 月 23 日 23:59:07+05:30（亚洲/加尔各答）。"
-      },
-      "deadlines": [
-        {
-          "type": "milestone",
-          "date": "2026-08-14T00:00:08+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册开放",
-          "primary": false
-        },
-        {
-          "type": "registration",
-          "date": "2026-08-23T23:59:07+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "注册结束",
-          "primary": false
-        },
-        {
-          "type": "milestone",
-          "date": "2026-08-23T23:59:07+05:30",
-          "certainty": "confirmed",
-          "timezone": "Asia/Kolkata",
-          "label": "总体机会结束",
-          "primary": false
-        }
-      ],
-      "verification": {
-        "status": "verified_with_unknowns",
-        "checkedAt": "2026-08-24",
-        "sourceKind": "official-platform",
-        "linkHealth": "reachable",
-        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
-      },
-      "description": "概述：KTC 能力倾向系列测试旨在评估参与者在技术和咨询领域取得成功职业生涯所必需的各个领域的技能。本系列将测试您在定量能力、言语推理、统计与概率、英语水平、数据解释和 SQL 方面的能力。准则： 资格： 任何填写了注册表的人都有资格参加 KTC 能力倾向系列测试。形式： 第一轮：初步测试 定量能力：20 题 言语推理：8 题 英语水平：7 题 数据解释：8 题 SQL：7 题 持续时间：整个测试 60 分钟。参赛者必须尝试所有部分。流程： 测试管理： 测试将在线进行。成功注册后，参与者将收到登录详细信息。团队必须确保整个测试过程中稳定的互联网连接。评估：将根据准确性和速度对参与者进行评估。某些部分部分正确的答案可能会给予部分学分。规则： 评分规则： 每个正确答案将根据问题的难度级别获得特定数量的分数。错误答案不会有负面标记。如有必要，将根据完成测试所需的时间来决定决胜局。行为：任何形式的作弊、共谋或违反规则将导致立即取消资格。团队有责任确保他们的互联网连接在整个测试过程中保持稳定。对于连接问题，不会提供重新测试。",
-      "audience": "个人参与；其他资格限制必须在官方页面上查看。",
-      "rewards": [
-        "未知——官方详细API未发布奖励信息。"
-      ],
-      "timeline": [
-        {
-          "event": "注册开放",
-          "date": "2026-08-14T00:00:08+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        },
-        {
-          "event": "注册结束",
-          "date": "2026-08-23T23:59:07+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": true
-        },
-        {
-          "event": "总体机会结束",
-          "date": "2026-08-23T23:59:07+05:30",
-          "timezone": "Asia/Kolkata",
-          "critical": false
-        }
-      ],
-      "detailUrl": "#research-unstop-inspired-by-american-express-for-data-science-role-k-68bdb243",
-      "actionUrl": "https://unstop.com/quiz/inspired-by-american-express-for-data-science-role-krack-the-case-2026-aptitude-test-iit-guwahati-1736643",
-      "sources": [
-        {
-          "title": "不断开放竞赛目录",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
-          "sourceKind": "official-listing-api"
-        },
-        {
-          "title": "受到美国运通数据科学角色的启发：破解 2026 年能力倾向测试 — 阻止公共详细信息 API",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/api/public/competition/1736643",
-          "sourceKind": "official-detail-api"
-        },
-        {
-          "title": "受到美国运通数据科学角色的启发：破解 2026 年能力倾向测试 — Unstop",
-          "date": "2026-08-24",
-          "url": "https://unstop.com/quiz/inspired-by-american-express-for-data-science-role-krack-the-case-2026-aptitude-test-iit-guwahati-1736643",
-          "sourceKind": "official-detail"
-        }
-      ],
-      "discoveredAt": "2026-08-24",
-      "researchBatch": "2026-08-24",
-      "researchPlatformId": "unstop",
-      "researchPlatformIds": [
-        "unstop"
-      ],
-      "researchPlatformName": "Unstop Competitions",
-      "researchStatus": "open",
-      "researchDetailUrl": "https://unstop.com/quiz/inspired-by-american-express-for-data-science-role-krack-the-case-2026-aptitude-test-iit-guwahati-1736643",
+      "researchDetailUrl": "https://unstop.com/quiz/category-kings-quiz-1-the-detergent-disruptors-iim-rohtak-1743159",
       "sourceCategories": [
         "Quiz"
       ],
@@ -62148,8 +59498,502 @@
         "mode": "online",
         "modeLabel": "线上"
       },
-      "originalName": "Inspired By American Express for Data Science Role: Krack The Case 2026 Aptitude Test",
-      "originalFullName": "Inspired By American Express for Data Science Role: Krack The Case 2026 Aptitude Test"
+      "originalName": "Category Kings: Quiz 1: The Detergent Disruptors",
+      "originalFullName": "Category Kings: Quiz 1: The Detergent Disruptors"
+    },
+    {
+      "id": "research-unstop-the-minute-lv8-tech-video-editor-hackathon-80be986f",
+      "name": "一分钟短视频：LV8 Tech 视频剪辑挑战赛",
+      "fullName": "一分钟短视频：LV8 Tech 视频剪辑挑战赛",
+      "organization": "LV8 Tech",
+      "category": "创意 AI",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "报名截止时间为 2026 年 8 月 28 日 23:59:00+05:30（亚洲/加尔各答）。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-29",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-08-29",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "报名截止时间为 2026 年 8 月 28 日 23:59:00+05:30（亚洲/加尔各答）。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-23T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-08-28T23:59:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-08-30T23:59:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-24",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
+      },
+      "description": "LV8 Tech 面向视频剪辑人才举办的真实内容创作挑战。参赛者需从“脂蛋白(a)”或“睡眠”两个健康主题中任选一个，根据给定提纲独立制作 60 秒 Instagram 短视频，负责画面、节奏、声音与字幕。可使用生成素材、库存素材、实拍或动画；优秀作品可能在官方账号发布并署名。",
+      "audience": "个人参与；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "冠军 — 10,000 印度卢比"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-23T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-08-28T23:59:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-08-30T23:59:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-the-minute-lv8-tech-video-editor-hackathon-80be986f",
+      "actionUrl": "https://unstop.com/hackathons/the-minute-lv8-tech-video-editor-hackathon-lv8-tech-1743164",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "一分钟短视频：LV8 Tech 视频剪辑挑战赛 — Unstop 官方详情 API",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/api/public/competition/1743164",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "一分钟短视频：LV8 Tech 视频剪辑挑战赛 — Unstop",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/hackathons/the-minute-lv8-tech-video-editor-hackathon-lv8-tech-1743164",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-24",
+      "researchBatch": "2026-08-24",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/hackathons/the-minute-lv8-tech-video-editor-hackathon-lv8-tech-1743164",
+      "sourceCategories": [
+        "Hackathon",
+        "Artificial Intelligence",
+        "Software Development"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "The Minute - LV8 Tech Video Editor Hackathon",
+      "originalFullName": "The Minute - LV8 Tech Video Editor Hackathon"
+    },
+    {
+      "id": "research-unstop-rota-quiz-a81803f9",
+      "name": "ROTA 文学知识竞赛",
+      "fullName": "ROTA 文学知识竞赛",
+      "organization": "Harcourt Butler Technical University (HBTU), Kanpur",
+      "category": "创意 AI",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "报名截止：2026-08-25T15:00:00+05:30（印度标准时间）。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-25",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-08-25",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "报名截止：2026-08-25T15:00:00+05:30（印度标准时间）。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-24T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-08-25T15:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-08-25T15:30:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-24",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
+      },
+      "description": "由文学分委员会 Readers of the Ark 举办的文学知识竞赛，面向喜爱书籍、作家、语言和知识探索的参赛者。你可以检验文学素养、了解相关趣闻，并与其他知识竞赛爱好者同场竞技，争夺最终优胜者。",
+      "audience": "个人参与；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "未知——官方详细API未发布奖励信息。"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-24T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-08-25T15:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-08-25T15:30:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-rota-quiz-a81803f9",
+      "actionUrl": "https://unstop.com/quiz/rota-quiz-harcourt-butler-technical-university-hbtu-kanpur-1743315",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "ROTA 文学知识竞赛 — Unstop 官方详情 API",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/api/public/competition/1743315",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "ROTA 文学知识竞赛 — Unstop",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/quiz/rota-quiz-harcourt-butler-technical-university-hbtu-kanpur-1743315",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-24",
+      "researchBatch": "2026-08-24",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/quiz/rota-quiz-harcourt-butler-technical-university-hbtu-kanpur-1743315",
+      "sourceCategories": [
+        "Quiz"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "ROTA Quiz",
+      "originalFullName": "ROTA Quiz"
+    },
+    {
+      "id": "research-unstop-maudrik-v7-0-the-policy-case-event-737dc1a8",
+      "name": "Maudrik V7.0 政策案例赛",
+      "fullName": "Maudrik V7.0 政策案例赛",
+      "organization": "Netaji Subhas University of Technology (NSUT), Delhi",
+      "category": "创业路演",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "2026-08-31T 00:01:00 + 05:30 （亚洲/加尔各答）报名截止。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-31",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-08-31",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "2026-08-31T 00:01:00 + 05:30 （亚洲/加尔各答）报名截止。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-24T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-08-31T00:01:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-09-08T23:59:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-24",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "于 2026 年 8 月 24 日根据 Unstop 开放目录和官方公开详细信息 API 进行了最新协调。"
+      },
+      "description": "Maudrik V7.0 是 NSUT 金融与经济学会举办的政策案例赛。参赛者需要分析影响印度经济与社会的复杂公共政策问题，提出有证据、可实施的解决方案。面向各专业高校学生，允许跨校组队，每队 2—4 人；在线完成知识竞赛和案例提交，前 20 支队伍进入 NSUT 校园现场终评。具体通知和资格要求以官方页面为准。",
+      "audience": "团队规模：2–4；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "未知——官方详细API未发布奖励信息。"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-24T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-08-31T00:01:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-09-08T23:59:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-maudrik-v7-0-the-policy-case-event-737dc1a8",
+      "actionUrl": "https://unstop.com/competitions/maudrik-v70-the-policy-case-event-netaji-subhas-university-of-technology-nsut-delhi-1743329",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "Maudrik V7.0 政策案例赛 — Unstop 官方详情 API",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/api/public/competition/1743329",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "Maudrik V7.0 政策案例赛 — Unstop",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/competitions/maudrik-v70-the-policy-case-event-netaji-subhas-university-of-technology-nsut-delhi-1743329",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-24",
+      "researchBatch": "2026-08-24",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/competitions/maudrik-v70-the-policy-case-event-netaji-subhas-university-of-technology-nsut-delhi-1743329",
+      "sourceCategories": [
+        "Competition",
+        "Business & Finance"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "Maudrik V7.0: The Policy Case Event",
+      "originalFullName": "Maudrik V7.0: The Policy Case Event"
+    },
+    {
+      "id": "research-unstop-market-verdict-a-finance-case-debate-by-mochatrade-y-217775b8",
+      "name": "市场裁决：Mochatrade 的金融案例辩论 (YC P26)",
+      "fullName": "市场裁决：Mochatrade 的金融案例辩论 (YC P26)",
+      "organization": "Mochatrade",
+      "category": "创业路演",
+      "tier": "B",
+      "match": 7.2,
+      "location": "Online",
+      "dateLabel": "报名截止：2026-08-24T11:59:00+05:30（印度标准时间）。",
+      "recordType": "competition",
+      "seriesId": null,
+      "parentId": null,
+      "deadlineDate": "2026-08-24",
+      "primaryDeadline": {
+        "type": "registration",
+        "date": "2026-08-24",
+        "certainty": "confirmed",
+        "timezone": "Asia/Kolkata",
+        "label": "报名截止：2026-08-24T11:59:00+05:30（印度标准时间）。"
+      },
+      "deadlines": [
+        {
+          "type": "milestone",
+          "date": "2026-08-14T00:00:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册开放",
+          "primary": false
+        },
+        {
+          "type": "registration",
+          "date": "2026-08-24T11:59:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "注册结束",
+          "primary": false
+        },
+        {
+          "type": "milestone",
+          "date": "2026-08-30T15:30:00+05:30",
+          "certainty": "confirmed",
+          "timezone": "Asia/Kolkata",
+          "label": "总体机会结束",
+          "primary": false
+        }
+      ],
+      "verification": {
+        "status": "verified_with_unknowns",
+        "checkedAt": "2026-08-24",
+        "sourceKind": "official-platform",
+        "linkHealth": "reachable",
+        "notes": "已于 2026-08-24 对照 Unstop 完整公开目录及官方公开详情 API 核验；除结构化队伍人数外，其他参赛资格请以官方页面为准。"
+      },
+      "description": "Market Verdict 是 Mochatrade（YC P26）举办的金融案例辩论赛。参赛者分析影响市场的真实情境，形成观点报告，并在现场评委追问下为支持或反对立场进行研究、反驳和答辩。赛程包括 8 月 24 日金融知识测试、8 月 25 日市场分析和 8 月 30 日总决赛；每队 1—2 人，前 8 支队伍晋级决赛。",
+      "audience": "团队规模：1–2；其他资格限制必须在官方页面上查看。",
+      "rewards": [
+        "1st — INR 6,000",
+        "2nd — INR 4,000",
+        "最佳研究者与最佳辩手 — 荣誉证书"
+      ],
+      "timeline": [
+        {
+          "event": "注册开放",
+          "date": "2026-08-14T00:00:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        },
+        {
+          "event": "注册结束",
+          "date": "2026-08-24T11:59:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": true
+        },
+        {
+          "event": "总体机会结束",
+          "date": "2026-08-30T15:30:00+05:30",
+          "timezone": "Asia/Kolkata",
+          "critical": false
+        }
+      ],
+      "detailUrl": "#research-unstop-market-verdict-a-finance-case-debate-by-mochatrade-y-217775b8",
+      "actionUrl": "https://unstop.com/competitions/market-verdict-a-finance-case-debate-by-mochatrade-yc-p26-mochatrade-1736961",
+      "sources": [
+        {
+          "title": "不断开放竞赛目录",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/api/public/opportunity/search-result?opportunity=competitions&oppstatus=open&page=1&per_page=100",
+          "sourceKind": "official-listing-api"
+        },
+        {
+          "title": "市场裁决：Mochatrade 的金融案例辩论 (YC P26) — 不间断的公共详细信息 API",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/api/public/competition/1736961",
+          "sourceKind": "official-detail-api"
+        },
+        {
+          "title": "市场裁决：Mochatrade 的金融案例辩论 (YC P26) — Unstop",
+          "date": "2026-08-24",
+          "url": "https://unstop.com/competitions/market-verdict-a-finance-case-debate-by-mochatrade-yc-p26-mochatrade-1736961",
+          "sourceKind": "official-detail"
+        }
+      ],
+      "discoveredAt": "2026-08-24",
+      "researchBatch": "2026-08-24",
+      "researchPlatformId": "unstop",
+      "researchPlatformIds": [
+        "unstop"
+      ],
+      "researchPlatformName": "Unstop Competitions",
+      "researchStatus": "open",
+      "researchDetailUrl": "https://unstop.com/competitions/market-verdict-a-finance-case-debate-by-mochatrade-yc-p26-mochatrade-1736961",
+      "sourceCategories": [
+        "Competition",
+        "Business & Finance"
+      ],
+      "participation": {
+        "region": "international",
+        "regionLabel": "国外",
+        "mode": "online",
+        "modeLabel": "线上"
+      },
+      "originalName": "Market Verdict: A Finance Case Debate by Mochatrade (YC P26)",
+      "originalFullName": "Market Verdict: A Finance Case Debate by Mochatrade (YC P26)"
     },
     {
       "id": "research-challenge-gov-acl-caregiver-ai-prize-challenge-b2c93d3c",
@@ -63331,17 +61175,17 @@
       "tier": "B",
       "match": 7.2,
       "location": "在线/地点限制未知；查看官方规则",
-      "dateLabel": "正式比赛结束时间：2026-08-31 23:59:59； API 未指定时区。",
+      "dateLabel": "官方报名截止：2026-08-27 23:59:59；API 未注明时区。",
       "recordType": "competition",
       "seriesId": null,
       "parentId": null,
-      "deadlineDate": "2026-08-31",
+      "deadlineDate": "2026-08-27",
       "primaryDeadline": {
         "type": "end",
-        "date": "2026-08-31",
+        "date": "2026-08-27",
         "certainty": "confirmed",
         "timezone": "unknown (not stated by official API)",
-        "label": "正式比赛结束时间：2026-08-31 23:59:59； API 未指定时区。"
+        "label": "官方报名截止：2026-08-27 23:59:59；API 未注明时区。"
       },
       "deadlines": [
         {
@@ -63366,7 +61210,7 @@
           "certainty": "confirmed",
           "timezone": "unknown",
           "label": "报名截止",
-          "primary": false
+          "primary": true
         },
         {
           "type": "end",
@@ -63374,7 +61218,7 @@
           "certainty": "confirmed",
           "timezone": "unknown",
           "label": "比赛结束/列出截止日期",
-          "primary": true
+          "primary": false
         }
       ],
       "verification": {
@@ -77380,14 +75224,14 @@
     }
   ],
   "asOfDate": "2026-08-24",
-  "activeAdditions": 413,
-  "activeResearchAdditions": 398,
+  "activeAdditions": 403,
+  "activeResearchAdditions": 385,
   "expiredRemoved": 168,
-  "preferenceExcluded": 252,
-  "internationalOnsiteExcluded": 252,
-  "preferenceCleanupRunId": "2026-08-23T17:18:32.272Z",
-  "expiredArchiveCount": 471,
-  "localizedAt": "2026-08-23T17:18:35.121Z",
+  "preferenceExcluded": 264,
+  "internationalOnsiteExcluded": 264,
+  "preferenceCleanupRunId": "2026-08-24T04:47:48.875Z",
+  "expiredArchiveCount": 491,
+  "localizedAt": "2026-08-24T04:47:57.082Z",
   "locale": "zh-CN",
   "localizationEngine": "Google Translate public endpoint with MyMemory public fallback via curl"
 }
